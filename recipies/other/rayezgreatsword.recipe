@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "flamingdemonsword", "count" : 1 },
+    { "item" : "solariumstar", "count" : 15 },
+    { "item" : "cryonicextract", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "rayezgreatsword",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

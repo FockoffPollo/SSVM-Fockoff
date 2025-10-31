@@ -1,0 +1,94 @@
+{
+  "objectName" : "lekracvdigest",
+  "rarity" : "common",
+  "description" : "A Dracthyr with an upgraded friend processing unit, ready to be tested.",
+  "shortdescription" : "Lekra CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lekra.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Hope I don't climax! I love walking with my hefty dragon bawls~",
+	"Melt down already! I want you to be part of the mess after all~",
+	"Nothing but a one-time use toy~",
+	"Squirm harder! Makes it hotter and meltier for you <3",
+	"You know, I can totally live with some of your possession stuck in there~"
+],
+  "gulpLines" : [
+	"hrm- Sorry in advance for the mess inside. You'll become part of it~",
+	"Get- Down- In- There! Hhmpf! Aah <33",
+	"Omp- aah... Forcefully shoving down slippery ones always gets me~",
+	"Hrmss... One solid thing down. Wonder how much solid stuff will come out~",
+	"You are now mine, already <3"
+],
+  "chatIdleFull" : [
+	"\"Is he going to be okay??\"... Naaah~",
+	"Just you wait I process that cock food. I'm surprisingly needy today...",
+	"How much cum do you think that wimp will turn into?",
+	"Bet you wish it was you right now!"
+],
+  "chatIdleEmpty" : [
+	"Look at these two, down here. They're waiting to process many things~",
+	"Hi! Funny you're here, I may need a refuel~",
+	"Wanna hear how loud I can hiss?~",
+	"Do you think those orbs could be recolored after you when you melt?"
+],
+  "rubLines" : [
+	"Hrm! Harder! I want this plaything gone now! Hsss! <33",
+	"Ssss- With all that good rubbing, make sure you dodge the mess~",
+	"Oh god I wish those toys would squirm as hard- Too bad they don't last~",
+	"What's your name again? I'll try to remember it when I label your cumbag~"
+]
+}

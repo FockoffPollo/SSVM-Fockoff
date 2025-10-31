@@ -1,0 +1,20 @@
+{
+  "kind" : "rayezflame",
+  "definition" : {
+    "type" : "ember",
+    "size" : 1.0,
+    "color" : [123, 205, 237],
+    "position" : [0, 0],
+    "destructionAction" : "shrink",
+    "destructionTime" : 1,
+    "fade" : 1,
+    "layer" : "front",
+    "fullbright" : true,
+    "timeToLive" : 0.2,
+    "variance" : {
+      "initialVelocity" : [2.0, 2.0],
+      "size" : 0.5,
+      "position" : [0, 0]
+    }
+  }
+}

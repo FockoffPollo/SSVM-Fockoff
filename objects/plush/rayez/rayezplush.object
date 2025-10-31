@@ -1,0 +1,24 @@
+{
+  "objectName" : "rayezplush",
+  "colonyTags" : ["rayez"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "Just as cuddly as the real thing!",
+  "shortdescription" : "Rayez Plush",
+  "race" : "rayez",
+
+
+  "inventoryIcon" : "rayezplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rayezplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

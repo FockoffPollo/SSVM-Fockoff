@@ -1,0 +1,89 @@
+{
+  "objectName" : "wintercvdigest",
+  "rarity" : "common",
+  "description" : "A pretty *Cool* guy! Now with extra funny bits.",
+  "shortdescription" : "Winter CV - Digestion",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "winter.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Hope you are Comfortable cause you're going to be in there awhile.",
+	"Enjoying the Cum bath?",
+	"You're feeling quite soft already.",
+	"Im debating what i should Do with you What you think.. Ground or into someone?",
+	"Its quite fun with you back there be sure to by again"
+],
+  "gulpLines" : [
+	"Down you go my tasty cock snack~",
+	"Dam your making my balls so plump",
+	"Hope you make a huge load for me~"
+],
+  "chatIdleFull" : [
+	"I could do for some Food right now.",
+	"Hey.. want too slide on down~?",
+	"You know you want too."
+],
+  "chatIdleEmpty" : [
+	"Dont mind me Just a dragon enjoying their Lunch.",
+	"If you please me well enough I might be obliged too let you slide in next~"
+],
+  "rubLines" : [
+	"Ooo careful dont want me too release too early~",
+	"Oh yeah that feels good be sure too rub lower~",
+	"Your movements are starting too feel slugish hope you can escape before the end~"
+]
+}

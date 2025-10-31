@@ -1,0 +1,63 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "ov_empty",
+				"states": {
+					"ov_empty"     : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"ov_silhouette": { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"ov_idle"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"ov_swallow"   : { "frames": 12, "cycle": 3.25, "mode": "transition", "transition": "ov_full" },
+					"ov_full"      : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"ov_digest"    : { "frames": 8, "cycle": 3.25, "mode": "transition", "transition": "ov_burp" },
+					"ov_burp"      : { "frames": 8, "cycle": 3.00, "mode": "end" },
+
+					"cv_empty"     : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"cv_silhouette": { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"cv_idle"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"cv_swallow"   : { "frames": 16, "cycle": 4.00, "mode": "transition", "transition": "cv_full" },
+					"cv_full"      : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"cv_digest"    : { "frames":  7, "cycle": 1.75, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"ov_empty"     : { "properties": { "image": "R4Z32.png:empty.<frame>"      } },
+						"ov_silhouette": { "properties": { "image": "R4Z32.png:silhouette.<frame>" } },
+						"ov_idle"      : { "properties": { "image": "R4Z32.png:idle.<frame>"       } },
+						"ov_swallow"   : { "properties": { "image": "R4Z32.png:swallow.<frame>"    } },
+						"ov_full"      : { "properties": { "image": "R4Z32.png:full.<frame>"       } },
+						"ov_digest"    : { "properties": { "image": "R4Z32.png:digest.<frame>"     } },
+						"ov_burp"      : { "properties": { "image": "R4Z32.png:burp.<frame>"       } },
+
+						"cv_empty"     : { "properties": { "image": "spinjcv.png:empty.<frame>"      } },
+						"cv_silhouette": { "properties": { "image": "spinjcv.png:silhouette.<frame>" } },
+						"cv_idle"      : { "properties": { "image": "spinjcv.png:idle.<frame>"       } },
+						"cv_swallow"   : { "properties": { "image": "spinjcv.png:swallow.<frame>"    } },
+						"cv_full"      : { "properties": { "image": "spinjcv.png:full.<frame>"       } },
+						"cv_digest"    : { "properties": { "image": "spinjcv.png:digest.<frame>"     } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullintroov"  : ["/sfx/vore/spinj/fullintroov.ogg"  ],
+		"fullintrocv"  : ["/sfx/vore/spinj/fullintrocv.ogg"  ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fullcv"       : ["/sfx/vore/spinj/fullcv.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"fulloutrocv"  : ["/sfx/vore/spinj/fulloutrocv.ogg"  ],
+		"digestov"     : ["/sfx/vore/spinj/digestov.ogg"],
+		"digestcv"     : ["/sfx/vore/spinj/digestcv.ogg"],
+		"burp"         : ["/sfx/vore/spinj/burp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

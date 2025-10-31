@@ -1,0 +1,112 @@
+{
+  "objectName" : "sorrensafe",
+  "rarity" : "common",
+  "description" : "A big, soft substitute dragon plush. Inexplicably speaks in actual text bubbles!",
+  "shortdescription" : "Sorren",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "sorren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "sorren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "sorren.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "^#9CCF84;Feel free to get comfy... I won't mind..!",
+	"^#9CCF84;You're in good hands.. er.. claws..!",
+	"*The plushie massages you with his claws through the belly.*",
+	"^#9CCF84;Tell me if you'd like to go... if ever..~",
+	"^#9CCF84;I'm always happy to help a friend relax...",
+	"*Sorren briefly pats his tum to check up on you.*",
+	"*You feel Sorren's head rest on his belly, applying a gentle weight atop you.*",
+	"^#9CCF84;Falling asleep..? I'll be quiet for you..!",
+	"^#9CCF84;They say plushies are good for your health... Don't quote me on that, hehe~",
+	"^#9CCF84;Don't stay too long... or I may get used to you being in there..~",
+	"^#9CCF84;Let your worries fade, for now... Just relax..!",
+	"^#9CCF84;I hope you like it in there...",
+	"^#9CCF84;Sheltered away in a plushie..~"
+  ],
+  "gulpLines" : [
+    "*You're carefully lifted off the ground, and in a moment, slide down the fabric-lined throat.*",
+	"^#9CCF84;Let me help you rest up a little...",
+	"^#9CCF84;I'll take care of you, I promise...",
+	"^#9CCF84;Wish to spend time in a soft, plushie tum..?~",
+	"^#9CCF84;I'll protect you..!",
+	"^#9CCF84;What a unique taste...!",
+	"^#9CCF84;You'll be safe and warm in there..! You've my word..!"
+  ],
+  "chatIdleFull" : [
+    "^#9CCF84;Sorry... I already have a friend in there...",
+	"^#9CCF84;Shh... I'm helping someone rest up..!",
+	"^#9CCF84;I can hold you close in my arms instead, if you'd like...",
+	"^#9CCF84;Don't worry... They're safe and warm in there... you can listen in..!",
+	"^#9CCF84;I.. can't fit more than one... Sorry..."
+  ],
+  "chatIdleEmpty" : [
+    "^#9CCF84;Free hugs..!",
+	"^#9CCF84;I'm a pretty good fighter..! But only if I have to...",
+	"^#9CCF84;Am I the first living plush you've seen..?",
+	"^#9CCF84;Hello, I'm Sorren..! Nice to meet you..!",
+	"^#9CCF84;I can't really speak in the way you can... Good thing magic bridges those barriers..!",
+	"^#9CCF84;I've been told my stomach is cosy...",
+	"^#9CCF84;Did you run into a ^#FF9933;little orange dessert mouse ^#9CCF84;anywhere..?",
+	"^#FF9933;Ray... ^#9CCF84;thank you for signing me up for this...",
+	"^#9CCF84;I'm a totally voracious dragon..! Rawr..?",
+	"^#9CCF84;May I ask you for a hug, please..? I'm soft..!"
+  ],
+  "rubLines" : [
+    "*Sorren hugs you against the belly with a soft smile.*",
+    "^#9CCF84;I appreciate the attention..!",
+	"^#9CCF84;Oh, you're almost as good at this as ^#FF9933;Ray..!",
+    "^#9CCF84;I love this... Thank you so much..!",
+    "^#9CCF84;Happy inside... and outside..!"
+  ]
+}

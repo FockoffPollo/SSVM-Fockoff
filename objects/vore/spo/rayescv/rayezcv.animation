@@ -1,0 +1,96 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  {  
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+			"cycle"  :  1.3,
+			"mode"  :  "loop"
+		  },
+		  "release"  :  {
+		    "frames"  :  17,
+			"cycle"  :  1.5,
+			"mode"  :  "end"
+		  },
+		  "swallow"  :  {
+		    "frames"  :  17,
+			"cycle"  :  3.0,
+			"mode"  :  "transition",
+			"transition"  :  "full"
+		  },
+		  "full" :  {
+		    "frames"  :  4,
+		    "cycle"  :  1.3,
+		    "mode"  :  "loop"
+		  },
+		  "shrink" :  {
+		    "frames"  :  6,
+		    "cycle"  :  1,
+		    "mode" : "transition",
+			"transition" : "small" 
+		  },
+		  "small" :  {
+		    "frames"  :  4,
+		    "cycle"  :  1.0,
+		    "mode" : "loop"
+		  },
+		  "digest" :  {
+		    "frames"  :  14,
+		    "cycle"  :  4.0,
+			"mode"  :  "end"
+		  }
+	    }
+	  }
+    },
+  
+    "parts"  :  {
+      "body"  :  {
+	    "properties"  :  {
+	      "centered"  :  false,
+		  "zLevel"  :  1
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:idle.<frame>"
+		      }
+		    },
+			"release"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:release.<frame>"
+		      }
+		    },
+			"swallow"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:swallow.<frame>"
+		      }
+		    },
+			"full"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:full.<frame>"
+		      }
+		    },
+			"shrink"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:shrink.<frame>"
+		      }
+		    },
+			"small"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:small.<frame>"
+		      }
+		    },
+			"digest"  :  {
+		      "properties"  :  {
+		        "image"  :  "<partImage>:digest.<frame>"
+		      }
+		    }
+		  }
+	    }
+   	  }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+	"objectName": "dragonturtleov",
+	"rarity": "uncommon",
+	"description": "this pred object stinks",
+	"shortdescription": "legally distinct dragon turtle",
+	"race": "pokemon",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"l6doomed",
+		"melting",
+		"burning",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "dragonturtleicon.png",
+	"orientations": [
+		{
+			"image": "dragonturtle.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "dragonturtle.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/dragonturtle/dragonturtle.lua" ],
+	"animation": "dragonturtle.animation",
+	"animationPosition": [0, 29],
+		
+	"chatOptions" : [
+		""
+	],
+	"gulpLines" : [
+		"APRIL FOOLS"
+	],
+	"chatIdleFull" : [
+		""
+	],
+	"chatIdleEmpty" : [
+		""
+	],
+	"rubLines" : [
+		""
+	]
+}

@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "feralrayezcvdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A heroic dragon with a big heart and a feral body to boot, He seems *very* quite pent up!",
+  "shortdescription"  :  "Vornier Feral Rayez",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "feralrayezcv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-40, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "feralrayezcv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "feralrayezcv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "feralrayezcv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/feralrayezcv/feralrayezcvdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "This is really embarrassing for me, Lets just hope no one is watching us.",
+	"I sure hope you don't mind being dragon seed.",
+	"Churning my friends I'snt exactly my thing. But if that's what it takes to make you happy.",
+	"Take it easy, Just let yourself melt away. You'll wake up back on your ship like nothing ever happened." ,
+	"No hard feelings if I use you to heal someone else?",
+	"You seem really eager to be dragon jizz, Its kind of unsettling."
+  ],
+  "gulpLines" : [
+    "Try not to make me cum, Or else I might just make you cum!",
+    "You want to be my next load? Sure! Why not?",
+	"Stay in there for as long as you want, Just not too long.",
+	"Are you sure? You won't be comming out solid this time around!",
+	"Have fun sloshing about in there friend!"
+  ],
+  "chatIdleFull" : [
+    "Please stay out of the splash zone, I really don't want to ruin those nice clothes of yours.",
+    "Pssst. stop squirming in there your making this awkward...",
+	"Uhhh... Privacy please?",
+	"What are you looking at me like that for? You want in next?"
+  ],
+  "chatIdleEmpty" : [
+    "Would you like a nice warm cum bath? Would you like to be the cum bath?!",
+    "Do you mind helping me with somthing? My balls could use a refill.",
+	"Ever wondered what it's like to a puddle of dragon cum? Well, Here's your chance to find out!",
+	"No offence but you would look quite nice hanging between my legs.",
+	"Would you like to know me a little bit closer?",
+    "Hey there, Anything I can help you with."
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Oh stop it you!",
+	"I could get used to this."
+  ]
+}

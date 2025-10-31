@@ -1,0 +1,22 @@
+{
+  "frameGrid"  :  {
+	"size"  :  [69, 54],
+	"dimensions"  :  [7, 10],
+	"names"  :  [
+	  ["idle.1", "swallow.1", "swallow.2", "swallow.3", "swallow.4", "swallow.5", "swallow.6"],
+	  ["swallow.7", "swallow.8", "swallow.9", "swallow.10", "swallow.11", "swallow.12", "full.1"],
+	  ["full.2", "full.3", "shrink.1", "shrink.2", "shrink.3", "shrink.4", "small.1"],
+	  ["small.2", "small.3", "digest.1", "digest.2", "digest.3", "digest.4", "digest.5"],
+	  ["digest.6", "digest.7", "digest.8", "digest.9", "digest.10", "digest.11", "digest.12"],
+	  ["digest.13", "digest.14", "digest.15", "digest.16", "intotaunt.1", "intotaunt.2", "taunt.1"],
+	  ["outtaunt.1", "outtaunt.2", "return.1", "return.2", "return.3", "return.4", "return.5"],
+	  ["return.6", "return.7", "release.1", "release.2", "release.3", "release.4", "release.5"],
+	  ["release.6", "release.7", "release.8", "release.9", "release.10", "release.11", "empty.1"],
+	  ["full.4", "small.4", "empty.2", "empty.3", "empty.4", "empty.5", "empty.6"]
+    ]	  
+  },
+	
+  "aliases"  :  {
+    "idle.default"  :  "idle.1"
+	}
+}

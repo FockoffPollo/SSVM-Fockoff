@@ -1,0 +1,99 @@
+{
+  "objectName" : "xeronioussafe",
+  "rarity" : "common",
+  "description" : "A lazy yet cheerfull boi",
+  "shortdescription" : "Xeronious - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "xeronious.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "xeronious.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "xeronious.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"*uurp*",
+	"*belches*",
+	"Sated for now.",
+	"Enjoy ur *motel*",
+	"Next stop.. Cozy town!",
+	"Did i eat just eat someone?"
+],
+  "gulpLines" : [
+	"Mmhm~ exotic flavours...",
+	"Please stop squirming...",
+	"you taste familiar~ dint I had you before?",
+	"Your not my BF but it will do.",
+	"Sleep well in there!"
+],
+  "chatIdleFull" : [
+	"Is that a banana in your pocket?",
+	"*huff*",
+	"looking for someone?",
+	"Give me 5 min then I can squeeze ya in!",
+	"Wana rub it?"
+],
+  "chatIdleEmpty" : [
+	"Hello there",
+	"Wana try again?",
+	"Have you seen my boyfriend?",
+	"Dint I just ate you?",
+	"You look rather soft..."
+],
+  "rubLines" : [
+	"A bit lower.",
+	"A bit higher.",
+	"Perfect~",
+	"Chrrrp~",
+	"*uurp*",
+	"can you feel all cozy in there~?"
+]
+}

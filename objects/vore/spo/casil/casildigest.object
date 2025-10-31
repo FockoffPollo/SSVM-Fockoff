@@ -1,0 +1,108 @@
+{
+  "objectName" : "casildigest",
+  "rarity" : "common",
+  "description" : "A hybrid that very, VERY hungry. They are part goat and you know what they say about goats. They eat everything.",
+  "shortdescription" : "Casil - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "casil.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Soooo how is it in there? I bet you like being in there you adorable snack~",
+	"How does feel to be put in your place by small goat hybrid like me~",
+	"It’s too bad that your in somewhere no one is going to find you even if they went looking for you so enjoy your stay while you can ^w^",
+	"You are quite a tasty for a someone who is now in my stomach~",
+	"OwO yyyyou are something else you know that you cute meal~",
+	"*Uuuuuurrrp* OWO excuse me where are my manners you gave me some gas because of how filling you were",
+	"You just love being in here don’t you~",
+	"I love that fact you keep coming back to see me just for my gut it’s like you never want to leave it",
+	"I know about your little Secret. You can respawn infinitely so don’t be upset with me digesting you",
+	"Well someone is about to be goat pudge~",
+	"Your fate has brought back here yet again only to be digested by small little goat hybrid heh",
+	"Good luck oh wait you don’t need luck because you are going to be digested in my belly",
+	"I hope you enjoyed your stay so far because you are now getting vacated from my stomach by being digested~"
+  ],
+  "gulpLines" : [
+	"Prepare to meet your end in my stomach",
+	"*gulp*",
+	"A cute meal like that deserves to stay in my stomach whenever you want~",
+	"In you go again welp I’m never going to get over how good you taste",
+	"Hope you enjoy your new home~",
+	"You tasty sooo good mmmmmmmm >^w^<",
+	"You have a very distinct taste which I can not fathom how gooood it taste nor describe it"
+  ],
+  "chatIdleFull" : [
+    "Hi there, how are you? Ohhh your doing good well good to know even though you may be next in line to be in this belly~ heh",
+	"You can have your turn after I’m done with this one~ *points to stomach*",
+	"Back again I see well I know very well that you can respawn so don’t be shy when I’m not full with something or someone~ *points to belly*",
+	"Hi I’m sorry this belly is currently preoccupied by something or someone that is enjoying right now so come back later and I may let you stay longer than what they did.",
+	"Good luck on your adventures my favorite snack"
+  ],
+  "chatIdleEmpty" : [
+	"How is my favorite snack doing ^w^",
+	"I know about how about how you can infinitely respawn so be a good snack and fill this goat up~",
+	"My magic can do something else I’m not going to tell you what I can do unless you want listen inside my belly this the only way to know my secret~",
+	"You goat to get in this belly",
+	"You are look like a whole snack that I can wait to devour~",
+	"Does my favorite snack want to get it this belly"
+  ],
+  "rubLines" : [
+    "Your are the best person for the belly rubs ever ^w^",
+    "How dare you rub my stomach without notifying me first. *angry goat noises*",
+    "Baaaaaaaaaaaa OwO I’m so sorry for making that noise your just suddenly rubbed my belly and I was really suprised",
+    "*slosh* heh you rubbing my belly is making whatever inside softer"
+  ]
+}

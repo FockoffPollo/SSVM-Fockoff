@@ -1,0 +1,100 @@
+{
+  "objectName" : "Empyreandigest",
+  "rarity" : "common",
+  "description" : "A possessed suit of armour? Some sort of metallic hulking beast? I don't know. I wouldnt climb in if I were you...",
+  "shortdescription" : "Empyrean - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "Empyrean.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "Empyrean.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "Empyrean.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Deeply softer than the outside, isn’t it?~",
+	"Is becoming food something new for you?",
+	"Alot more comforting than i thought actually. O-oh…Uh am i actually digesting you? I can’t really tell...",
+	"After you are not so much of a solid…Care if i help myself to any metal around here?",
+	"Uhm... Please don’t move too much, still tad new to this.",
+	"A Lot squishier than what I normally eat... You’ll do fine though!"
+  ],
+  "gulpLines" : [
+    "What are... O-oh. Didn’t really consider you food, til now.",
+	"So... Question, if I melt you, would you still consider us friends?",
+	"Just ease into there, think of it like armor that wishes to care for you~",
+	"Indestructible-hide does make for a decent hiding spot i suppose…Seems you think so aswell!",
+	"Huh? Though aren’t you a tad worried? Guess not..."
+  ],
+  "chatIdleFull" : [
+    "Maybe another time, Im a little busy right now as you can see.",
+	"You mind coming back later, I have someone else I need to attend to.",
+	"Apologies, get rather nauseous rather easily when overstuffed. Shouldn’t be too long now though.",
+	"Hey there, *URP* oh excuse me."
+
+  ],
+  "chatIdleEmpty" : [
+    "Oh, greetings again! Sorry for denting the floor a tad, happens sometimes.",
+    "*Emits a warm almost resonating digital-esc recurring*",
+	"I can keep you guarded for a while, if you felt like not having to worry for abit...",
+	"All that spacefaring must be tiring, How about we both slow-down for awhile?~",
+	"Curious... Do you have any spare metal of any kind laying around? Sorta... starved right now.",
+	"I'd help more if I could. Tad too heavy to keep up, but if you need to bunker down somewhere on the other hand.~"
+  ],
+  "rubLines" : [
+    "*Deep rumbling resonates from the Metallic creature, the light in their eyes flashing into soft stars for a moment.*",
+	"W-wha... Oh now that’s nice…~",
+	"Is this fun for you as well?",
+	"Feel free to rub as much as you like... Of course if you have any polish, that is wonderful aswell!",
+	"*Confidently pounds a claw into his own gut, snickering lightly as it thumbs with a metallic clang.*",
+	"I could get used to this."
+  ]
+}

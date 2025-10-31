@@ -1,0 +1,113 @@
+{
+  "objectName" : "rettdigest",
+  "rarity" : "common",
+  "description" : "50% bug, 50% dragon, 100% adorable (Digestion)",
+  "shortdescription" : "Rett - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "rett.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "rett.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "rett.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, oh dear, excuse me!",
+	"Willing AND you wanna get digested? You are quite somethin' special.",
+	"Come back when you reform, so we can do this again!",
+	"So melty already!",
+	"Are ya still solid in there?",
+	"*Huff*",
+	"*Satisfied chitters*",
+	"You're gonna make me so fat...",
+	"Once you're all digested, you're goin' right on my butt!",
+	"Go ahead, relax! Let me do allll the work~",
+	"How's it feel being at the bottom of the food-chain? Pretty good, right?",
+	"Hah, look at me now! I'm not prey for once!",
+	"I hope you leave me a souvenir or two..."
+  ],
+  "gulpLines" : [
+    "Oogh, so eager!",
+	"*GULP*, Ahhhhh~~",
+	"Ahh, you were absolutely delicious",
+	"Willing meals are my favorite...",
+	"Time to hide you away... in my BELLY!",
+	"Damn, you tasted good...",
+	"You don't mind getting digested? Good~"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! I'm a little busy right now.",
+	"I usually prefer a little privacy... but I suppose you can watch.",
+	"Don't tell me you want to get eaten, too.",
+	"Don't mind me, just digesting your friend here.",
+	"Forgive me, but I'm rather full..."
+  ],
+  "chatIdleEmpty" : [
+    "Well, hi!",
+	"Hey, nice place you got here.",
+	"*Happy chitters*",
+	"*Chitters*",
+	"I require FOOD!",
+	"Look, I ain't gonna complain if you just dive right in my mouth.",
+	"Well, what is it?",
+	"Say, have you seen Mitryll anywhere?",
+	"I am quite starving, do you mind if I eat you?",
+	"Hey, wanna get digested? I'll bring you back, of course."
+  ],
+  "rubLines" : [
+    "You're gonna melt 'em quicker if you keep this up...",
+	"You spoil me.",
+    "Please... no more rubs. I'm embarrassed.",
+    "That kinda tickles, heheh",
+    "Gosh, all this attention... This is rather embarrassing for me...",
+    ">/////<'"
+  ]
+}

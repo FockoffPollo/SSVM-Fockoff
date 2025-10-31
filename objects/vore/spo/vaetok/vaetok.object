@@ -1,0 +1,80 @@
+{
+	"objectName": "vaetokanthro",
+	"vore": {
+		"fatal": false,
+		"dirty": false,
+		"type": "ov"
+	},
+	"rarity": "essential",
+	"description": "A cuddly, fluffy and guardian derg!",
+	"shortdescription": "Anthro Vaetók",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "vaetokicon.png",
+	"orientations": [
+		{
+			"image": "vaetok.png:silhouette",
+			"imagePosition": [-35, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "vaetok.png:silhouette",
+			"imagePosition": [-35, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/vaetok/vaetok.lua" ],
+	"animation": "vaetok.animation",
+	"animationPosition": [0, 25],
+		
+	"chatOptions" : [
+		"I suppose it's easier to protect you when you're inside.",
+		"Comfy?",
+		"Having fun?",
+		"At least I can keep you safe this way.",
+		"Could we swap later? This is nice and all, but I prefer it reversed~"
+	],
+	"gulpLines" : [
+		"Here goes~",
+		"Have fun in there.",
+		"I'll keep ya safe."
+	],
+	"chatIdleFull" : [
+		"Would you like in next? It's cozy in there~",
+		"Don't mind me, just got a buddy in my tummy.",
+		"They're safely tucked away in there~"
+	],
+	"chatIdleEmpty" : [
+		"Sup!",
+		"Hey buddy.",
+		"Time doesn't hear, so roll with the waves~",
+		"Keepin safe?",
+		"How's it goin?",
+		"Snuggles are the best.",
+		"Could I use your lap as a bed later? Or perhaps your belly?"
+	],
+	"rubLines" : [
+		"Ooo... that's nice...",
+		"Mmm~"
+	]
+}

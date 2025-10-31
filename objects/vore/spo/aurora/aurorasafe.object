@@ -1,0 +1,87 @@
+{
+  "objectName" : "aurorasafe",
+  "rarity" : "common",
+  "description" : "An Artificial Articuno who doesn't mind lending her stomach to offer a safe place to rest.",
+  "shortdescription" : "Aurora - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "aurora.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "aurora.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "aurora.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"It will only take a moment to check your health",
+	"Feel free to stay as long as you like.",
+	"Would you like some assistance in sleeping in there?"
+],
+  "gulpLines" : [
+	"You are being healed, please do not resist.",
+	"Please stay still when entering into my healing chamber.",
+	"You are injured! Let me fix that."
+],
+  "chatIdleFull" : [
+	"Urrp... sorry, I am currently occupied with another.",
+	"Please wait a moment while I attend to this one.",
+	"I wish I could take you, but I'm still working on this one."
+],
+  "chatIdleEmpty" : [
+	"Do you require assistance?",
+	"How can I be a service?",
+	"I'm always open to let you rest inside if you wish."
+],
+  "rubLines" : [
+	"Oh my! Such affection.",
+	"I appreciate the help in tending to my feathers.",
+	"I am soft on the outside as a I am on the inside."
+]
+}

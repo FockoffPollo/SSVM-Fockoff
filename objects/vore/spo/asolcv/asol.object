@@ -1,0 +1,97 @@
+{
+  "objectName" : "asolcvsafe",
+  "rarity" : "common",
+  "description" : "I've heard this lad has a pretty *stellar* jacuzzi!",
+  "shortdescription" : "Asol CV - Safe",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "asol.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"You should be honored to be able to rest in me.",
+	"Not gonna lie... This feels actually nice...",
+	"As long as you dont struggle to hard, you'll stay solid, promise~",
+	"Breathe in the atmosphere~",
+	"Contained into two comets, isn't that romantic?"
+],
+  "gulpLines" : [
+	"Down you go.",
+	"Into the cosmos.",
+	"Best bath you'll ever try~",
+	"Boop.",
+	"Expanding my comets"
+],
+  "chatIdleFull" : [
+	"Nope, not feeling like it right now.",
+	"The Aurelion Sol Resort is full at the moment.",
+	"Wait for your turn, little one",
+	"Now now, there is space dragon for everyone! But not now."
+
+],
+  "chatIdleEmpty" : [
+	"The cosmos can mend anything, as long as I want to.",
+	"Want to rest inside you old Aurelion pal?",
+	"Who wants a cosmic bath?",
+	"Want to feel the milky way?"
+],
+  "rubLines" : [
+	"Well... I could get used to this~",
+	"Thats it... please your space dragon...",
+	"If you keep that up I will reward you greatly...",
+	"Say, how does it sound rubbing from the inside after this?",
+	"Finally, someone who recognizes my superiority."
+]
+}

@@ -1,0 +1,99 @@
+{
+  "objectName" : "notseliciacv",
+  "rarity" : "Legendary",
+  "description" : "Something isn't quite right here.",
+  "shortdescription" : "Smolyez? CV",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "notseliciacv.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "notseliciacv.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "notseliciacv.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Your obsession with by balls is really concering me Selicia.",
+	"I've lost the count on how many times I've shloshed you in here.",
+	"This is going to be a pain to clean up.",
+	"Not the first time you've met your end here. And certainly not the last!" ,
+	"At this point, Who hasn't churned you?",
+	"Please dont ruin my feathers again Selicia?"
+  ],
+  "gulpLines" : [
+    "Dammit Selicia! This is the 35th time this week!",
+    "You silly salamander...",
+	"Sigh... Not again...",
+	"Welp... There goes my last XXXXXXXXL Condom.",
+	"Gah! I knew something wasn't right with you!"
+  ],
+  "chatIdleFull" : [
+    "Don't worry. I only digest Salamanders.",
+	"As you can see, Size does't really matter.",
+	"Uhhh.... Hi?"
+  ],
+  "chatIdleEmpty" : [
+    "Hey have you seen that dumb salamander. She has a strange habbit of sliding down my shaft.",
+    "I'm currently engaging in salamander fasting, Please don't ruin my 5 hour streak!",
+	"Prey slut incomming!!! Wait... Your not Selicia, Are you?",
+	"I have a bad felling about this...",
+	"Hehe... Edible Silicone...",
+	"I require your finest salamander!"
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Could you pet Selicia too?",
+	"I could get used to this."
+  ]
+}

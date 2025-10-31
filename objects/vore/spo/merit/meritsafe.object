@@ -1,0 +1,86 @@
+{
+  "objectName" : "meritsafe",
+  "rarity" : "common",
+  "description" : "A ranuki from a distant land, he may be unpredictable at times but his appearance and nature are kind, although there looks to be more than he lets on...",
+  "shortdescription" : "Merit - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "merit.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "merit.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "merit.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Ahh, all done-",
+	"I've eaten enough, I'm satisfied!"
+],
+  "gulpLines" : [
+	"Ki-hee, ill give you a long nice stay, then.",
+	"Thats right, you belong here!"
+],
+  "chatIdleFull" : [
+	"ki-hee-hee...",
+	"Sorry, no more room"
+],
+  "chatIdleEmpty" : [
+	"ki?",
+	"Hello!",
+	":D",
+	"",
+	""
+],
+  "rubLines" : [
+	"h-heyy what are you doing-",
+	"Oh- if you insist-",
+	"Ki- thank you.."
+]
+}

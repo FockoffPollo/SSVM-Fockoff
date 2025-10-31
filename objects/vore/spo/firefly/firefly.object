@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "fireflysafe",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "I guess you could say this Umbreon is one in a Brelion... His friend Aster says he tastes like Cheez Its.",
+  "shortdescription"  :  "Firefly - Safe",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "firefly.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "firefly.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "firefly.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "firefly.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/firefly/firefly.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "I don't know if I should be worried or ok with the fact that this kinda feels good...",
+	"Are you uh, Ok down there?",
+	"So this is what it feels like. It feels weird.",
+	"Just a uh... side note... I don't know how to get you out...",
+	"Please don't kick around... You might break my bones or make me nauseous...",
+	"Oh god. Are you still alive in there? Aster will never let me live this down..."
+  ],
+  "gulpLines" : [
+    "*OGMPF* *GULP* W-What the hell did you just do?!",
+	"*Gasp* How- I'm not even going to ask.",
+	"That uh... happened...",
+	"Well I am surpised and scared at the same time...",
+	"ohmyfuckinggodnmmmmph You tell Aster a single bit about this and I WILL digest you!"
+  ],
+  "chatIdleFull" : [
+    "I-I *ourph* don't think I can hold a-another...",
+	"Please leave me alone... One is enough...",
+	"Help. I have no idea what I'm doing.",
+	"Please don't tell Aster about this... I beg you..."
+
+  ],
+  "chatIdleEmpty" : [
+    "Yello there! ...Why are you looking at me like that?",
+    "Have you seen a certain brownish shapeshifter around?",
+	"How's it going? You want to what? I don't think I can do that...",
+	"Please don't eat me.",
+	"I feel funny today. Must be that candy Aster gave me..."
+  ],
+  "rubLines" : [
+    "I-I uh... ok...",
+	"That uh...Feels good but...could you like uh...stop? I'm getting uncomfortable.",
+	"*Prrrr*-Wha- Huh- What? N-No I heard nothing!",
+	"Why are you doing that...You are all weird...",
+	"Are they uhh your friend? I-I didn't do this on purpose I swear!",
+	"C-Can you please stop rubbing my stomach? It's weird!"
+  ]
+}

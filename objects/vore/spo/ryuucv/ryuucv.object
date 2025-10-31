@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "ryuucv",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A Protogen who keeps prey contained in a very warm, sticky place~",
+  "shortdescription"  :  "Vorny Ryuu",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ryuucv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "ryuucv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "ryuucv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "ryuucv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/ryuucv/ryuucv.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "Feel like getting sticky? I don't digest, though.",
+	"Care to take a dunk in a nice bath?",
+	"You are such a cutie~! Makes me want to gobble you up~!",
+	"Come and stay a while~! It's comfortable~",
+	"You want to see a protogen with balls? Come closer then~",
+	"I just want to hug you, and keep you safe...!"
+  ],
+  "gulpLines" : [
+    "*Schlurp!* Down you go~!",
+	"Never ceases to feel amazing~!",
+	"Fuuuuuck you feel good going down~!",
+	"Oof~! Careful! I might just shoot you back out~!",
+	"Hhaaaaah~!"
+  ],
+  "chatIdleFull" : [
+    "Sorry, these balls are occupied, but maybe after this cutie is done?",
+	"Hnnf~! I wanna, but I can't...! Not enough room.",
+	"No room... heck...!",
+	"If I could fit you, I would. Sorry!"
+
+  ],
+  "chatIdleEmpty" : [
+    "I need someone to carry around for a while. Care to volunteer?",
+    "O-oh! You startled me. Care for a gooey bath?",
+	"I heard my seed is very exfoliating~! Want to find out?",
+	"I've got something to show you~! Come closer so I can let you see~",
+	"Why the distance, hun? I don't bite! Honest!"
+  ],
+  "rubLines" : [
+    "Huff~! Feels so good~!",
+	"I might accidentally cum you out~!",
+	"Hnngh~! S-sorry!",
+	"That feels so nice~!",
+	"Soft isn't it? Hope you enjoy the sauna~!",
+	"Nice rubs~! Goooood rubs~!"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "bestestboy", "count" : 1 },
+    { "item" : "exmachina", "count" : 1 },
+    { "item" : "solariumstar", "count" : 15 },
+    { "item" : "battery", "count" : 5 }
+  ],
+  "output" : {
+    "item" : "rayezrocketlauncher",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

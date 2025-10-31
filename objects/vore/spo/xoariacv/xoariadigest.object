@@ -1,0 +1,88 @@
+{
+  "objectName" : "xoariacvdigest",
+  "rarity" : "common",
+  "description" : "A nogitsune who's undergone some sudden growth, and a very lustful change.",
+  "shortdescription" : "Xoari CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "xoaria.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "xoaria.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "xoaria.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Bit deeper and you'll be good as mine.",
+	"Gonna have to shift my mass elsewhere if you keep ending up as jizz.~",
+	"Schllrk~",
+	"Don't get too lost now.~",
+	"Nearly there, soon to be more seed.~",
+	"Softer and rounder, inch by inch.~",
+	"You should feel special, rare anyone gets to enjoy this. Not that you'll tell anyhow.~"
+],
+  "gulpLines" : [
+	"Gonna enjoy chruning you into cum.~",
+	"Gonna look good as my next load.~",
+	"Don't forget to say hi to the others on the way in!~"
+],
+  "chatIdleFull" : [
+	"I see you staring, I'll pack ya away when I'm done and you can join em *resting* there.~",
+	"Don't worry, you'll add to me soon.~"
+],
+  "chatIdleEmpty" : [
+	"These balls could do with some improvement, don't ya think?~",
+	"Really could do with more mass down here, you'd do wonderfully.~"
+],
+  "rubLines" : [
+	"Trying to feel where you'll end up?",
+	"Feel them getting softer? That'll be you soon.~"
+]
+}

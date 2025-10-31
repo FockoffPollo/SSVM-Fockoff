@@ -1,0 +1,113 @@
+{
+  "objectName" : "skinnersafe",
+  "rarity" : "common",
+  "description" : "A little gremlin, a Royal one at that! (Endo)",
+  "shortdescription" : "Skinner - Endo",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "skinner.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "skinner.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "skinner.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, oh dear, excuse me!",
+	"Feeling better, yet?",
+	"*Happy Grumbling*",
+	"Let me know when you want out, okay?",
+	"BEHOLD! Imp guts!",
+	"Wha- Willing too boot, oh you are too kind!",
+	"*Satisfied grumbling*",
+	"Are you comfy? I sure hope so",
+	"Look, this is nice, but this makes moving pretty hard for me!",
+	"Go ahead, relax..!",
+	"Stay as long as you need...",
+	"Hah, Just think, you managed to fit in lil' ole' me!",
+	"Just be careful not to rip the shirt!"
+  ],
+  "gulpLines" : [
+    "Oogh, so eager!",
+	"*GULP*, Ahhhhh~~",
+	"Ahh, you were absolutely delicious",
+	"Willing meals are my favorite...",
+	"Wha- Ack! *GULP*",
+	"Damn, you tasted good...",
+	"Ack- Fine, just warn me next time you wanna dive in!"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! I'm a little busy right now.",
+	"I usually prefer a little privacy... but I suppose you can watch.",
+	"Don't tell me you want to get eaten, too.",
+	"Yes, I ate your friend. You want in, wait your turn!",
+	"Oi bud, keep staring and I am gonna lay on you!"
+  ],
+  "chatIdleEmpty" : [
+    "Well, hi!",
+	"Hey, nice place you got here.",
+	"*Imp noises*",
+	"*WEH*",
+	"Would you like a belly-hug?",
+	"Look, I ain't gonna complain if you just dive right in my mouth.",
+	"Well, what is it?",
+	"Oi, you wanna talk, or just skip to what you really want?",
+	"I'm not particularly hungry, but I can still eat you if you want.",
+	"Hey, Wanna roll some dice?"
+  ],
+  "rubLines" : [
+    "You spoil me.",
+    "HmmmHmmm, Trying to get me flustered?",
+	"Keep rubbin like that, I might not wanna let them out!",
+    "Little to the right..!",
+    "Little to the left now yeah?"
+  ]
+}

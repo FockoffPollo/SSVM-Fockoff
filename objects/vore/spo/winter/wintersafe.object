@@ -1,0 +1,91 @@
+{
+  "objectName" : "wintersafe",
+  "rarity" : "common",
+  "description" : "A pretty *Cool* guy!",
+  "shortdescription" : "winter - Safe",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "winter.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Dont worry you will be quite safe from the mean creatures out there",
+	"Did you know some dragons have two Bellies? I didn't ",
+	"Always nice to have a full gut",
+	"Even Better to lay on someone with a full belly!"
+],
+  "gulpLines" : [
+	"Down you go~",
+	"Just dont squirm too much",
+	"Im just going to hold you there for awhile"
+],
+  "chatIdleFull" : [
+	"*Hums a delightful tune*",
+	"Hey if your going out shopping be sure to bring me something to munch on",
+	"Why do they think Dragon eyes Hold Power?",
+	"Hey YOU.. yeah I see you.. I know what you did."
+],
+  "chatIdleEmpty" : [
+	"Sorry but im a little full on the one at this moment.",
+	"Wait around long enough you can go next",
+	"Usually people run away from the big dragons.. Not too them."
+],
+  "rubLines" : [
+	"Well if your going to rub your can stick around till your turn~",
+	"Oooh that feels nice",
+	"Are you just rubbing my belly in hopes to get them to digest?",
+	"Well its not going to work.. but keep up the rubbing anyway."
+]
+}

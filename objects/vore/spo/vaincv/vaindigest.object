@@ -1,0 +1,90 @@
+{
+  "objectName" : "vaincvdigest",
+  "rarity" : "common",
+  "description" : "A travelling Tobi Kadachi with a smug grin and a lustful look in his eyes",
+  "shortdescription" : "Vain CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "vain.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Oooh~ Keep struggling, just like that~",
+	"Can't wait to paint the walls with you~",
+	"Thanks~ Was running a bit low~",
+	"Tight enough in there?~ Good~ It's only going to get tighter~"
+],
+  "gulpLines" : [
+	"*pant* *pant* Can we go again? Please?~",
+	"Oooh~ That never gets old~",
+	"Can't tell which would be better, this? or shooting you out later~"
+],
+  "chatIdleFull" : [
+	"Man, if I weren't full right now...~",
+	"Remind me to make room for you~",
+	"Sorry, occupied unfortunately",
+	"Wanna give it a rub?~"
+],
+  "chatIdleEmpty" : [
+	"Hey, this place needs a new paint job, wanna be the paint?~",
+	"My balls feel so empty... Care to change that?~",
+	"You'd feel so good sloshing away between my legs~"
+],
+  "rubLines" : [
+	"Oooh, that's the spot~",
+	"Left a bit. Yeeeahhh~",
+	"Remember to push down on the bulges~",
+	"You must do this often~"
+]
+}

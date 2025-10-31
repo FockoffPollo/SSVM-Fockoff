@@ -1,0 +1,81 @@
+{
+    "objectName": "spovspawneryharon"
+    , "colonyTags": ["vore"]
+    , "rarity": "Legendary"
+	, "shortdescription"  :  "SPOV Yharon"
+    , "race": "generic"
+    , "category": "furniture"
+    , "price": 3000
+	, "health" : 5
+
+	, "tooltipKind" : "vso"
+	, "objectImage" : "/vehicles/spov/yharon/yharon.png:idle.1"
+	, "description"  :  "The faithful companion of the Jungle Tyrant. If they can, They will easily swallow you whole."
+	,"tooltipFields": {
+		"statusLabel": "The faithful companion of the Jungle Tyrant. If they can, They will easily swallow you whole."
+	}
+	, "tooltipSubtitle" : "SPOV Summoner"
+	
+    , "orientations": [{
+            "image": "/vehicles/spov/yharon/yharon.png:idle.1"
+            , "imagePosition": [-60.0, 0.0]
+            , "direction": "left"
+            , "flipImages": true
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }, {
+            "image": "/vehicles/spov/yharon/yharon.png:idle.1"
+            , "imagePosition": [-60.0, 0.0]
+            , "direction": "right"
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }]
+
+    , "inventoryIcon": "/vehicles/spov/yharon/yharondangericon.png"
+
+    , "animation": "spovspawner.animation"
+    , "animationParts": {
+        "bg": "/vehicles/spov/yharon/yharon.png"
+    }
+	, "animationPosition" : [0.0, 50]
+	, "animationCustom" : {}
+
+    , "spov": {
+        "types": ["spovyharon"]
+        , "position": [0.0, 5.0, 0.0, 5.0]
+        , "template": {}
+        , "pillsAdd": { "digest":{}, "softdigest":{}, "heal":{}, "antiescape":{}, "easyescape":{} }
+    }
+
+	, "retainObjectParametersInItem" : true
+	, "isWired" : false
+	, "printable" : false
+	, "scannable" : false
+	, "interactive" : false
+	, "inspectable" : false
+	, "allowScanning" : false
+	, "isContainer" : false
+	, "builder" : "/scripts/vore/spovitembuilder.lua"
+    , "scripts": [
+        "/scripts/npcToyObject.lua", "/scripts/vore/spovspawner.lua", "/vehicles/spov/yharon/yharonitemscript.lua" 
+    ]
+	, "npcToy" : {
+		"influence" : [
+		  "approach",
+		  "leave"
+		],
+		"defaultReactions" : {
+		  "approach" : [
+			[1.0, "laugh"]
+		  ],
+		  "leave" : [
+			[1.0, "smile"],
+			[1.0, "annoyed"],
+			[1.0, "laugh"]
+		  ]
+		},
+		"preciseStandPositionLeft" : [-4.0, 0.0],
+		"preciseStandPositionRight" : [4.0, 0.0],
+		"maxNpcs" : 1
+	  }
+}

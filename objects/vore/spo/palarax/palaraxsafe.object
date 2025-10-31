@@ -1,0 +1,108 @@
+{
+  "objectName" : "palaraxsafe",
+  "rarity" : "common",
+  "description" : "A big, fat, soft dragon of the blue scaled variety. There seems to be a lot more to this dragon than what his girthy appearance would show for. Is Incredibly soft, inside and out though!",
+  "shortdescription" : "Palarax - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "palarax.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*BUUUUUUURRRRP!* Oooh, nice one~",
+	"The doctor is in~",
+	"Comfortable? Good~",
+	"You sure feel nice in there~ Feel free to stay as long as you want~",
+	"I've healed worse injuries. You're gonna be just fine~",
+	"I can feel you getting sleepy in there. Go ahead and get some rest. I'll take it from here.",
+	"Just let me know when you'd like out. By the way, 'Never' is an option.",
+	"You just wanted in my gut, didn't you? Not complaining~",
+	"*Buuuuuuuuurrrrrrrraaaaap!*",
+	"You're gonna look amazing on my butt~ Ok, I'm only teasing!",
+	"How much stuff are you carrying? You're weighing me down more than usual!",
+	"You're welcome to stay as long as you want, I've got plenty of time~",
+	"Mmmmm. Feels nice just having someone to cradle in my gut~"
+  ],
+  "gulpLines" : [
+    "Oof! If you jump into my gullet with that much enthusiasm and you might end up with more than you bargained for!",
+	"Mmmph~ Delicious~",
+	"Down you go!",
+	"Don't worry, no one's gonna see you under there~ Promise!",
+	"*Uuuurp!* Sorry, you made me swallow some air with you.",
+	"*Guulp!* And down you go~",
+	"Be not afraid, I'll take care of you~"
+  ],
+  "chatIdleFull" : [
+    "Normally, I have a lot more room for you all, but I'm only taking guests one at a time for now.",
+	"Enjoying the view? Why not come closer~",
+	"Please be patient, I'll be with you shortly.",
+	"Sadly, the game's programming only let's me eat one of you at a time...",
+	"Friend of yours? Maybe. Check again later and he'll be in much better shape then when I first saw them."
+  ],
+  "chatIdleEmpty" : [
+    "Hello there!",
+	"Howdy!",
+	"*Uuuuurrrrraaaap!* Oh, excuse me. I went to grab a bite when you weren't looking.",
+	"My belly ain't gonna fill itself you know.",
+	"I've always got room for more, so you're welcome to dive in!",
+	"If you're hurting, I can patch you up!"
+  ],
+  "rubLines" : [
+    "You're being too kind to me!",
+    "That feels good. Keep going~",
+	"Bet your friend can feel that if you push in deeper~",
+    "*UUUUUURRRRRRRAAAAAAP!*",
+    "Someone's enjoying themselves~"
+  ]
+}

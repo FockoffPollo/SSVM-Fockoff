@@ -1,0 +1,50 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"         : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette"    : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"          : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"       : { "frames": 10, "cycle": 3.25, "mode": "end" },
+					"release"	    : { "frames": 10, "cycle": 1.75, "mode": "end" },
+					"full"          : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"digest"        : { "frames": 11, "cycle": 2.25, "mode": "end" },
+					"burp"	   		: { "frames": 10, "cycle": 2.75, "mode": "end" },
+					"disposal"      : { "frames": 24, "cycle": 7.90, "mode": "end" },
+					"erase"			: { "frames": 11, "cycle": 2.50, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"         : { "properties": { "image": "valtum.png:empty.<frame>"           } },
+						"silhouette"    : { "properties": { "image": "valtum.png:silhouette.<frame>"      } },
+						"idle"          : { "properties": { "image": "valtum.png:idle.<frame>"            } },
+						"swallow"       : { "properties": { "image": "valtum.png:swallow.<frame>"         } },
+						"release"	    : { "properties": { "image": "valtum.png:release.<frame>"         } },
+						"full"          : { "properties": { "image": "valtum.png:full.<frame>"            } },
+						"digest"        : { "properties": { "image": "valtum.png:digest.<frame>"          } },
+						"burp"   	    : { "properties": { "image": "valtum.png:burp.<frame>"	          } },
+						"disposal"      : { "properties": { "image": "valtum.png:disposal.<frame>"        } },
+						"erase"			: { "properties": { "image": "valtum.png:erase.<frame>"    		  } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"digestov"     : ["/sfx/vore/spinj/digestov.ogg"],
+		"burp"         : ["/sfx/vore/spinj/burp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

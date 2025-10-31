@@ -1,0 +1,50 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"     : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette": { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"   : { "frames": 16, "cycle": 3.25, "mode": "end" },
+					"release"	: { "frames": 16, "cycle": 1.75, "mode": "end" },
+					"full"      : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"shrink"    : { "frames": 7, "cycle": 2.00, "mode": "transition", "transition": "small" },
+					"small"      : { "frames": 4, "cycle": 1.00, "mode": "loop" },
+					"disposal"      : { "frames": 37, "cycle": 7.90, "mode": "end" },
+					"disposalidle"      : { "frames": 1, "cycle": 1.00, "mode": "loop" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"     : { "properties": { "image": "dinorayez.png:empty.<frame>"      } },
+						"silhouette": { "properties": { "image": "dinorayez.png:silhouette.<frame>" } },
+						"idle"      : { "properties": { "image": "dinorayez.png:idle.<frame>"       } },
+						"swallow"   : { "properties": { "image": "dinorayez.png:swallow.<frame>"    } },
+						"release"	: { "properties": { "image": "dinorayez.png:release.<frame>"    } },
+						"full"      : { "properties": { "image": "dinorayez.png:full.<frame>"       } },
+						"shrink"    : { "properties": { "image": "dinorayez.png:shrink.<frame>"     } },
+						"small"     : { "properties": { "image": "dinorayez.png:small.<frame>"      } },
+						"disposal"    : { "properties": { "image": "dinorayez.png:disposal.<frame>"     } },
+						"disposalidle": { "properties": { "image": "dinorayez.png:disposalidle.<frame>" } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"digestov"     : ["/sfx/vore/spinj/digestov.ogg"],
+		"burp"         : ["/sfx/vore/spinj/burp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

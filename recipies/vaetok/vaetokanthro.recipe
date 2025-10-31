@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "money", "count" : 20 }
+	],
+	"output" : {
+		"item" : "vaetokanthro",
+		"count" : 1
+	},
+	"groups" : [ "bellyBoundStore", "all", "animated", "male", "oral", "safe" ]
+}

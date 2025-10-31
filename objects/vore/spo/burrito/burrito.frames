@@ -1,0 +1,65 @@
+{
+	"frameGrid" : {
+		"size" : [180, 61],
+		"dimensions" : [5, 4],
+		"names" : [
+			[ "e.1", "e.2", "e.3", "e.4", "e.5" ],
+			[ "e.6", "e.7", "e.8", "e.9", "e.10" ],
+			[ "e.11", "e.12", "e.13", "e.14", "e.15" ],
+			[ "e.16", "e.17", "e.18", "e.19", "e.20" ]
+		]
+	},
+	"aliases" : {
+		"empty.1": "e.1",
+		"empty": "empty.1",
+
+		"idle.1": "e.1",
+		"idle": "idle.1",
+
+		"silhouette": "e.1",
+
+		"swallow.1": "e.2",
+		"swallow.2": "e.3",
+		"swallow.3": "e.4",
+		"swallow.4": "e.5",
+		"swallow.5": "e.6",
+		"swallow.6": "e.7",
+		"swallow.7": "e.8",
+		"swallow.8": "e.9",
+		"swallow.9": "e.10",
+		"swallow.10": "e.11",
+		"swallow.11": "e.12",
+
+		"full.1": "e.14",
+		"full.2": "e.15",
+		"full.3": "e.16",
+		"full.4": "e.17",
+
+		"digest.1": "e.1",
+		"digest.2": "e.1",
+		"digest.3": "e.1",
+		"digest.4": "e.1",
+		"digest.5": "e.1",
+		"digest.6": "e.1",
+		"digest.7": "e.1",
+		"digest.8": "e.1",
+		"digest.9": "e.1",
+		"digest.10": "e.1",
+		"digest.11": "e.1",
+		"digest.12": "e.1",
+		"digest.13": "e.1",
+
+		"burp.1": "e.1",
+		"burp.2": "e.1",
+		"burp.3": "e.1",
+		"burp.4": "e.1",
+		"burp.5": "e.1",
+		"burp.6": "e.1",
+		"burp.7": "e.1",
+		"burp.8": "e.1",
+		"burp.9": "e.1",
+		"burp.10": "e.1",
+		"burp.11": "e.1",
+		"burp.12": "idle"
+	}
+}

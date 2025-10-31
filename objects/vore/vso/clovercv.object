@@ -1,0 +1,81 @@
+{
+    "objectName": "spovspawnerclovercv"
+    , "colonyTags": ["vore"]
+    , "rarity": "Legendary"
+	, "shortdescription"  :  "SPOV Clover - CV"
+    , "race": "generic"
+    , "category": "furniture"
+    , "price": 3000
+	, "health" : 5
+
+	, "tooltipKind" : "vso"
+	, "objectImage" : "/vehicles/spov/clovercv/clovercv.png:idle.1"
+	, "description"  :  "And her dick, too!"
+	,"tooltipFields": {
+		"statusLabel": "And her dick, too!"
+	}
+	, "tooltipSubtitle" : "SPOV Summoner"
+	
+    , "orientations": [{
+            "image": "/vehicles/spov/clovercv/clovercv.png:idle.1"
+            , "imagePosition": [-28.0, 0.0]
+            , "direction": "left"
+            , "flipImages": true
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }, {
+            "image": "/vehicles/spov/clovercv/clovercv.png:idle.1"
+            , "imagePosition": [-28.0, 0.0]
+            , "direction": "right"
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }]
+
+    , "inventoryIcon": "/vehicles/spov/clovercv/clovercvdangericon.png"
+
+    , "animation": "spovspawner.animation"
+    , "animationParts": {
+        "bg": "/vehicles/spov/clovercv/clovercv.png"
+    }
+	, "animationPosition" : [0.0, 50]
+	, "animationCustom" : {}
+
+    , "spov": {
+        "types": ["spovclovercv"]
+        , "position": [0.0, 3.15, 0.0, 3.15]
+        , "template": {}
+        , "pillsAdd": { "digest":{}, "softdigest":{}, "heal":{}, "antiescape":{}, "easyescape":{} }
+    }
+
+	, "retainObjectParametersInItem" : true
+	, "isWired" : false
+	, "printable" : false
+	, "scannable" : false
+	, "interactive" : false
+	, "inspectable" : false
+	, "allowScanning" : false
+	, "isContainer" : false
+	, "builder" : "/scripts/vore/spovitembuilder.lua"
+    , "scripts": [
+        "/scripts/npcToyObject.lua", "/scripts/vore/spovspawner.lua", "/vehicles/spov/clovercv/clovercvitemscript.lua" 
+    ]
+	, "npcToy" : {
+		"influence" : [
+		  "approach",
+		  "leave"
+		],
+		"defaultReactions" : {
+		  "approach" : [
+			[1.0, "laugh"]
+		  ],
+		  "leave" : [
+			[1.0, "smile"],
+			[1.0, "annoyed"],
+			[1.0, "laugh"]
+		  ]
+		},
+		"preciseStandPositionLeft" : [-4.0, 0.0],
+		"preciseStandPositionRight" : [4.0, 0.0],
+		"maxNpcs" : 1
+	  }
+}

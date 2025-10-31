@@ -1,0 +1,90 @@
+{
+  "objectName" : "vainsafe",
+  "rarity" : "common",
+  "description" : "A travelling Tobi-Kadachi from another world, here to meet, eat, and explore new things",
+  "shortdescription" : "Vain - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "vain.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Do enjoy your stay, I know I will~",
+	"I'm told it feels like a hammock in there~",
+	"*yawn* A good prey always makes me sleepy"
+],
+  "gulpLines" : [
+	"Mmm~ Moment on the lips~",
+	"Damn you're tasty~",
+	"Almost wish there were more of you to eat~",
+	"Thanks for your contribution~"
+],
+  "chatIdleFull" : [
+	"Man, if I weren't full right now...~",
+	"Remind me to make room for you~",
+	"Sorry, occupied unfortunately",
+	"Wanna give it a rub?~"
+],
+  "chatIdleEmpty" : [
+	"Got a minute? Actually, might be a few hours~",
+	"Hey! Wanna know what the inside of a Tobi looks like?~",
+	"Tired? I know just the bed for you tonight! *wink*"
+],
+  "rubLines" : [
+	"Oooh, that's the spot~",
+	"Left a bit. Yeeeahhh~",
+	"Remember to push down on the bulges~",
+	"You must do this often~"
+]
+}

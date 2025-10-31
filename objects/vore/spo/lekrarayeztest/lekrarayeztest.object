@@ -1,0 +1,100 @@
+{
+  "objectName" : "lekrarayeztest",
+  "rarity" : "common",
+  "description" : "Just a test. Nothing to see here.",
+  "shortdescription" : "Rayez Lekrashar test thing",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lekrarayeztest.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lekrarayeztest.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lekrarayeztest.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "5 more and you might just get a wish!",
+	"You may want to have a shower once your done in there.",
+	"Enjoying yourself? I'm enjoying myself!",
+	"I have no clue why my cum has healing properties but I'm not complaining.",
+	"Comfortable enough for you? Hopefully it's not too sticky in there.",
+	"Is this the greatest sauna you've ever been in or what!?"
+  ],
+  "gulpLines" : [
+    "Enjoy my personal sauna friend!",
+	"Surely you won't mind if I pleasure myself while your in there?",
+	"Have yourself a nice little cum bath. It will help ease your injuries.",
+	"Scrrrr... Now this is more like it! All good in there?",
+	"Safe travels in my balls buddy!"
+  ],
+  "chatIdleFull" : [
+    "Maybe annother time, Im a little busy right now as you can see.",
+	"You mind comming back later, I have someone else I need to attend to.",
+	"Sorry, My personal sauna is occupied right now. Come back later.",
+	"Hey! My eyes are up here!"
+
+  ],
+  "chatIdleEmpty" : [
+    "If your hurt, I can help mend your wounds if needed. Though it may get a bit sticky.",
+    "Hey there, Anything I can help you with.",
+	"I know a great place for you to rest if your interested.",
+	"All that spacefaring must be tiring, How about you stay with me for a bit?",
+	"Care to spend the night in my personal sauna? Just slide into my shaft and I'll do the rest."
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Oh stop it you!",
+	"I could get used to this."
+  ]
+}

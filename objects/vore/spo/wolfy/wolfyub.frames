@@ -1,0 +1,65 @@
+{
+	"frameGrid" : {
+		"size" : [46, 40],
+		"dimensions" : [11, 3],
+		"names" : [
+			[ "e.1", "e.2", "e.3", "e.4", "e.5", "e.6", "e.7", "e.8", "e.9", "e.10", "e.11" ],
+			[ "e.12", "e.13", "e.14", "e.15", "e.16", "e.17", "e.18", "e.19", "e.20", "e.21", "e.22" ],
+			[ "e.23", "e.24", "e.25", "e.26", "e.27", "e.28", "e.29", "e.30", "e.31", "e.32", "e.33" ]
+		]
+	},
+	"aliases" : {
+		"empty.1": "e.1",
+		"empty": "e.1",
+
+		"idle.1": "e.1",
+		"idle": "e.1",
+
+		"silhouette": "e.1",
+
+		"swallow.1": "e.2",
+		"swallow.2": "e.3",
+		"swallow.3": "e.4",
+		"swallow.4": "e.5",
+		"swallow.5": "e.6",
+		"swallow.6": "e.7",
+		"swallow.7": "e.8",
+		"swallow.8": "e.9",
+		"swallow.9": "e.10",
+		"swallow.10": "e.11",
+		"swallow.11": "e.12",
+		"swallow.12": "e.13",
+		"swallow.13": "e.14",
+		"swallow.14": "e.15",
+
+		"full.1": "e.16",
+		"full.2": "e.17",
+		"full.3": "e.18",
+		"full.4": "e.19",
+
+		"digest.1": "e.20",
+		"digest.2": "e.21",
+		"digest.3": "e.22",
+		"digest.4": "e.23",
+		"digest.5": "e.24",
+		"digest.6": "e.25",
+		"digest.7": "e.26",
+		"digest.8": "e.27",
+		"digest.9": "e.28",
+		"digest.10": "e.29",
+		"digest.11": "e.30",
+
+		"burp.1": "e.31",
+		"burp.2": "e.31",
+		"burp.3": "e.31",
+		"burp.4": "e.31",
+		"burp.5": "e.31",
+		"burp.6": "e.31",
+		"burp.7": "e.31",
+		"burp.8": "e.31",
+		"burp.9": "e.31",
+		"burp.10": "e.32",
+		"burp.11": "e.33",
+		"burp.12": "idle"
+	}
+}

@@ -1,0 +1,107 @@
+{
+  "objectName" : "palaraxcvdigest",
+  "rarity" : "common",
+  "description" : "A big, fat, soft dragon of the blue scaled variety. There seems to be a lot more to this dragon than what his girthy appearance would show for. Is Incredibly soft, inside and out though!",
+  "shortdescription" : "Palarax CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "palarax.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Oh my! Someone's eager~",
+	"Mmmmm~ You're gonna make a nice load~",
+	"Hehehe. You're gonna make my balls match this gut when you're done!",
+	"Reloading! Oh wait...",
+	"Who needs a GEP gun when you got a CUM gun?",
+	"Yes, that is a double-barreled shotgun for double the fun~",
+	"If you're lucky, you might even turn into a shaft of mine for a day!",
+	"Hmmmm~ You're doing a great job sloshing and squirming around in there~",
+	"Keep that up and you'll melt faster!",
+	"A few more and I think my boys are ready for another level up in girth~",
+	"You're gonna make such a mess once I'm done with you! Bring a towel.",
+	"Loading Cum-Blast-PELE! ... Honestly can't believe that's a thing... And if you really want to know; Yes I can fit 120mm and then some. Winks.",
+	"Ready for a science lesson? Today we're gonna learn about the states of matter and how you're gonna turn into all three! I'm not doing the hidden fourth with that though...",
+	"Oh boy! We gonna try a cumming for distance challenge? I've hit 420 feet before!"
+  ],
+  "gulpLines" : [
+    "Hm, you're getting used to this now, aren't you?",
+	"Slides in nice and easy~",
+	"I hope you were aiming for those cause my face is back this way.",
+	"Mind the big rocks!",
+	"That's a ballsy move Cotton, let's see how it pays off for him~",
+	"You're gonna fit quite nicely in here~",
+	"Get comfy, you're only leaving there as a white waterfall of steaming hot, dragon jizz!"
+  ],
+  "chatIdleFull" : [
+    "You're awfully close for someone in cum range.",
+	"I hope you know what you're getting yourself into. I got two balls to fill and one's not gonna fill them both.",
+	"I take it you want to join them? Normally I would, but they wanted privacy.",
+	"Give me a few more minutes and I'll be ready for another load."
+  ],
+  "chatIdleEmpty" : [
+    "Wanna see how long you last in a dragon's sauna? I find the wide variety of times interesting~",
+	"Yeah, they're that big and sloshy even when running low~",
+	"You look like you'd add a good amount of heft to my orbs~",
+	"Come closer. Why not come and ponder these orbs~?",
+	"I see you staring. See something you like~?"
+  ],
+  "rubLines" : [
+    "Oh wow... That feels good~",
+	"Please, keep that up~ That feels nice~",
+    "Don't worry, I'll save space for you next~",
+    "Feel them getting softer~? They make nice ball girth don't they~?",
+    "A surprise to be sure, but a welcome one~"
+  ]
+}

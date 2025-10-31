@@ -1,0 +1,95 @@
+{
+  "objectName" : "lekradigest",
+  "rarity" : "common",
+  "description" : "People complain Dracthyrs are too slim. Now you can actually \"fix\" it!",
+  "shortdescription" : "Lekra - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lekra.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Still solid in there?",
+	"I have no idea what the last prey left in there. And you'll make it worse~",
+	"Hope you're more filling than the last meal!",
+	"Come on now, I've got things to do~",
+	"Wanna stay longer after I'm done with you? I could arrange that~"
+],
+  "gulpLines" : [
+	"Down the hatch, for the one-way trip of your life!",
+	"Glrk!.. Aaaaah~",
+	"One more added to the counter~",
+	"Hope you don't take as long to process."
+],
+  "chatIdleFull" : [
+	"You're lucky I'm already occupied!",
+	"Some prey asked to be part of me. I wonder where they are now~",
+	"Are you betting on me being hungry or not, right after I'm done?",
+	"You're next."
+],
+  "chatIdleEmpty" : [
+	"No trespassing.",
+	"I dare you to come close!",
+	"*growl*- Sorry for the noise! The last squirming piece of food was feisty.",
+	"*rub* Hrrm, I could go for another bite~",
+	"Gosh I'm starving... Oh? hi! You just arrived at the perfect time!",
+	"We sometimes replace the live fish with other preys in our Churnbelly Tea~"
+],
+  "rubLines" : [
+	"Hrm! makes me think you're jealous~",
+	"I wonder why you're helping me process that morsel faster~",
+	"Ooh- I'm not used to receiving stuff from my future meal <3",
+	"Hope you're as good squirming as you are rubbing <3"
+]
+}

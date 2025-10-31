@@ -1,0 +1,121 @@
+{
+  "objectName" : "ankiedigest",
+  "rarity" : "common",
+  "description" : "A cute fox with a metallic arm and a big appetite",
+  "shortdescription" : "Ankie - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "ankie.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "How you doing down there toothpaste player~",
+	"Mmmmmmm you feel so good down there~",
+	"Never underestimate someone ever again especially me because they may surprise you like put you into these belly of mine hehe~",
+	"Hey hey you better not be bad down there otherwise I may have to do something drastic.",
+	"You like being in there don't you~~~",
+	"Welcome to the most comfy belly in the universe~",
+	"Pokes the huge belly* oh wow it is bigger than I thought when I put you in thank you for that. Ig –w-",
+	"There will be no escape from me dummy",
+	"*purr*",
+	"*pokes the huge belly* *slosh* *slosh *slosh* mmmmmmm never gonna get used to you being in there~",
+	"This is one of the best places here, gonna make me round uwu"
+  ],
+  "gulpLines" : [
+    "Get in me lol",
+	"Hey, hey no struggling. Ratio plus vore",
+	"You're about to be put into your place where you deserve you dirty fourth wall peeps~",
+	"I hope you enjoy the trip into these comfy pudge of mine self",
+	"Let this wonderful experience with me be a secret between us",
+	"Alright I had enough of you time for you to get down in there~",
+	"You are going to make me feel pretty good once you get down there boio",
+	"I'm thinking about keeping in there forever although that would be no fun you prey",
+	"Good luck getting out once you are in because when you get in that belly you're going to think it is the comfiest thing ever",
+	"Oohhh you going down feels really good you silly snack~",
+	"Ugh, fine. Guess you are my little vore champ",
+	"Now that is pog magic, have a good pudgeing",
+	"My belly is kinda magic. It can make you dream vividly ^w^"
+  ],
+  "chatIdleFull" : [
+    "Uhhh this awkward I was NOT expecting you to come back so soon",
+	"You want to watch~",
+	"Ya like jazz?",
+	"How was your adventure? Also as you can see I am taking care of something~",
+	"You like staring don't you well I would be the same consider the size of this thing~~~",
+	"-w- well currently I am full with something or someone right now come back at whenever this is not full *digestion noise*",
+	"Hi how is my favourite snack going? Sorry you can't be in here right now but I hope you come back when I am not a fat bean lol",
+	"Rub my huge sloshing belly pwease"
+  ],
+  "chatIdleEmpty" : [
+    "Am hungry lol",
+	"You like what you see *winks*",
+	"Heyo, can ya move? Need to go there to eat. Unless you wanna help me with this uwu",
+	"Ooooohhhhh you really are something else you want to go in there don't you~~~",
+	"Get your cute ass over here. I see you getting all flustered over there~~~",
+	"Oh I see you are a little perv well I don't mind you staring~",
+	"Come here cute stuff, let me help you Bender style",
+	"Come get your butt in this belly for free today~"
+  ],
+  "rubLines" : [
+    "why did do that, that felt really good",
+    "Mmmmmmmmmmmmmmmmmm~~~ keep rubbing",
+    "Oh yes please rub me more parental figure",
+    "You are helping me digest whatever is inside this belly of mine thank you ^w^",
+	"You are next cutie",
+	"*Moans*",
+	"You are the best rubber ever for this stuff with my belly",
+	"Keep rubbing mmmmmmmm"
+	]
+}

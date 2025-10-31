@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "rayezplush", "count" : 1 },
+    { "item" : "banana", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "explodingrayez",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bestestboydigest", "count" : 1 },
+    { "item" : "Selicia", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "notseliciaov",
+    "count" : 1
+  },
+  "groups" : [ "bellyBoundStore", "all", "male", "oral", "safe", "still" ]
+}

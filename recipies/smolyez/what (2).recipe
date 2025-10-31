@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bestestboycvdigest", "count" : 1 },
+    { "item" : "Selicia", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "notseliciacv",
+    "count" : 1
+  },
+  "groups" : [ "bellyBoundStore", "all", "male", "oral", "safe", "still" ]
+}

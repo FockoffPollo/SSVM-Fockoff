@@ -1,0 +1,113 @@
+{
+  "objectName" : "lunafrendigest",
+  "rarity" : "common",
+  "description" : "Her heart may be taken but her stomach is always a good place to give yourself to her forever.",
+  "shortdescription" : "Luna & Fen - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lunafren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lunafren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lunafren.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, gosh, that hit the spot!",
+	"Oh, you wanna get digested? Hehe Don't mind if I do.",
+	"Thank you for your tasty sacrifice, shame I can only eat you once. Hehe.",
+	"Yes, yes digest for me. Become a part of me!",
+	"You feel less and less solid in there. Only a matter of time until you're mush.",
+	"*Rubs belly to help with digestion*",
+	"Mmmh, such a great meal you were. I wonder if I'll find others quite as willing as you were.",
+	"Really considerate to feed yourself to Fen here too. I think he likes your taste.",
+	"Once you're all digested, I bet you will make others jealous.",
+	"Go ahead and enjoy what little time you have left. You've got to do it only once after all~",
+	"How does it feel that your life and all those years led you right to my stomach? Amazing, right?~",
+	"Hehe. All mine. Forever mine, mine, mine!~",
+	"I hope I can fish out a nice remainder of your past self, once I'm done with you.",
+	"I wish I could say I will remember you.. But food is just food~"
+  ],
+  "gulpLines" : [
+    "*GULP* Oogh, so eager!",
+	"*GULP* Ahhhhh~",
+	"*GULP* Ahh, you were absolutely delicious",
+	"*GULP* Hehe, willing meals are always my favorite. They always massage my walls while they digest~",
+	"Time to hide you away.. *GULP* aah, forever~",
+	"*GULP* Gosh, you were so good~ I can still taste your eagerness on my tongue~",
+	"*GULP* A taste on my lips, forever on my hips. As prey you were the best, now go ahead and digest~"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! Have we met before?",
+	"I usually get a little more privacy... but please do continue~ It's where cuties like you end up~",
+	"Don't tell me you want to get eaten, too. Hehe, sure. Just give me some hours~",
+	"Was this someone that you knew? Well I can make sure that you both have a reuniting later~",
+	"I'm sorry honey, but this room is currently occupied~"
+  ],
+  "chatIdleEmpty" : [
+    "Well, hello there tasty looking~",
+	"Nice place you got here. Do you like to see the one I prepared for you?~",
+	"We both know where you belong. Aaaah~",
+	"Look, I ain't gonna complain if you just feed yourself to me cutie.",
+	"Hmm, I just had some cereal. But I think my stomach is craving for something with more meat~",
+	"Say, have you met Kazali yet?",
+	"Oh my, I sure could go for something to eat. Do you mind if I eat you?",
+	"Hey, wanna get digested? I've yet to hear any complains from previous occupants hehe~"
+  ],
+  "rubLines" : [
+    "You're gonna melt 'em quicker if you keep this up. Unless you want to be next?",
+	"You are such a sweetheart, you know that?",
+    "Oh yes, please continue. It feels so good~",
+    "If you keep that up, I promis you, I shall take you next~",
+    "Imagine rubbing from the inside, while you digest, and become one with me~",
+    "^////^ <3 Please keep going cutie~"
+  ]
+}

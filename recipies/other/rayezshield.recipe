@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "bestestboy", "count" : 1 },
+    { "item" : "solariumstar", "count" : 69 }
+  ],
+  "output" : {
+    "item" : "rayezshield",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

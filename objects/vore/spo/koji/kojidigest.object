@@ -1,0 +1,90 @@
+{
+  "objectName" : "kojidigest",
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "Koji - Digestion",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "koji.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "koji.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "koji.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Hah, looks like I still got it~",
+	"This...is quite comfy!",
+	"Yeaaaah this is gonna take a while, not that I mind!",
+	"Settled in nicely in there~",
+	" *Belch!*"
+],
+  "gulpLines" : [
+	"Om nomf...",
+	"Tasty friend...",
+	"*Slurrrrp...*"
+],
+  "chatIdleFull" : [
+	"Heya! Currently busy with your friend, sorry!",
+	"You can rub if you want~",
+	"Just sit by and I'll get to you real soon."
+],
+  "chatIdleEmpty" : [
+	"Hey! Wanna be lunch?",
+	"Oh I could most definitely go for a snack right about now...",
+	"Are you as delicious as you look?"
+],
+  "rubLines" : [
+	"Work your hands in there~",
+	"Getting my gut all noisy...",
+	"Gooood work..."
+]
+}

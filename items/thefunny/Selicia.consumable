@@ -1,0 +1,40 @@
+{
+  "itemName" : "Selicia",
+  "rarity" : "Legendary",
+  "price" : 1200,
+  "category" : "snack",
+  "inventoryIcon" : "Selicia.png",
+  "description" : "The greatest snack for dragons! And pretty much everyone else.",
+  "shortdescription" : "Selicia",
+  "effects" : [ [
+    {
+        "effect" : "redstim",
+        "duration" : 10
+    },
+    {
+        "effect" : "regeneration4",
+        "duration" : 10
+    },
+    {
+        "effect" : "regeneration3",
+        "duration" : 10
+    },
+    {
+        "effect" : "regeneration2",
+        "duration" : 10
+    },
+    {
+        "effect" : "regeneration1",
+        "duration" : 10
+    }
+  ] ],
+  "foodValue" : 6969,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 99.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

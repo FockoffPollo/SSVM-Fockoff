@@ -1,0 +1,61 @@
+{
+  "itemName" : "pipis",
+  "rarity" : "Legendary",
+  "price" : 1997,
+  "category" : "drink",
+  "inventoryIcon" : "pipis.png",
+  "description" : "An invasive species of freshwater clam.",
+  "shortdescription" : "Pipis",
+  "effects" : [ [
+    {
+        "effect" : "l6doomed",
+        "duration" : 30
+    },
+    {
+        "effect" : "burning",
+        "duration" : 30
+    },
+    {
+        "effect" : "electrified",
+        "duration" : 30
+    },
+    {
+        "effect" : "erchiussickness",
+        "duration" : 30
+    },
+    {
+        "effect" : "foodpoison",
+        "duration" : 30
+    },
+    {
+        "effect" : "melting",
+        "duration" : 30
+    },
+    {
+        "effect" : "paralysis",
+        "duration" : 30
+    },
+    {
+        "effect" : "nude",
+        "duration" : 30
+    },
+    {
+        "effect" : "partytime",
+        "duration" : 30
+    },
+    {
+        "effect" : "bouncy",
+        "duration" : 30
+    }
+  ] ],
+  "foodValue" : 1997,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1997.0,
+  "blockingEffects" : [
+    "wellfed"
+  ],
+  "emitters" : [ "drinking" ]
+}

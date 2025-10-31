@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "aidolinaltdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "He's usually protrayed as a human but I don't vibe with human preds. So have a hungry wolf instead.",
+  "shortdescription"  :  "Fake Aidolin - Digest",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "aidolinalt.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-40, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "aidolinalt.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "aidolinalt.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "aidolinalt.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/aidolinaltov/aidolinaltdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "gulpLines" : [
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "chatIdleFull" : [
+	"",
+	"",
+	"",
+	""
+],
+  "chatIdleEmpty" : [
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "rubLines" : [
+	"",
+	"",
+	"",
+	"",
+	""
+]
+}

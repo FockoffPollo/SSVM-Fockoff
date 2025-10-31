@@ -1,0 +1,102 @@
+{
+  "objectName" : "asolcvdigest",
+  "rarity" : "common",
+  "description" : "Remember what happened to Ankie? Well your guess what? Your next!",
+  "shortdescription" : "Asol CV - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "asol.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Keep squirming~ Be sure to make this interesting...",
+	"Now we're playing with star fire!",
+	"Adding to the milky road",
+	"Melt...",
+	"What is the definition of underwhelming? Oh, right! You.",
+	"Adding to my matter is the best thing you'll achieve~",
+	"Your survival is not impossible, only very... very... very unlikely.",
+	"I shall be the last thing you see. Lucky you."
+],
+  "gulpLines" : [
+	"Dragon's cock it is.",
+	"Though unconventional, I quite enjoy this method~",
+	"Impending doom - exciting, isn't it?",
+	"You will know your place.",
+	"Live through this, and we'll chat."
+],
+  "chatIdleFull" : [
+	"Want to help me digest them?",
+	"My, how they stare.",
+	"If you want in that badly, I could just digest them instantly for you~",
+	"Time to give them a show."
+
+],
+  "chatIdleEmpty" : [
+	"My, you're looking rather tasty today~",
+	"Want to add to my next play session?",
+	"Leaving a space dragon hungry is really dangerous...",
+	"Want to know how it feels to be a star dragon's spunk?",
+	"You, in my balls, now.",
+	"Feeling... Ballsy? *Heh*"
+],
+  "rubLines" : [
+	"Don't stop, you're mine now...",
+	"These worshipers are getting better and better.",
+	"The moment he disolves, you're going in, you know that?",
+	"A little play before the main act~",
+	"You could rub my insides too~ Can't assure you'll be left solid though~"
+]
+}

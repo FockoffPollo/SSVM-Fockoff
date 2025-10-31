@@ -1,0 +1,90 @@
+{
+  "objectName" : "wintercvsafe",
+  "rarity" : "common",
+  "description" : "A pretty *Cool* guy! Now with extra funny bits.",
+  "shortdescription" : "Winter CV - Safe",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "winter.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Just dont mind a Pool of dragon seed",
+	"Lets hope your out before I find a mate..",
+	"Enjoying it in there? ",
+	"You know if you stay in there too long I might just have to find a better way to keep you there~"
+],
+  "gulpLines" : [
+	"And down you go~",
+	"Feeling like spending the night~?",
+	"Why not take a long sleep"
+],
+  "chatIdleFull" : [
+	"Hmm.. Wait a minuet.. Who put me in a Video game!",
+	"Ooo I just  found a rare Coin.. No you cant have it, Its mine!",
+	"Pssst hey.. come here",
+	"You got KFC on you?"
+],
+  "chatIdleEmpty" : [
+	"Hm? No I haven't seen them.. No they Aint in my ball.. Stop asking Weird Questions!",
+	"It's mating season and you know what that means Dont ya~",
+	"A little full at this moment but I will be free very soon"
+],
+  "rubLines" : [
+	"If you keep rubbing you will be next~",
+	"If your going to rub its best to be either between the legs, or in the balls",
+	"Sometimes it's weird how you lot always attacted to Dragon balls.. not like they make wishes"
+]
+}

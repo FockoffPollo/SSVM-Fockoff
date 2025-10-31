@@ -1,0 +1,10 @@
+{
+	"input" : [
+		{ "item" : "money", "count" : 20 }
+	],
+	"output" : {
+		"item" : "koraidoncv",
+		"count" : 1
+	},
+	"groups" : [ "bellyBoundStore", "all", "male", "cock", "safe", "animated" ]
+}

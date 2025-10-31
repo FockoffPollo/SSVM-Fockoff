@@ -1,0 +1,24 @@
+{
+  "objectName" : "aidolinplush",
+  "colonyTags" : ["rayez"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "A plush replica of the most *wholsome* edgelord you'll ever meet!",
+  "shortdescription" : "Aidolin Plush",
+  "race" : "rayez",
+
+
+  "inventoryIcon" : "aidolinplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "aidolinplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

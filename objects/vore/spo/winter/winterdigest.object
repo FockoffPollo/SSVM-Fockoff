@@ -1,0 +1,89 @@
+{
+  "objectName" : "winterdigest",
+  "rarity" : "common",
+  "description" : "A pretty *Cool* guy!",
+  "shortdescription" : "winter - Digestion",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "winter.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "winter.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Hope you are Comfortable cause you're going to be in there awhile.",
+	"Dont Mind the acids.",
+	"You're feeling quite soft already.",
+	"You know if you get digested its your own fault right?",
+	"So how long you think you can survive in there?"
+],
+  "gulpLines" : [
+	"You taste a bit like Chicken did you know that?",
+	"Mff Yo.. hath goof.",
+	"Don't lean in too far else.. *Gulp* Oops"
+],
+  "chatIdleFull" : [
+	"I could do for some Food right now.",
+	"Oh is that KFC I can see, no just some lving chickens",
+	"The next person to Sign Let it snow Im bringing in a Blizzard!",
+	"Hey You.. I know what you did.. I wont tell if you let me eat you."
+],
+  "chatIdleEmpty" : [
+	"Dont mind me Just a dragon enjoying their Lunch.",
+	"Hey could you stick around till im done? I could do for seconds."
+],
+  "rubLines" : [
+	"Ooo that feels lovely, want to rub from within?",
+	"Oh yeah that feels good be sure too rub deep~"
+]
+}

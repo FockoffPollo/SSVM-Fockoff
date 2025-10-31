@@ -1,0 +1,91 @@
+{
+  "objectName" : "feralmitryllsafe",
+  "rarity" : "common",
+  "description" : "The greatest hammock you'll ever sleep in!",
+  "shortdescription" : "Feral Mitryll - Safe",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "Mitryll.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "Mitryll.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "Mitryll.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Enjoy your 'hammock' *chucklesnort*",
+	"Do wriggle around for me, it's more fun that way.",
+	"I'm not spitting you out unless you work your way out.",
+	"*Bwourrrph...*",
+	"Sooo...you come by often?" ,
+	"Do make another visit, aye~?"
+  ],
+  "gulpLines" : [
+    "*NOMF*",
+	"Well if you're just gonna stand there n' look all tasty...",
+	"Go down niiiice and easy~"
+  ],
+  "chatIdleFull" : [
+	"*URRP...* Please wait your turn, yeah?",
+	"I meaaan...I'm sure they wouldn't mind getting rubbed in there~",
+	"Stick around for a bit, I'm always up for seconds."
+  ],
+  "chatIdleEmpty" : [
+    "Hey. Pssst, c'mere.",
+	"*Idle belly grumblings*",
+	"Well don't you look utterly delicious~"
+  ],
+  "rubLines" : [
+	"Oooooh yeah that's the good stuff~",
+    "Keheheh, gonna tire 'em out for me?",
+    "*Purrrrrr*"
+  ]
+}

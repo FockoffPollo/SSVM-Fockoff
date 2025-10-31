@@ -1,0 +1,109 @@
+{
+  "objectName" : "kaisafe",
+  "rarity" : "common",
+  "description" : "A silly dragon who can't decide on their sona. Give them some love!",
+  "shortdescription" : "Kai",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "kai.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "kai.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "kai.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "No somos extraños al amor.",
+	"Tú conoces las reglas y yo también!",
+	"Un compromiso completo es lo que estoy pensando...",
+	"No obtendrías esto de ningún otro tipo.",
+	"Sólo quiero decirte cómo me siento!",
+	"Tengo que hacerte entender.",
+	"Nunca va a dar.",
+	"Nunca te voy a decepcionar!",
+	"Nunca voy a correr y abandonarte.",
+	"Nunca te haré llorar..."
+  ],
+  "gulpLines" : [
+    "Nunca voy a decir adiós!",
+	"Nunca voy a decir una mentira y lastimarte!",
+	"Nos conocemos desde hace tanto tiempo!",
+	"Le ha dolido el corazón, pero es demasiado tímido para decirlo!"
+  ],
+  "chatIdleFull" : [
+    "Dentro, los dos sabemos lo que ha estado pasando!",
+	"Conocemos el juego y lo vamos a jugar!",
+	"Y si me preguntas cómo me siento.",
+	"No me digas que eres demasiado ciego para ver~"
+  ],
+  "chatIdleEmpty" : [
+	"Nunca va a dar.",
+	"Nunca te voy a decepcionar!",
+	"Nunca voy a correr y abandonarte.",
+	"Nunca te haré llorar...",
+    "Nunca voy a decir adiós!",
+	"Nunca voy a decir una mentira y lastimarte!",
+	"Nos conocemos desde hace tanto tiempo!",
+	"Le ha dolido el corazón, pero es demasiado tímido para decirlo!",
+	"Dentro, los dos sabemos lo que ha estado pasando?",
+	"Conocemos el juego y lo vamos a jugar?",
+	"Sólo quiero decirte cómo me siento.",
+	"Tengo que hacerte entender."
+  ],
+  "rubLines" : [
+    "Nunca va a dar.",
+	"Nunca te voy a decepcionar!",
+	"Nunca voy a correr y abandonarte.",
+	"Nunca te haré llorar...",
+    "Nunca voy a decir adiós!",
+	"Nunca voy a decir una mentira y lastimarte!"
+  ]
+}

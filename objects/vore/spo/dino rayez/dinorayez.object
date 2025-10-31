@@ -1,0 +1,87 @@
+{
+	"objectName": "dinorayez",
+	"vore": {
+		"fatal": false,
+		"dirty": false,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "The finest source of jurrassic comfort I can offer.",
+	"shortdescription": "Dino Rayez - Endo",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "dinorayezicon.png",
+	"orientations": [
+		{
+			"image": "dinorayez.png:silhouette",
+			"imagePosition": [-85, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "dinorayez.png:silhouette",
+			"imagePosition": [-85, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/dino rayez/dinorayez.lua" ],
+	"animation": "dinorayez.animation",
+	"animationPosition": [0, 50],
+		
+	"chatOptions" : [
+		"This was my favourite scene in Jurrassic Park!",
+		"Comfortable enough for you?",
+		"Behold! Reverse diegestion!",
+		"I wonder if any of my friends would like to join you?",
+		":)"
+	],
+  "gulpLines" : [
+    "Enjoy your stay buddy.",
+	"Mind the teeth. they're quite sharp!",
+	"Take it easy, Think of it like a nice big hug around your whole body!",
+	"Safest place in the galaxy, No one will be able to harm you here!",
+	"Welcome to the Rayez healing clinic, Please keep you hands and feet inside the dragon."
+  ],
+  "chatIdleFull" : [
+    "Maybe annother time, Im a little busy right now as you can see.",
+	"You mind comming back later, I have someone else I need to attend to.",
+	"Sorry, Hotel Rayez is closed for today. Come back later.",
+	"Hey there, *URP* oh excuse me."
+
+  ],
+  "chatIdleEmpty" : [
+    "If your hurt, I can help mend your wounds if needed.",
+    "Hey there, Anything I can help you with.",
+	"I know a great place for you to rest if your interested.",
+	"All that spacefaring must be tiring, How about you stay with me for a bit?",
+	"Ever tried sleeping in a dragons gut? Its more pleasant than you think.",
+	"I will aid you on your journey. By sitting around and doing absolutely nothing!"
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Maybe later you can rub my insides if you want.",
+	"I could get used to this."
+  ]
+}

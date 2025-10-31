@@ -1,0 +1,114 @@
+{
+  "objectName" : "viridiansafe",
+  "rarity" : "common",
+  "description" : "A strange, large, fluffy husky with an even bigger appetite. Looks like he gives good hugs on the inside and out! He seems to be... carbonated?",
+  "shortdescription" : "Viridian - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "viridian.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Mmnrn~ I do hope you're enjoying your stay~",
+	"Keep rubbing like that and I might not let you leave...~",
+	"Ooooh... You feel wonderful in there...~",
+	"Next time you come around, bring some friends too, won't you?~",
+	"I hope you don't mind the noise...",
+	"Mnrnf... so very full... you're a wonderful meal~",
+	"Get comfy in there now~",
+	"Would it be rude to ask for seconds?"
+],
+  "gulpLines" : [
+	"Take as much time to rest as you need~",
+	"Let me know when you want back out, hon~",
+	"I'll keep you nice and safe, I promise.",
+	"Tell me if anything happens, okay?",
+	"Ahhh~ Such a delightful taste...~",
+	"I hope you're filling enough for me...",
+	"Mnnf, I always love the weight of food in my guts~",
+	"Tell me if it's too tight~",
+	"Welcome to the Husky Hotel~"
+],
+  "chatIdleFull" : [
+	"My belly is a bit booked right now, but if you ask nicely I might be able to squeeze you in!",
+	"I've already got someone in here, but I'd be happy to have you after they're done.",
+	"I'm occupied at the moment, however, you're welcome to rub!",
+	"I can't let you into my tum for now, but how about a hug?",
+	"I'm too full for another meal, come back later!",
+	"I'm a bit stuffed right now... maybe after their turn?",
+	"Sorry, the hotel's booked! I'll call you if I have any room.",
+	"So full... could use some belly rubs..."
+],
+  "chatIdleEmpty" : [
+	"Howdy! Need a break from it all?",
+	"I'm here if you need a hug, or more.",
+	"You look a little sad, why not rest inside my tum? I've got snacks!",
+	"My maw is always open, if you ever need a bed to sleep in.",
+	"I'm hungry... you wanna volunteer?~",
+	"You look tasty, wanna take a trip down my gullet?",
+	"I'll make you a deal, you rub from the inside, I rub from the outside.",
+	"You'd look great as a bulge on my gut!"
+],
+  "rubLines" : [
+	"Oohh~ Can you feel their squirms?~",
+	"Hopefully I can squeeze you in after...~",
+	"Can't tell what feels better... the rubs out here, or the rubs in there...~",
+	"You're both so wonderful... thank you for the attention...",
+	"Careful not to push too hard, now...~",
+	"Keep rubbing...~",
+	"Ahh~ That feels heavenly...~",
+	"Mmnrn...",
+	"Hhaah...~"
+]
+}

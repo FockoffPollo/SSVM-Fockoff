@@ -1,0 +1,89 @@
+{
+  "objectName" : "xoariasafe",
+  "rarity" : "common",
+  "description" : "A nogitsune who's undergone some sudden growth, and a possessive grip.",
+  "shortdescription" : "Xoari - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "xoaria.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "xoaria.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "xoaria.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Gnnnn, always feels good having someone up there.~",
+	"Don't get too lost now.~",
+	"F... Watch where you are pressing!",
+	"Feel free to stay the night, or longer if I forget.~",
+	"Schllrk~",
+	"Further and further from the outside world.~",
+	"Gonna get tighter in there.~",
+	"You should feel special, rare anyone gets to enjoy this.~"
+],
+  "gulpLines" : [
+	"Always feels so nice tucking folk away.~",
+	"Do enjoy your stay.~",
+	"Don't forget to squirm back there.~"
+],
+  "chatIdleFull" : [
+	"I see you looking, wait til I'm done and you can slip in next.~",
+	"Patience, only one at a time in this sune.~"
+],
+  "chatIdleEmpty" : [
+	"Feeling like seeing how deep the ole foxhole goes?~",
+	"Could really use something squirmy back there, y'know?~"
+],
+  "rubLines" : [
+	"Rrrrrhhhh, pleasure from both ends, delightful.~",
+	"If you lean in, you can hear em squelching down there.~"
+]
+}

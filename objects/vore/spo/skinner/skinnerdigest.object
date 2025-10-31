@@ -1,0 +1,114 @@
+{
+  "objectName" : "skinnerdigest",
+  "rarity" : "common",
+  "description" : "A Smug Imp, A royal one to boot, looks hungry! (Digestion)",
+  "shortdescription" : "Skinner - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "skinner.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "skinner.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "skinner.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, oh dear, excuse me!",
+	"Willing AND you wanna get digested? You are quite somethin' special.",
+	"Come back when you reform, so we can do this again!",
+	"I think I can feel you gettin softer",
+	"Are ya still solid in there?",
+	"*Huff*",
+	"*Imp Noises*",
+	"You're gonna make me so fat, how dare you~",
+	"Sheesh, turning into soup already? So much for savoring this!",
+	"Oh, time for you to add to royalty~",
+	"How's it feel being at the bottom of the food-chain? Pretty good, right?",
+	"Hah! You better hope my Suit does not rip!",
+	"I hope you leave me a souvenir or two..."
+  ],
+  "gulpLines" : [
+    "Oh oh! Can not resist this royal gut!",
+	"*GULP*, Ahhhhh~~",
+	"Ahh, you were absolutely delicious",
+	"Willing meals are my favorite...",
+	"ACK- Fine, Dive on in! Was feeling peckish anyway!",
+	"Damn, you tasted good...",
+	"You don't mind getting digested? Good~"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! I'm a little busy right now.",
+	"I usually prefer a little privacy... but I suppose you can watch.",
+	"Did you know em? Hope not, they are gonna be nothin but soup soon...!",
+	"Don't mind me, just digesting your friend here.",
+	"Keep staring and you'll be  next!"
+  ],
+  "chatIdleEmpty" : [
+    "Well, hi!",
+	"Hey, nice place you got here.",
+	"*Imp Noises*",
+	"*WEH*",
+	"You hear that, its my gut, its eager to get to know you.",
+	"Look, I ain't gonna complain if you just dive right in my mouth.",
+	"Well, what is it?",
+	"Look, If you are gonna just stand around, than why not just get in!",
+	"I am starving, you should help fix that!",
+	"Hey, Wanna roll some dice, if I win, you get to add to my figure, if you lose, uh, you can still add to it...!"
+  ],
+  "rubLines" : [
+    "They're gonna melt quicker if you keep this up...",
+	"You spoil me.",
+    "Oh keep rubbing, I think its making my gut more active!",
+    "Gonna keep on pushing and rubbing, despite them becoming my pudge, dedication~",
+    "Hey! Keep that up, wanna enjoy it as much as I can till they melt!",
+    "*Glorp!* Oh!"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"         : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette"    : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"          : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"       : { "frames": 14, "cycle": 3.00, "mode": "end" },
+					"release"	    : { "frames": 14, "cycle": 1.50, "mode": "end" },
+					"full"          : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"safeburp"      : { "frames": 13, "cycle": 2.00, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"         : { "properties": { "image": "miraidon.png:empty.<frame>"           } },
+						"silhouette"    : { "properties": { "image": "miraidon.png:silhouette.<frame>"      } },
+						"idle"          : { "properties": { "image": "miraidon.png:idle.<frame>"            } },
+						"swallow"       : { "properties": { "image": "miraidon.png:swallow.<frame>"         } },
+						"release"	    : { "properties": { "image": "miraidon.png:release.<frame>"         } },
+						"full"          : { "properties": { "image": "miraidon.png:full.<frame>"            } },
+						"safeburp"      : { "properties": { "image": "miraidon.png:safeburp.<frame>"        } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/swallow/swallow (15).ogg" ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"burp"         : ["/sfx/vore/spinj/burp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

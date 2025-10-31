@@ -1,0 +1,102 @@
+{
+  "objectName" : "notdogfrontsafe",
+  "rarity" : "common",
+  "description" : "A lonely Interdimensional being looking for a friend.",
+  "shortdescription" : "Jaraed - Endo",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/vore/spo/wormfront/wormfull.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "wormicon.png",
+  "orientations" : [
+    {
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/vorechatscript.lua" ],
+  
+  "animation" : "wormanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "worm.png"
+  },
+  "animationPosition" : [-16, 0],
+  
+  "chatOptions" : [
+    "Be sure to rate five stars, Or else...",
+	"Healing? I learnt it from a friend of mine. I'm sure you're already well aquainted with him.",
+	"Comfortable enough for you? If not, You can always try the back end.",
+	"I could go for seconds. You wouldn't happen to have any friends willing to join you?",
+	"Feel free to take a nap in there friend. I'ts not like I'm going anywhere!",
+	"Know any good books to read by any chance? Just kidding! Interdimensional worms dont read!",
+	"Hey! You want a cool sword? Type */spawnitem Galiablade* into the chat.",
+	"https://youtu.be/MKKOzFwtc9Q",
+	"Did you know that worms have five hearts? Well... The more you know.",
+	"Can I have a pancake? no? Awww..."
+  ],
+  "gulpLines" : [
+    "Get comfy in there. Your going to be in there for a long time. Just don't press the space key yeah?",
+	"Eager to rest with me I see.",
+	"Ahhh. I see you have good *taste* in beds friend.",
+	"Who needs a crappy space ship when you have me!"
+  ],
+  "chatIdleFull" : [
+    "Hmmm? You want in too? You can always check the back end.",
+	"No need to be concerned. Your friend will be fine.",
+	"Uhhh... Occupied?"
+  ],
+  "chatIdleEmpty" : [
+    "Greetings. My name is Jaraed. What!? Where you expecting some edgy pretentious name like *The consumer of deities*?",
+	"How about we just skip the foreplay. Yeah?",
+	"Hey there! Do you need me to heal you?",
+	"Hello I require your finest dessert. And when I mean dessert, I mean you.",
+	"Ahh... You must be Rayez's friend yes?",
+	"Good thing I dont have any arms. My creator hates drawing those.",
+	"You want a cozy bed to spend the night in buddy?",
+	"Pssst press the interact button for somthing cool to happen."
+  ],
+  "rubLines" : [
+    "Hey! Person on the inside! Can you start rubbing too? Please?",
+    "Is this... Affection? Perfection...",
+    "Mmmmm Yesssss! More pets for the big worm!",
+    "*Happy worm sounds*"
+  ]
+}

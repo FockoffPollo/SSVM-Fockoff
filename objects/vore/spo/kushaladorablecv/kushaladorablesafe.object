@@ -1,0 +1,113 @@
+{
+  "objectName" : "kushaladorablecvsafe",
+  "rarity" : "common",
+  "description" : "A large, red, scaled, and cocky Dragon that closely resembles the specimen Kushala Daora, sporting varying bodily augments. His hunger is surely a force to be reckoned with.",
+  "shortdescription" : "Dorante CV - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "kushaladorable.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"What a peculiar place to stay, but I don't mind~",
+	"You've got all the time in the world, keep squirming, though~",
+	"Easy now... you keep it up and I might be letting you out early~",
+	"Mayhaps you'd enjoy sharing those orbs with our director?~",
+	"I'd expect you to know your way around a sheath by now, Hunter.",
+	"For the renowned *Protector*, you don't make a half-bad sack stuffer...~",
+	"Mmrnn... you sure do work those walls good, don't you, Hunter?",
+	"You feel wonderful hanging heavy between my thighs~"
+],
+  "gulpLines" : [
+	"Hnf.. it makes sense that you'd want the lower camp..~",
+	"Your armor only serves to make my sack weigh heavy...~",
+	"Such a delightful treat, all for my shaft...~",
+	"Mrnf... were you made to do this?~ Feels like it, to me~",
+	"Hrnf... such a great feeling... having you squeeze down...~",
+	"With each throb, you sink deeper..~",
+	"I can't wait to feel you swaying in my orbs~",
+	"Take your time in there... I love a good squirmer~"
+],
+  "chatIdleFull" : [
+	"I've already got one Hunter warming up, you'll have to give me a moment.",
+	"You've gotta wait your turn, one of your pals has already claimed this Monster.",
+	"Oops, apologies Hunter, looks like one of the others has already tucked in~",
+	"Though I assure you, I'm full, you're welcome to rub~",
+	"Another Hunter come to claim my scales?~ Why don't you start rubbing instead?~",
+	"I've already got another sack-stuffer packed in there, wait your turn~",
+	"I'm afraid my private room is already booked, Hunter, come back soon~",
+	"I've already got one swaying about in those orbs, Sorry~"
+],
+  "chatIdleEmpty" : [
+	"Hey there, need a place to relax?~ I've got some space lower down..",
+	"I've got a nice, warm place for you to stay, Hunter~",
+	"You'd do good to take a break down below, don't you think?~",
+	"You look like just the pet I'd love to see in my sack, for an extended stay~",
+	"I've got room for you, Hunter, look a bit lower~",
+	"You, Yes you, right there. in my sack, right now~",
+	"Hunter...~ I've got a lust that needs to be taken care of~",
+	"Oh to see you squirming in my orbs...~ Mmrn..~"
+],
+  "rubLines" : [
+	"Seems like my sack is a hotspot, right now~ I don't mind~",
+	"At this rate, there'll be more monsters than hunters~",
+	"Mmrn... knead like that and I might not let you leave...~",
+	"With how good this feels, one might think you're trained to do this~",
+	"Easy on the rubbing, I might let them out early~",
+	"If you keep up the good work, I might just spare you a scale or two~",
+	"That feels absolutely heavenly, Hunter~",
+	"You are surely very skilled, at being a sack-slut, anyways~",
+	"You must have a lot of practice, doing this kind of thing~"
+]
+}

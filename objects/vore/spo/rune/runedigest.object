@@ -1,0 +1,163 @@
+{
+  "objectName" : "runedigest",
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "Rune - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "rune.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "rune.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "rune.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+"chatOptions" : [
+	"Hey! Cool it in there!",
+	"You're just making it more difficult on yourself",
+	"Stop resisting arrest",
+	"If someone see's you wiggling in there you're gonna be in much more trouble!",
+	"You're not getting out! calm down!",
+	"Yes, this is a perfectly LEGAL way of detaining someone.",
+	"You know I can barely hear you right?",
+	"I'll get around to processing your papers eventually...",
+	"You're still solid right?",
+	"You might need to make room for others. dont get too comfortable",
+	"Poke me every once and a while so I know you're still good",
+	"You're lucky I didnt use venom to make you stop moving so much...",
+	"Uncomfortable? awww.... GOOD!",
+	"Trust me, this method is far more efficient than handcuffs",
+	"Thats what they all say.",
+	"Protect and... the other thing.",
+	"No you were acting suspicious! Hunger has nothing to do with it",
+	"Only like... 10% of detainees get digested dont worry and stop whining",
+	"Dont digest got it?",
+	"It takes a very long time for snakes to digest. stop complaining!"
+	],
+
+"gulpLines" : [
+	"You're under arrest.",
+	"This is what you get for looking at me funny",
+	"That's it... you're my food!",
+	"Rune to command... yeah I got another one",
+	"You were aksing for this.",
+	"Dont resist",
+	"Get over here!",
+	"You have the right to remain silent blah blah blah...",
+	"This what you want?",
+	"I'm gonna enjoy this",
+	"You have the right to an attourney... whatever that is",
+	"Anything you say can and will be used against you... if they can hear you",
+	"Dont interfere with security personell!",
+	"Lunchbreak",
+	"Your survival instincts are horrible",
+	"How did you expect this to end up?",
+	"Do you normally get within striking distance of enormous snakes?",
+	"Natural selection",
+	"Darwin award winner right here!",
+	"Real talk, what were you thinking?"
+	],
+
+"chatIdleFull" : [
+	"You are incredibly stupid to get this close",
+	"Go away i'm busy",
+	"Buzz off",
+	"Official police work, beat it",
+	"Cant you see i'm a bit busy here?",
+	"Uh... this isnt what it looks like",
+	"No no that bulge is just a bigass sandwich I had earlier",
+	"What do you want?",
+	"No I dont want tummy rubs! what the hell is wrong with you?",
+	"You're going in next if you keep this up",
+	"You one of those weirdos who like this sort of thing?",
+	"Move along",
+	"Yeah I tend to block up a lot of hallways",
+	"No its just food. stop asking stupid questions."
+	],
+
+"chatIdleEmpty" : [
+	"What do you want?",
+	"My name is Rune, I dont care what your name is.",
+	"I dont care if someone stole your sweetroll.",
+	"I'm hungry, dont bug me",
+	"People arent gonna come looking for you right?",
+	"Move along",
+	"Keep moving",
+	"What?",
+	"Just so you know, i'm not under your laws jurisdiction",
+	"eyes forward buddy",
+	"Security applications go to Captain Delaware... Wherever he happens to be",
+	"Either give me food or go away",
+	"Dont make yourself look more suspicious than you already look.",
+	"Care to report a crime? or just stare?",
+	"I'm a sedonian... why do people keep getting this wrong!?",
+	"If you try a pickup line... i'm going to punch you",
+	"I am going to literally eat you if you keep talking",
+	"No I didnt eat the last security head... stop spreading that rumor.",
+	"I have the authority to arrest you you know.",
+	"This is not canon by the way",
+	"*glares*",
+	"Do i know you?",
+	"I'm not interested in what you're selling"
+	],
+
+"rubLines" : [
+	"Dont...",
+	"I will put you to the ground if you rub me again",
+	"Dont touch me. I dont know you",
+	"Okay you know this is a criminal in here right? What are you doing?",
+	"If this is a cultural thing i dont know about. I'd rather you break tradition.",
+	"Touch it... Get hit...",
+	"I know some of my species like this, but I dont... knock it off!",
+	"You're just melting the guy inside faster... was this your intention?",
+	"For the love of all stop signs in the galaxy... Cease and F##king DESIST!"
+	]
+}

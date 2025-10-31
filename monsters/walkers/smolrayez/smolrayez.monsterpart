@@ -1,0 +1,9 @@
+{
+  "name" : "smolrayez",
+  "category" : "smolrayez",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "smolrayez.png"
+  }
+}

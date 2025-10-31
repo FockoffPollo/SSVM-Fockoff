@@ -1,0 +1,172 @@
+{
+  "frameGrid"  :  {
+	"size"  :  [77, 40],
+	"dimensions"  :  [3, 23],
+	"names"  :  [
+      [ "f.1", "f.2", "f.3" ]
+      ,[ "f.4", "f.5", "f.6" ]
+      ,[ "f.7", "f.8", "f.9" ]
+      ,[ "f.10", "f.11", "f.12" ]
+      ,[ "f.13", "f.14", "f.15" ]
+      ,[ "f.16", "f.17", "f.18" ]
+      ,[ "f.19", "f.20", "f.21" ]
+      ,[ "f.22", "f.23", "f.24" ]
+      ,[ "f.25", "f.26", "f.27" ]
+      ,[ "f.28", "f.29", "f.30" ]
+      ,[ "f.31", "f.32", "f.33" ]
+      ,[ "f.34", "f.35", "f.36" ]
+      ,[ "f.37", "f.38", "f.39" ]
+      ,[ "f.40", "f.41", "f.42" ]
+      ,[ "f.43", "f.44", "f.45" ]
+      ,[ "f.46", "f.47", "f.48" ]
+      ,[ "f.49", "f.50", "f.51" ]
+      ,[ "f.52", "f.53", "f.54" ]
+      ,[ "f.55", "f.56", "f.57" ]
+      ,[ "f.58", "f.59", "f.60" ]
+      ,[ "f.61", "f.62", "f.63" ]
+      ,[ "f.64", "f.65", "f.66" ]
+      ,[ "f.67", "f.68", "f.69" ]
+    ]	  
+  },
+	
+  "aliases"  :  {
+	"empty.1":"f.69"
+
+	,"empty.2":"f.69"
+	
+	,"idle":"f.5"
+	
+	,"empty.3":"f.69"
+	
+	,"blink.1":"f.5"
+	,"blink.2":"f.1"
+	,"blink.3":"f.2"
+	,"blink.4":"f.3"
+	,"blink.5":"f.4"
+	
+	,"swallow.1":"f.5"
+	,"swallow.2":"f.6"
+	,"swallow.3":"f.7"
+	,"swallow.4":"f.8"
+	,"swallow.5":"f.9"
+	,"swallow.6":"f.10"
+	,"swallow.7":"f.11"
+	,"swallow.8":"f.12"
+	,"swallow.9":"f.13"
+	,"swallow.10":"f.14"
+	,"swallow.11":"f.15"
+	
+	,"release.1":"f.15"
+	,"release.2":"f.14"
+	,"release.3":"f.13"
+	,"release.4":"f.12"
+	,"release.5":"f.11"
+	,"release.6":"f.10"
+	,"release.7":"f.9"
+	,"release.8":"f.8"
+	,"release.9":"f.7"
+	,"release.10":"f.6"
+	,"release.11":"f.5"
+	
+	,"fullbig.1":"f.16"
+	,"fullbig.2":"f.17"
+	,"fullbig.3":"f.18"
+	,"fullbig.4":"f.19"
+
+	
+	,"bigtosmall.1":"f.28"
+	,"bigtosmall.2":"f.29"
+	,"bigtosmall.3":"f.30"
+	,"bigtosmall.4":"f.31"
+	,"bigtosmall.5":"f.32"
+	,"bigtosmall.6":"f.33"
+	
+	
+	,"fullsmall.1":"f.34"
+	,"fullsmall.2":"f.35"
+	,"fullsmall.3":"f.36"
+	,"fullsmall.4":"f.37"
+	
+	
+	,"smalltomicro.1":"f.46"
+	,"smalltomicro.2":"f.47"
+	,"smalltomicro.3":"f.48"
+	,"smalltomicro.4":"f.49"
+	,"smalltomicro.5":"f.50"
+
+	
+	
+	,"fullmicro.1":"f.51"
+	,"fullmicro.2":"f.52"
+	,"fullmicro.3":"f.53"
+	,"fullmicro.4":"f.54"
+	
+	,"microtonone.1":"f.63"
+	,"microtonone.2":"f.64"
+	,"microtonone.3":"f.65"
+	,"microtonone.4":"f.66"
+	,"microtonone.5":"f.67"
+	,"microtonone.6":"f.68"
+	
+	
+	,"bigsquirml.1":"f.20"
+	,"bigsquirml.2":"f.21"
+	,"bigsquirml.3":"f.22"
+	,"bigsquirml.4":"f.23"
+
+	
+	,"bigsquirmr.1":"f.24"
+	,"bigsquirmr.2":"f.25"
+	,"bigsquirmr.3":"f.26"
+	,"bigsquirmr.4":"f.27"
+	
+	
+	,"smallsquirmr.1":"f.38"
+	,"smallsquirmr.2":"f.39"
+	,"smallsquirmr.3":"f.40"
+	,"smallsquirmr.4":"f.41"
+	
+	
+	,"smallsquirml.1":"f.42"
+	,"smallsquirml.2":"f.43"
+	,"smallsquirml.3":"f.44"
+	,"smallsquirml.4":"f.45"
+	
+	
+	,"microsquirml.1":"f.55"
+	,"microsquirml.2":"f.56"
+	,"microsquirml.3":"f.57"
+	,"microsquirml.4":"f.58"
+	
+	
+	,"microsquirmr.1":"f.59"
+	,"microsquirmr.2":"f.60"
+	,"microsquirmr.3":"f.61"
+	,"microsquirmr.4":"f.62"
+  
+    ,"default":"f.1"
+    ,"idle1.1"  :  "f.1"
+    ,"idle.1"  :  "f.1"
+	
+	,"nonetomicro":"f.69"
+	,"nonetomicro.1":"f.69"
+	,"nonetomicro.2":"f.69"
+	,"nonetomicro.3":"f.69"
+	,"nonetomicro.4":"f.69"
+	,"nonetomicro.5":"f.69"
+	,"nonetomicro.6":"f.69"
+	
+	,"microtosmall":"f.69"
+	,"microtosmall.1":"f.69"
+	,"microtosmall.2":"f.69"
+	,"microtosmall.3":"f.69"
+	,"microtosmall.4":"f.69"
+	
+	,"smalltobig":"f.69"
+	,"smalltobig.1":"f.69"
+	,"smalltobig.2":"f.69"
+	,"smalltobig.3":"f.69"
+	,"smalltobig.4":"f.69"
+	
+	}
+}

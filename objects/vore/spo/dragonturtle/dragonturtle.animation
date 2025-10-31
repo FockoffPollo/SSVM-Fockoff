@@ -1,0 +1,43 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"         : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette"    : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"          : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"       : { "frames": 14, "cycle": 3.00, "mode": "end" },
+					"release"	    : { "frames": 14, "cycle": 1.50, "mode": "end" },
+					"full"          : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"safeburp"      : { "frames": 13, "cycle": 2.00, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"         : { "properties": { "image": "dragonturtle.png:empty.<frame>"           } },
+						"silhouette"    : { "properties": { "image": "dragonturtle.png:silhouette.<frame>"      } },
+						"idle"          : { "properties": { "image": "dragonturtle.png:idle.<frame>"            } },
+						"swallow"       : { "properties": { "image": "dragonturtle.png:swallow.<frame>"         } },
+						"release"	    : { "properties": { "image": "dragonturtle.png:release.<frame>"         } },
+						"full"          : { "properties": { "image": "dragonturtle.png:full.<frame>"            } },
+						"safeburp"      : { "properties": { "image": "dragonturtle.png:safeburp.<frame>"        } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/npc/quadruped/horse_idle1.ogg" ],
+		"fullov"       : ["/sfx/npc/quadruped/horse_idle1.ogg" ],
+		"fulloutroov"  : ["/sfx/npc/quadruped/horse_idle1.ogg" ],
+		"burp"         : ["/sfx/npc/quadruped/horse_idle1.ogg" ],
+		"slip"         : ["/sfx/npc/quadruped/horse_idle1.ogg" ]
+	}
+}

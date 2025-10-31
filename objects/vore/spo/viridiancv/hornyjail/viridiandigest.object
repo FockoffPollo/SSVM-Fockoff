@@ -1,0 +1,112 @@
+{
+  "objectName" : "boofboof",
+  "rarity" : "common",
+  "description" : "A strange, large, fluffy husky with an even bigger appetite. Notorious for making LOTS of friends into slushy, bubbly drinks, or atleast giving them a warm place to stay. Seems to be... carbonated?",
+  "shortdescription" : "Viridian Absurdly Huge CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "viridian.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Mnmrn... Big hauls always make such massive loads...",
+	"I look forward to dumping all of you out later...~",
+	"Mmrnf... I can feel them melting away...~",
+	"Hnf... I can just imagine how good you'll taste...",
+	"Nngh... n-never been this f-full down there before...",
+	"Mmnrgh!~ It feels so... good...!~ I a-almost want more~",
+	"Mnnr... I don't want to move... not that I could a-anyway...",
+	"A-Ahh!~ Don't squirm so hard! It's hard enough to keep you down...~"
+],
+  "gulpLines" : [
+	"A-Anngh!~ Just... squeeze on... in there~!",
+	"Mnnhgh~ At this r-rate, I'll have a whole pool of cream...~",
+	"I can only imagine how much cream you'll make...~",
+	"Annaah!~ Hhruf~",
+	"Ahhnf!~ They always feel so good on the way in...",
+	"Mnngh... squeeze all the way in! Just like that...~",
+	"Harruuf, I've never f-felt this hefty...!~",
+	"The Hotel's a bit full right now b- A-Aahhn!~ F-Fine...~"
+],
+  "chatIdleFull" : [
+	"I-I need time to churn...~ Maybe if you r-rub they'll all melt faster...~",
+	"M-My sack is so s-stuffed... please come back l-later...!",
+	"Haahh~ Mrnn... Please... c-churn down faster... oh g-gosh... another one...~",
+	"S-Such a massive l-load... mrnf... grgh...",
+	"Th-There's no way I can fit you in! I-I need time...",
+	"M-My sack is so s-stuffed... please come back l-later...!",
+	"S-Sorry! Th-The basements s-stuffed! C-Come back a-another time!",
+	"Hrruf... so full... they're squirming so much..."
+],
+  "chatIdleEmpty" : [
+	"Mrnnf... I could definitely churn you down, too~",
+	"Mrn... full or not, you'll make a great addition to my load~",
+	"A-Ahh... You'd do good to slosh in my sack~",
+	"I can't wait to feel you soften within my orbs~",
+	"Y-You'll look great i-in my orbs...",
+	"Nnrrf... even now... you'd feel great s-sliding in...~",
+	"Even w-with all the rubbing... I want you...~",
+	"Hrnf... you'd look g-great as a sack bulge...~"
+],
+  "rubLines" : [
+	"Hrhnf... any rubbing helps soften such a massive load...",
+	"Grrgh... they're gonna take so long to slosh...~",
+	"Huff... hrrf~ Keep rubbing...! Or I'll stuff you in after them...! I...If I have room...",
+	"They're gonna make for such a massive load... maybe I'll share some with you~",
+	"Keep rubbing those massive orbs...~",
+	"Ahh~ That feels heavenly...~",
+	"Mmnrn...",
+	"Hhaah...~"
+]
+}

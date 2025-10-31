@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "ryuucvdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "Makes protein shakes, some (dis)assembly required~!",
+  "shortdescription"  :  "Vornier Ryuu",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ryuucv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-40, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "ryuucv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "ryuucv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "ryuucv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/ryuucv/ryuucvdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "You are going into the next female I find~!",
+	"Fuuuuck me~! You feel fantastic~! Almost sad to see you go~",
+	"You are just too hot in there~!",
+	"Going to make a nice load with you~!",
+	"*Purrs deeply.*",
+	"Feeling soft, yet~?"
+  ],
+  "gulpLines" : [
+    "*Glrp!* Riiight where you belong~!",
+	"Get in there my tasty cocksnack~!",
+	"On a one-way ticket to fun~!",
+	"Hnnng~! You make it hard not to cum right here~!",
+	"Stay a while~! I've been needing some more... product~! Hehe!"
+  ],
+  "chatIdleFull" : [
+    "I can only churn so much~!",
+	"Guess the prey are just lining up, eh~?",
+	"Sorry, occupado~! Just let me finish with this one, okay?",
+	"Hnnngh~! Be careful! The first row is a splash zone~!"
+
+  ],
+  "chatIdleEmpty" : [
+    "I feel an ache in my balls. Care to help with that~?",
+    "Need some ball stuffing~!",
+	"Cutie alert! Get in my aching sac~",
+	"I need me some cockfood~! Feel like making a nice, big load~!",
+	"Come closer~! I don't bite... often~! ;3"
+  ],
+  "rubLines" : [
+    "Muuurf~! You are getting closer to being ball pudge~!",
+	"*Purrs loudly, tail thrashing.*",
+	"Ahhhhn~! Feels so gooooood~!",
+	"So hot~! Just makes me want to bust my load right here~!",
+	"C-careful in there~!",
+	"Huff~! Trying to make room for more~!"
+  ]
+}

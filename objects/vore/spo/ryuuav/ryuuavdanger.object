@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "ryuuavdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A hungry protogen with a hungrier ass~!",
+  "shortdescription"  :  "Hungry Ryuu",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ryuuav.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-40, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "ryuuav.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "ryuuav.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "ryuuav.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/ryuuav/ryuuavdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "Hhoooh yesss~!",
+	"*Rubs belly* I can feel you churning already~!",
+	"That's a new record for how long you lasted! Hehe~!",
+	"It doesn't hurt~! Let me churn you into ass fat~!",
+	"If you feel the need, paint my insides before you go~!",
+	"You wanting a permanent stay~?"
+  ],
+  "gulpLines" : [
+    "You aren't getting away that easily~!",
+	"Huff... you are so big going up there~!",
+	"*Growls possessively.* Mine!",
+	"*SCHLOK!* Hhaaah~! That's the ticket~!",
+	"Welcome to your room, allow me to get you... adjusted~!"
+  ],
+  "chatIdleFull" : [
+    "Sorry sweetie, I'm full~! Maybe after I gurgle this one, though.",
+	"I'm full, so no more for now. About done with this one~",
+	"Care to take a number, hun~? I'll get to you shortly~",
+	"If only I had a lot more room for you~!"
+
+  ],
+  "chatIdleEmpty" : [
+    "Cutie approaching! You'd look fine as some Protogen fat~!",
+    "Would you rather pad my belly, or pad my ass? Take your pick~!",
+	"So hungry...! Care to help fill me up~?",
+	"Last stop; belly~!",
+	"You'd make a nice buttsnack~!"
+  ],
+  "rubLines" : [
+    "Aaah~! Feels gooood~!",
+	"Just what the doctor ordered~!",
+	"Just softening you up a bit more~!",
+	"Hnnf~! I might do something... untoward if this keeps up~",
+	"So eager to be pudge, eh? Let me indulge you~!",
+	"I might just make you my pet, hehe~!"
+  ]
+}

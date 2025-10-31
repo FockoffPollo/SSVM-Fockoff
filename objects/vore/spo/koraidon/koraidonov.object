@@ -1,0 +1,65 @@
+{
+	"objectName": "koraidonov",
+	"vore": {
+		"fatal": false,
+		"dirty": false,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "You've heard of Koraidon, Now get ready for Koraidin!",
+	"shortdescription": "Koraidon",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "koraidonicon.png",
+	"orientations": [
+		{
+			"image": "koraidon.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "koraidon.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/koraidon/koraidon.lua" ],
+	"animation": "koraidon.animation",
+	"animationPosition": [0, 29],
+		
+	"chatOptions" : [
+		""
+	],
+	"gulpLines" : [
+		""
+	],
+	"chatIdleFull" : [
+		""
+	],
+	"chatIdleEmpty" : [
+		""
+	],
+	"rubLines" : [
+		""
+	]
+}

@@ -1,0 +1,89 @@
+{
+  "objectName" : "vaincvsafe",
+  "rarity" : "common",
+  "description" : "A travelling Tobi-Kadachi from another world, here to meet, eat, and *explore* new things",
+  "shortdescription" : "Vain CV - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "vain.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "vain.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"My my~ Naughty aren't we?~",
+	"Hmmm~ God you feel good in there~",
+	"What a way to a man's heart~"
+],
+  "gulpLines" : [
+	"*pant* *pant* Can we go again? Please?~",
+	"Oooh~ That never gets old~",
+	"Can't tell which would be better, this? or shooting you out later~"
+],
+  "chatIdleFull" : [
+	"Man, if I weren't full right now...~",
+	"Remind me to make room for you~",
+	"Sorry, occupied unfortunately",
+	"Wanna give it a rub?~"
+],
+  "chatIdleEmpty" : [
+	"Wanna spend some time hanging between my legs?~",
+	"You'd feel so good sloshing between my legs~",
+	"My balls feel so empty... Care to change that?~"
+],
+  "rubLines" : [
+	"Oooh, that's the spot~",
+	"Left a bit. Yeeeahhh~",
+	"Remember to push down on the bulges~",
+	"You must do this often~"
+]
+}

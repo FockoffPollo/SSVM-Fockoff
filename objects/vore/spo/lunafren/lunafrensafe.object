@@ -1,0 +1,108 @@
+{
+  "objectName" : "lunafrensafe",
+  "rarity" : "common",
+  "description" : "Her heart may be taken but her stomach is always a good place to give her internal belly rubs.",
+  "shortdescription" : "Luna & Fen - Safe",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lunafren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lunafren.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lunafren.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, oh dear, excuse me!",
+	"Feeling more relaxed, yet?",
+	"I love when my belly feels that full. Don't worry you can take a nap for now.",
+	"Let me know when you want out, alright?",
+	"Don't worry, I will keep you safe in me.",
+	"Are you comfy? I sure hope so",
+	"Take a nap, if you want~ Me and Fen will keep you company.",
+	"Don't worry, Fen here is just as friendly as I am~",
+	"Stay as long as you want, you are out of harms way~",
+	"You sure like it in there, don't you? Hehe, not that I'm complaining~",
+	"It's not often I get such a willing individual to relax in my belly~"
+  ],
+  "gulpLines" : [
+    "*GULP* Oogh, so eager!",
+	"*GULP* Ahhhhh~",
+	"*GULP* Ahh, you are so adorable",
+	"*GULP* Hehe, willing meals are always my favorite. They always massage my walls so nicely~",
+	"Time to hide you away.. *GULP* aah~",
+	"*GULP* Gosh, you were so good~ I can still taste your eagerness on my tongue~"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! Have we met before?",
+	"I usually prefer a bit of privacy... but if you need me I will wait until this one wants out~",
+	"Don't tell me you want to get eaten, too. Hehe, sure, but right now it is occupied~",
+	"Is this someone that you know? Don't worry, they are in good hands.. eh.. in a good belly.",
+	"I'm sorry honey, but this room is currently occupied."
+  ],
+  "chatIdleEmpty" : [
+    "Well, hello there cutie~",
+	"Nice place you got here. I can also give you a nice comfy room too~",
+	"Oh aren't you the cutest thing I've ever seen~",
+	"Look, I ain't gonna complain if you want to sleep in my belly cutie.",
+	"Oh hello there~ Want me to give you a hug?",
+	"Say, have you met Kazali yet?",
+	"Do you mind if swallow you and keep you in my stomach until I find something real to eat?",
+	"If you want to sleep in my belly, I certainly can do that. I heard people would rate me as 5 star hotel~"
+  ],
+  "rubLines" : [
+    "You are such a sweetheart, you know that?",
+    "Please... keep going. It feels so good~",
+	"That kinda tickles, heheh",
+    "*tackles you and mlems your face* Get luved, you cutie!~",
+    "^////^ <3 Please keep going cutie~"
+  ]
+}

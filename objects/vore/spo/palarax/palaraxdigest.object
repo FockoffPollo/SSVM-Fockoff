@@ -1,0 +1,112 @@
+{
+  "objectName" : "palaraxdigest",
+  "rarity" : "common",
+  "description" : "A big, fat, soft dragon of the blue scaled variety. There seems to be a lot more to this dragon than what his girthy appearance would show for. Is Incredibly soft, inside and out though!",
+  "shortdescription" : "Palarax - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "palarax.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "BUUUURRRRRP! Good. I love a fighter~",
+	"I sure hope some of you stays on my belly for all the work its doing for you!",
+	"Belch! Hmm~ Still tasty after the first try~",
+	"I do hope you know what your getting yourself into.",
+	"Hmm... You'd do great as belly heft~",
+	"Uuuuurrrrrp~",
+	"Content humming.",
+	"That's right, relax. Let me tuck you away, right where belong~",
+	"Sighs with content.",
+	"You're melting down quite nicely~",
+	"Wonder what gifts you'll leave behind once you're done in there. I love souvenirs~",
+	"Don't feel bad, this was inevitable in more ways than you can imagine! Besides, being part of a dragon's ass is a lot better than it sounds!",
+	"You add such a lovely sway to my gut already. Hope that means you're staying around a while longer",
+	"I swear, you eager fellows melt away faster and faster... Not that I'm complaining. You guys really pad me out!",
+	"Eager and ready to sway I see! Good~ My belly needed some more sway to my step~"
+  ],
+  "gulpLines" : [
+    "Oof! If you jump into my gullet with that much enthusiasm and you're really gonna work up some gas and my stomach acids!",
+	"Mmmph~ Delicious~",
+	"Down you go!",
+	"Don't worry, no one's gonna see you under there~ Promise!",
+	"A moment on my lips, a lifetime on my hips~",
+	"You signed the waiver, right? I'm not responsible if you desire to stay with me till the end of time and give up on being reformed at a later date."
+  ],
+  "chatIdleFull" : [
+    "Don't worry, I'll make room for in a- Uuuuuuurrrraaap! Minute.",
+	"Don't get too eager. I have room for you next~",
+	"Oh? A friend of yours? No, I haven't seen them.... That's just my dinner.",
+	"You know, you're more than welcome to rub this gut~",
+	"Buuuuuurrrraaawwwwp! That hit the spot~"
+  ],
+  "chatIdleEmpty" : [
+    "Hmmm. Not too shabby of a place you got here. Unless you put me in a dirt cave... You know you know you can do better.",
+	"Hums a tune to himself.",
+	"*Belches loudly.* Oops... Excuse me...",
+	"I'm kinda stuck here... I would much appreciate some food please.",
+	"I'm sadly not programmed to eat the monsters here so I'm gonna need something else to fill this gut of mine.",
+	"Hey! How's the adventure going? Don't tell me you've been just exploring someone's gut all day... Unless it's mine, I could use the company.",
+	"A word of advice? Don't try to eat anything on corrupted planets... The flavor and texture is awful and the side effects... Let's say it's not something even I can stomach and I've eaten gods and planets!",
+	"You feeling cold? I can help warm you up~"
+  ],
+  "rubLines" : [
+    "You're being too kind to me! But thank you~",
+	"Tell me, can you even feel them in there? There's a lot of pudge to dig through.",
+    "You're doing a wonderful job!",
+    "Keep this up and they'll be pudge in no time! In which case you can be next~",
+    "Careful not to lose yourself in there~",
+	"Mmmm~"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "objectName"  :  "faustcv",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "This large mostly-innocent demon has shrunk himself down for you to offer yourself up to.",
+  "shortdescription"  :  "Faust - Safe",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "faustcv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "faustcv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "faustcv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "faustcv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/faustcv/faustcv.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+	"Oh my Balls feel so full... T-Thank you again for agreeing to do this...",
+	"I-I hope you enjoy the healing energy t-that's flowing into you from my cum...",
+	"I-I don't mind if you collect some of my cum to use later... I just hope no one asks questions about a purple waterbottle on your shelf later...",
+	"Uhh f-feel free t-to do your, uh, own thing in there... I know how horny people can get in there...",
+	"D-Don't worry about any c-corruptive effects... Uhh, you should probably be fine even if you stayed for another... 30 years...",
+	"I-I-I wouldn't m-mind it i-if you wanted to s-stay for a few... months...~"
+  ],
+  "gulpLines" : [
+    "*light moan* A-Ah, thank you for this, I know I seem... A little Intimidating...",
+	"Ah man, T-Thank you, I've been w-wanting to do this with someone for a while... I-I'll make sure you come out the same as you came in, I promise.",
+	"*moan* Oh I can feel your entire body slipping down!"
+  ],
+  "chatIdleFull" : [
+    "Oof, S-sorry, but Im kind of too s-small right now to let anyone else inside my my sack... Though if I was my full height of 14 feet, I c-could indulge you easily..~",
+	"Uhh O-occupied, I-Im too small for you and the one already inside me...",
+	"I-I'm sure you could wait a little bit for them to have their fun..."
+  ],
+  "chatIdleEmpty" : [
+    "Oh, H-Hey T-There.",
+	"This is my first time not either in Hell or on Earth, T-Thank you for letting me come with you.",
+	"W-when you said you wanted to g-go down my, uh, penis, that was a j-joke, right?",
+	"Do you think a SAIL terminal can play Terraria? I-It's an old game, sure, b-but it should be able to play on such an advanced system...",
+	"Hell? U-Uh, I-I'm probably not the best source of information on what Hell is like, m-my dad's a royal a-after all...",
+	"Y-You remind me of my friend, Dust. H-he used to be a human, and is friends with Super God, and has 5 eyes now... A-Actually, you don't really remind me of him."
+  ],
+  "rubLines" : [
+    "Y-Yes, just like that..~",
+	"Oh man this f-feels great~", "T-Thank you for the, uh, fondling?",
+	"D-Do you really have to p-press your face into them so much? I-If you like my smell s-so badly, you can come into them, you know...",
+	"Inside, O-Outside, They both feel amazing... I just had an epiphiny..."
+  ]
+}

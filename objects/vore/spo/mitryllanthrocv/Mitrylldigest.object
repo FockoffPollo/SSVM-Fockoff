@@ -1,0 +1,89 @@
+{
+  "objectName" : "anthromitryllcvdigest",
+  "rarity" : "common",
+  "description" : "This guy know how to paint the town white!",
+  "shortdescription" : "Anthro Mitryll - Digestion",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "Mitryll.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "Mitryll.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "Mitryll.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Nooot my go-to...but always real fun~",
+	"Well ain't this embarrassing...for you, I mean.",
+	"Oh I can already tell you're going to look wonderful swinging between my legs~",
+	"Weird choice of bath, but I'm not complaining."
+  ],
+  "gulpLines" : [
+    "Mmmf...that feels nice~",
+	"Biiit of a squeeze, but you don't mind, right~?",
+	"Down the hatch- I mean, shaft~"
+  ],
+  "chatIdleFull" : [
+	"Wasn't expecting to put on a show, though your friend is sure to help me out in their own way.",
+	"Please stand away from the 'splash zone'",
+	"Mind giving me a hand? Or two..."
+  ],
+  "chatIdleEmpty" : [
+    "Hey you look like you could use a nice...'bath'.",
+	"Got any room that needs a paintjob?",
+	"Come any closer and you won't be cumming out the same! *chuckle*"
+  ],
+  "rubLines" : [
+	"H-hey! Less ya want a faceful of this stuff you'd do well to step back!",
+	"Ahhh~ Yeaahhh...just like that~",
+	"Hope you don't mind some stains~"
+  ]
+}

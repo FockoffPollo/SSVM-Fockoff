@@ -1,0 +1,86 @@
+{
+  "objectName" : "notdogbacksafe",
+  "rarity" : "common",
+  "description" : "Hehe Worm butt",
+  "shortdescription" : "Jaraed's Rear - Safe",
+  "race" : "apex",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/vore/spo/wormback/wormfull.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "wormicon.png",
+  "orientations" : [
+    {
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/vorechatscript.lua" ],
+  
+  "animation" : "wormanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "worm.png"
+  },
+  "animationPosition" : [-16, 0],
+  
+  "chatOptions" : [
+	"*Grrrrl*",
+	"*Gurgle*",
+	"*Groan*",
+	"*Churn*",
+	"*Slosh*"
+  ],
+  "gulpLines" : [
+
+  ],
+  "chatIdleFull" : [
+	"*Grrrrl*",
+	"*Gurgle*",
+	"*Groan*",
+	"*Churn*",
+	"*Slosh*"
+  ],
+  "chatIdleEmpty" : [
+
+  ],
+  "rubLines" : [
+
+  ]
+}

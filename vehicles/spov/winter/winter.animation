@@ -1,0 +1,312 @@
+{
+  "animatedParts"  :  {
+    "stateTypes"  :  {
+	  "bodyState"  :  { 
+	    "default"  :  "idle",
+	    "states"  :  {
+		  "idle"  :  {
+		    "frames"  :  1,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "blink"  :  {
+		    "frames"  :  4,
+			"cycle"  :  0.8,
+			"mode"  :  "end",
+			"transition"  :  "idle"
+		  },
+		  "swallow"  :  {
+		    "frames"  :  15,
+			"cycle"  :  2.0,
+			"mode"  :  "end",
+			"transition"  :  "fullbig"
+		  },
+		  "fullbig" :  {
+		    "frames"  :  4,
+		    "cycle"  :  2.1,
+		    "mode"  :  "end"
+		  },
+		  "bigtosmall" :  {
+		    "frames"  :  5,
+		    "cycle"  :  2.0,
+		    "mode" : "end",
+			"transition" : "fullsmall" 
+		  },
+		  "fullsmall" :  {
+		    "frames"  :  4,
+		    "cycle"  :  2.1,
+		    "mode" : "end"
+		  },
+		  "smalltomicro" :  {
+		    "frames"  :  8,
+		    "cycle"  :  2.0,
+		    "mode" : "end",
+			"transition" : "fullmicro" 
+		  },
+		  "fullmicro" :  {
+		    "frames"  :  4,
+		    "cycle"  :  2.1,
+		    "mode" : "end"
+		  },
+		  "microtonone" :  {
+		    "frames"  :  14,
+		    "cycle"  :  2.0,
+		    "mode" : "end"
+		  },
+		  "release"  :  {
+		    "frames"  :  13,
+			"cycle"  :  1.0,
+			"mode"  :  "end"
+		  },
+		  "bigsquirml" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "bigsquirmr" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "smallsquirml" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "smallsquirmr" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "microsquirml" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "microsquirmr" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },
+		  "smalltobig" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },		  
+		  "microtosmall" : {
+		    "frames"  :  4,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },	  
+		  "nonetomicro" : {
+		    "frames"  :  6,
+			"cycle"  :  1,
+			"mode"  :  "end"
+		  },		  
+		  "disposal" : {
+			"frames" : 33,
+			"cycle" : 8,
+			"mode" : "end"
+		  },
+		  "disposalidle" : {
+			"frames" : 1,
+			"cycle" : 3,
+			"mode" : "end"
+		  },
+		  "erase" : {
+			"frames" : 10,
+			"cycle" : 3,
+			"mode" : "end"
+		  }
+	    }
+	  }
+	},
+  
+    "parts"  :  {
+        "victim": {
+			"properties": {
+				"centered": true
+				, "zLevel": 0
+				, "transformationGroups": ["flip", "victimposition"]
+				, "drivingSeatPosition": [0.0, 0.0]
+			}
+			, "partStates"  :  {
+			  "bodyState"  :  {
+				"idle"  :  {},
+				"idle2"  :  {},
+				"idle3"  :  {},
+				"blink"  :  {},
+				"swallow"  :  {},
+				"fullbig"  :  {},
+				"bigtosmall"  :  {},
+				"fullsmall"  :  {},
+				"smalltomicro"  :  {},
+				"fullmicro"  :  {},
+				"microtonone"  :  {},
+				"release"  :  {},
+				"bigsquirml" : {},
+				"bigsquirmr" : {},
+				"smallsquirml" : {},
+				"smallsquirmr" : {},
+				"microsquirml" : {},
+				"microsquirmr" : {},
+				"nonetomicro" : {},
+				"microtosmall" : {},
+				"smalltobig" : {},
+				"disposal"	:	{}
+			  }
+			}
+		}
+      ,"body"  :  {
+	    "properties"  :  {
+	      "centered"  :  true,
+		  "zLevel"  :  1
+		  , "transformationGroups": ["flip"]
+	    },
+	    "partStates"  :  {
+	      "bodyState"  :  {
+	        "idle"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:idle.<frame>"
+		      }
+		    },
+	        "idle2"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:idle2.<frame>"
+		      }
+		    },
+	        "idle3"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:idle3.<frame>"
+		      }
+		    },
+	        "blink"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:blink.<frame>"
+		      }
+		    },
+	        "swallow"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:swallow.<frame>"
+		      }
+		    },
+	        "fullbig"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:fullbig.<frame>"
+		      }
+		    },
+	        "bigtosmall"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:bigtosmall.<frame>"
+		      }
+		    },
+	        "fullsmall"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:fullsmall.<frame>"
+		      }
+		    },
+	        "smalltomicro"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:smalltomicro.<frame>"
+		      }
+		    },
+	        "fullmicro"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:fullmicro.<frame>"
+		      }
+		    },
+	        "microtonone"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:microtonone.<frame>"
+		      }
+		    },
+	        "release"  :  {
+		      "properties"  :  {
+		        "image"  :  "winter.png:release.<frame>"
+		      }
+			},
+			"bigsquirml" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:bigsquirml.<frame>"
+			  }
+			},
+			"bigsquirmr" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:bigsquirmr.<frame>"
+		      }
+			},
+			"smallsquirml" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:smallsquirml.<frame>"
+		      }
+			},
+			"smallsquirmr" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:smallsquirmr.<frame>"
+		      }
+			},
+			"microsquirml" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:microsquirml.<frame>"
+		      }
+			},
+			"microsquirmr" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:microsquirmr.<frame>"
+		      }
+			},
+			"nonetomicro" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:nonetomicro.<frame>"
+		      }
+			},
+			"microtosmall" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:microtosmall.<frame>"
+		      }
+			},
+			"smalltobig" : {
+		      "properties"  :  {
+		        "image"  :  "winter.png:smalltobig.<frame>"
+		      }
+			},
+			"disposal" : {
+			  "properties"	:  {
+				"image"	 :	"winter.png:disposal.<frame>"
+			  }
+			},
+			"disposalidle" : {
+			  "properties"	:  {
+				"image"	 :	"winter.png:disposalidle.<frame>"
+			  }
+			},
+			"erase" : {
+			  "properties"	:  {
+				"image"	 :	"winter.png:erase.<frame>"
+			  }
+			}
+		  }
+	    }
+   	  }
+    }
+  }
+	, "transformationGroups": {
+		"flip": {}
+		, "victimposition": {
+			"interpolated": true
+		}
+	}
+	, "sounds": {
+		"returnvehicle": ["/sfx/tech/vehicle_disappear1.ogg"]
+		, "swallow": ["/sfx/objects/gulp.ogg"]
+		, "digest": [
+			"/sfx/vore/digest/digest (17).ogg", "/sfx/vore/digest/digest (18).ogg", "/sfx/vore/digest/digest (25).ogg", "/sfx/vore/digest/digest (11).ogg", "/sfx/vore/digest/digest (13).ogg", "/sfx/vore/digest/digest (15).ogg", "/sfx/vore/digest/digest (16).ogg", "/sfx/vore/digest/digest (19).ogg", "/sfx/vore/digest/digest (20).ogg", "/sfx/vore/digest/digest (3).ogg", "/sfx/vore/digest/digest (31).ogg", "/sfx/vore/digest/digest (36).ogg", "/sfx/vore/digest/digest (37).ogg", "/sfx/vore/digest/digest (9).ogg"
+		]
+		, "belly1" : ["/sfx/vore/digest/digest (8).ogg"]
+		, "belly2" : ["/sfx/vore/digest/digest (13).ogg"]
+		, "belly3" : ["/sfx/vore/digest/digest (23).ogg"]
+		, "lay": ["/sfx/objects/eggLay.ogg"]
+		, "struggle": ["/sfx/vore/swallow/swallow (11).ogg"]
+		, "chatter": ["/sfx/humanoid/avian_chatter_female1.ogg", "/sfx/humanoid/avian_chatter_female2.ogg", "/sfx/humanoid/avian_chatter_female3.ogg", "/sfx/humanoid/avian_chatter_female4.ogg"]
+	}
+}

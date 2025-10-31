@@ -1,0 +1,126 @@
+{
+  "objectName" : "ankiecvsafe",
+  "rarity" : "common",
+  "description" : "A horny dumbass who vores",
+  "shortdescription" : "Ankie CV - Endo",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "ankie.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Hmmmmm such good ball filler like you deserves some pats",
+	"Mmmmmmm you feel so good down there~",
+	"*Inside my balls you can hear me saying something* Gregory, do you see the small vent on the floor? Have you ever heard of Among Us, Gregory? You need to vent. I know it will be hard for you to be sus, but i know you can do it Gregory.",
+	"UwU, what is this. *notices my bulgy wulgy*",
+	"P... l... a... y... e... r...  I feel g... o... o... d...",
+	"Welcome to the most comfy balls in the universe~",
+	"Pokes the huge balls* oh wow these are bigger than I thought when I put you in thank you for that~~",
+	"*LAUGHS IN FRENCH* slish, slosh uwu",
+	"| ||
+      || |L",
+	"*pokes the huge balls* *slosh* *slosh *slosh* mmmmmmm never gonna get used to you being in there~",
+	"I loved when Ankie said *Is voring time* and vored all over those guys"
+  ],
+  "gulpLines" : [
+    "My SUSSY POWERS ARE AWAKENING",
+	"Hey hey no stuggle, stimky",
+	"All your bodies are belong to us",
+	"I hope you enjoy the trip into these comfy balls",
+	"Heh, get in gay baby jail",
+	"Alright I had enough of you time for you to get down in there~",
+	"You are going to make me feel pretty good once you get down in those balls of my mine",
+	"You know I had to do it to them",
+	"Good luck getting out once you are in because when you get in those balls you are going to think they are the comfiest thing ever",
+	"Hehe, get eaten dingus",
+	"Heh thought a tiny goat hybrid like could fit something like you in there well you are dead wrong~",
+	"My player, Fox insides are what adventurers strive for",
+	"Hmmmmmmm good snack. You are as good as the Big Fox and Falcon outside on the city"
+  ],
+  "chatIdleFull" : [
+    "uhhhhhhh, Gutten tag?",
+	"I am the Batter *Batter voice fades Off* just kidding, just kidding, hello",
+	"I sense a disturbance in the Force. as if an eager snack looked at me then suddenly saw I was full",
+	"You have some fluids on you, fancy",
+	"You like staring don't you well I would be the same consider the size of these things~~~",
+	"Oh Yes. Hello Darling. How is my fave snack going",
+	"Your Honour, League of Legends",
+	"The state of Florida have asked us to disclose our sexual crimes to you
+We were bad but now we're good. we're moving into your neighbourhood
+You know we're trying our best to be functioning members of society
+We're not here to start no trouble, we're legally required to do the sex offender shuffle"
+  ],
+  "chatIdleEmpty" : [
+    "When the light is running low, and the shadows start to grow, and the places that you- Oh hello there didn't notice you here",
+	"Hello, can I interest you in some gamer fox shower water?",
+	"Oh I'm sorry snowflake, did I OFFEND you? Do you want a bandaid? Do you want a hug? Do you want a kiss? I will kiss you. I will do it. Right on the mouth. Come here snowflake.. that's it.. your lips are so soft, snowflake.. mnnhm... ah...... snowflake..........",
+	"Greetings. I am Ankie. Thank you. Your cuteness awakened me from sleep.",
+	"Wake up samurai; we got a city to burn",
+	"UWU Biggus Dickus",
+	"Tis but a scratch",
+	"Cum see me closer",
+	"Come get your healing in this cock for free today~"
+  ],
+  "rubLines" : [
+    "Do, or do not. There is no try",
+    "Mmmmmmmmmmmmmmmmmm~~~ keep rubbing",
+    "If you don't rub me enough *smirks* you're next. I am kidding, or am I? ~~~~",
+	"Yes, Please! Keep rubbing me please *moans*",
+	"*Yip*",
+	"You are one of the best ball rubbers~~~",
+	"Keep rubbing mmmmmmmm",
+	"This feels so goooood~~~~"
+  ]
+}

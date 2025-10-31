@@ -1,0 +1,93 @@
+{
+  "objectName" : "lekrasafe",
+  "rarity" : "common",
+  "description" : "People complain Dracthyrs are too slim. Now you can actually feel it!",
+  "shortdescription" : "Lekra - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lekra.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"You're making me nice and full you know... Huff. <3",
+	"Relax, neither of us are going anywhere.",
+	"Hrmf~",
+	"Oooh- That hits the spot! <3",
+	"You feel soooo nice in here. Hope it's the same for you!"
+],
+  "gulpLines" : [
+	"Usually I'm the one to dive down onto my preys... I'm not complaining~",
+	"Down the hatch, nice and slow~",
+	"Hope it's not too tight for you!",
+	"Glrk- Huff. I'll never get used to live prey going down my throat!"
+],
+  "chatIdleFull" : [
+	"I'm closed for today, sorry!",
+	"If ooonly I had someone who would help me rub and pat my belly!",
+	"Whatcha staring at, cutie?~ Wanna be next?",
+	"Wanna help a bit with this one?~"
+],
+  "chatIdleEmpty" : [
+	"Hi cutie! Could you help me fill up some empty space?~",
+	"Hey, wanna relax for a bit?",
+	"Room avaiiiilable~ All of it, Just for you <3",
+	"I bet you had quite a day. Let me help a bit~"
+],
+  "rubLines" : [
+	"You're ssssso good at this, I could hiss like a Sethrak~",
+	"Hrrr yeah right there. That's the spot <3",
+	"Ye, squish that belly~",
+	"Go hard on it, dragon scales are though <3" 
+]
+}

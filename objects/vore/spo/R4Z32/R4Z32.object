@@ -1,0 +1,48 @@
+{
+	"objectName": "R4Z32",
+	"vore": {
+		"fatal": false,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "I'm my own master now?",
+	"shortdescription": "R4Z32 - Safe",
+	"race": "human",
+	"category": "furniture",
+	"price": 0,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "R4Z32icon.png",
+	"orientations": [
+		{
+			"image": "R4Z32.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "R4Z32.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "right",
+			"sitPosition": [0, 0],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/R4Z32/R4Z32.lua" ],
+	"animation": "R4Z32.animation",
+	"animationPosition": [20, 20]
+}

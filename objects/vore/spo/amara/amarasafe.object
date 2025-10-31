@@ -1,0 +1,90 @@
+{
+  "objectName" : "amarasafe",
+  "rarity" : "common",
+  "description" : "a snowwhite motherly dragoness with an affinity for and unbirthing.",
+  "shortdescription" : "Amara UB - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "amara.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "amara.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "amara.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Mnnn yes squirm for me, it feels so nice",
+	"Enjoying your new home?",
+	"Ooh i havent had such a squirmy one in quite a while",
+	"Ahhh oooh, g-gosh you make me c-cum again if you squirm so much",
+	"hrrr welcome to mommy my little womb snack mmmm yes squirm more, soo good."
+],
+  "gulpLines" : [
+	"Mnnnn such a wonderful snack you are",
+	"*Shluck* mmmm delicious.",
+	"Ahhh, nnnrgh what a good stretch you are",
+	"ooooh, y-yes squirm for me, so …close"
+],
+  "chatIdleFull" : [
+	"Hello there, do you want to join your little friend?",
+	"Mmm soo full, cant possibly take another one",
+	"want to rub my belly, it feels soo good >///<"
+],
+  "chatIdleEmpty" : [
+	"Oh hello little one, you look adorable!",
+	"hello sweetie do you need a soft and warm place to relax in?",
+	"oh my i could just gobble up such a tasty looking snack."
+],
+  "rubLines" : [
+	"oooh, mmmm can you feel them squirming?",
+	"ooh yes, please more, gosh so good!",
+	"Nrrrghhh … it .. ahh feels … c-cumming >///< // y-yes rub more, gosh it feels soo good <3"
+]
+}

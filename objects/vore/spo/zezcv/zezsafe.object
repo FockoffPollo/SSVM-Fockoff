@@ -1,0 +1,91 @@
+{
+  "objectName" : "zezcvsafe",
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "Zez CV - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "zez.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "zez.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "zez.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Enjoying your stay? Good.",
+	"Don't expect a bath after this.",
+	"An odd place for a nap, but who am I to complain...",
+	"Go on, keep squirming, it feels nice."
+],
+  "gulpLines" : [
+	"*Huff* Careful down there.",
+	"*Mph* Don't mind the smell.",
+	"Just because it doesn't have teeth doesn't mean it can't swallow you whole.",
+	"Be glad it didn't decide to be more invasive.",
+	"You're in for a long trip down."
+],
+  "chatIdleEmpty" : [
+	"Come, let me ease your aches and pains.",
+	"Looking for a demonstration?",
+	"Normally, I charge for lessons."
+],
+  "chatIdleFull" : [
+	"Stick around, I'm sure this wont take too much longer.",
+	"One patient at a time, I only have so much room.",
+	"Your assistance would be welcome"
+],
+  "rubLines" : [
+	"Your affection is duly noted.",
+	"Few are so brave as to approach a full chimera, do continue.",
+	"Ball rubs are unexpected, but welcome.",
+	"Your assistance shall be rewarded."
+]
+}

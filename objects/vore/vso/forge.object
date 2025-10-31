@@ -1,0 +1,81 @@
+{
+    "objectName": "spovspawnerforge"
+    , "colonyTags": ["vore"]
+    , "rarity": "Legendary"
+	, "shortdescription"  :  "SPOV ???"
+    , "race": "generic"
+    , "category": "furniture"
+    , "price": 3000
+	, "health" : 5
+
+	, "tooltipKind" : "vso"
+	, "objectImage" : "/vehicles/spov/forge/forge.png:idle.1"
+	, "description"  :  "An unammed lava dragon taur thing."
+	,"tooltipFields": {
+		"statusLabel": "An unammed lava dragon taur thing."
+	}
+	, "tooltipSubtitle" : "SPOV Summoner"
+	
+    , "orientations": [{
+            "image": "/vehicles/spov/forge/forge.png:idle.1"
+            , "imagePosition": [-40.5, 0]
+            , "direction": "left"
+            , "flipImages": true
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }, {
+            "image": "/vehicles/spov/forge/forge.png:idle.1"
+            , "imagePosition": [-40.5, 0]
+            , "direction": "right"
+            , "spaceScan": 0.1
+            , "anchors": ["bottom"]
+        }]
+
+    , "inventoryIcon": "/vehicles/spov/forge/forgedangericon.png"
+
+    , "animation": "spovspawner.animation"
+    , "animationParts": {
+        "bg": "/vehicles/spov/forge/forge.png"
+    }
+	, "animationPosition" : [0, 35]
+	, "animationCustom" : {}
+
+    , "spov": {
+        "types": ["spovforge"]
+        , "position": [0.0, 3.3, 0.0, 3.3]
+        , "template": {}
+        , "pillsAdd": { "digest":{}, "softdigest":{}, "heal":{}, "antiescape":{}, "easyescape":{} }
+    }
+
+	, "retainObjectParametersInItem" : true
+	, "isWired" : false
+	, "printable" : false
+	, "scannable" : false
+	, "interactive" : false
+	, "inspectable" : false
+	, "allowScanning" : false
+	, "isContainer" : false
+	, "builder" : "/scripts/vore/spovitembuilder.lua"
+    , "scripts": [
+        "/scripts/npcToyObject.lua", "/scripts/vore/spovspawner.lua", "/vehicles/spov/forge/forgeitemscript.lua" 
+    ]
+	, "npcToy" : {
+		"influence" : [
+		  "approach",
+		  "leave"
+		],
+		"defaultReactions" : {
+		  "approach" : [
+			[1.0, "laugh"]
+		  ],
+		  "leave" : [
+			[1.0, "smile"],
+			[1.0, "annoyed"],
+			[1.0, "laugh"]
+		  ]
+		},
+		"preciseStandPositionLeft" : [-4.0, 0.0],
+		"preciseStandPositionRight" : [4.0, 0.0],
+		"maxNpcs" : 1
+	  }
+}

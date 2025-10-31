@@ -1,0 +1,64 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"         : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette"    : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"          : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"       : { "frames": 13, "cycle": 3.25, "mode": "end" },
+					"release"	    : { "frames": 13, "cycle": 1.75, "mode": "end" },
+					"full"          : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"safeburp"      : { "frames": 13, "cycle": 2.00, "mode": "end" },
+					
+					"empty_cv"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette_cv" : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle_cv"       : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow_cv"    : { "frames": 8, "cycle": 2.75, "mode": "end" },
+					"release_cv"	: { "frames": 8, "cycle": 1.25, "mode": "end" },
+					"full_cv"       : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"nutt"          : { "frames":  10, "cycle": 2.25, "mode": "end" },
+					"nuttidle"      : { "frames":  1, "cycle": 0.25, "mode": "loop" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"         : { "properties": { "image": "koraidon.png:empty.<frame>"           } },
+						"silhouette"    : { "properties": { "image": "koraidon.png:silhouette.<frame>"      } },
+						"idle"          : { "properties": { "image": "koraidon.png:idle.<frame>"            } },
+						"swallow"       : { "properties": { "image": "koraidon.png:swallow.<frame>"         } },
+						"release"	    : { "properties": { "image": "koraidon.png:release.<frame>"         } },
+						"full"          : { "properties": { "image": "koraidon.png:full.<frame>"            } },
+						"safeburp"      : { "properties": { "image": "koraidon.png:safeburp.<frame>"        } },
+						
+						"empty_cv"      : { "properties": { "image": "koraidon.png:empty_cv.<frame>"        } },
+						"silhouette_cv" : { "properties": { "image": "koraidon.png:silhouette_cv.<frame>"   } },
+						"idle_cv"       : { "properties": { "image": "koraidon.png:idle_cv.<frame>"         } },
+						"swallow_cv"    : { "properties": { "image": "koraidon.png:swallow_cv.<frame>"      } },
+						"release_cv"	: { "properties": { "image": "koraidon.png:release_cv.<frame>"      } },
+						"full_cv"       : { "properties": { "image": "koraidon.png:full_cv.<frame>"         } },
+						"nutt"          : { "properties": { "image": "koraidon.png:nutt.<frame>"            } },
+						"nuttidle"      : { "properties": { "image": "koraidon.png:nuttidle.<frame>"        } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullintrocv"  : ["/sfx/vore/spinj/fullintrocv.ogg"  ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fullcv"       : ["/sfx/vore/spinj/fullcv.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"fulloutrocv"  : ["/sfx/vore/spinj/fulloutrocv.ogg"  ],
+		"burp"         : ["/sfx/vore/spinj/burp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

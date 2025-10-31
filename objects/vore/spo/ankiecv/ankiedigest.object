@@ -1,0 +1,118 @@
+{
+  "objectName" : "ankiecvdigest",
+  "rarity" : "common",
+  "description" : "A cute fox with a mechanical arm, looks horny, is horny",
+  "shortdescription" : "Ankie CV - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "ankie.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "ankie.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Oh my... someone is excited down there aren't you? *sloshes you around*",
+	"Hmmmmmmm, don't tell anyone this, but, you might be my favourite snack ever >w<",
+	"I sense that someone wanted to be fox cream *giggles*",
+	"*pokes balls* *slosh* *slosh* I see someone is CUMMING along very well",
+	"Magic. Fox. Balls. This must be an experience for you huh~~~~~",
+	"Come back soon. Zoom~~~",
+	"Oh woe is me, such a good cum batch to be splattered around~~",
+	"tsk, tsk, tsk, cheating on this game? that is punishable by cumbath~~~",
+	"NOW IS YOUR CHANCE TO BE A[Big Shot]",
+	"*pokes the huge balls* *slosh* *slosh *slosh* mmmmmmm never gonna get used to you being in there~",
+	"Such a cutie getting what they deserved -w-"
+  ],
+  "gulpLines" : [
+    "Get in there please",
+	"Hey hey no struggling, you practically asked for this",
+	"*Eats You*",
+	"I hope you enjoy the trip into these comfy balls",
+	"It's a beautiful day outside, birds are singing, flowers are blooming. On days like these, cuties like you, should be inside some fox balls",
+	"Alright I had enough of you time for you to get down there~",
+	"You are going to help me paint these walls white",
+	"Hmmmm yeah, you are an amazing prey. Get inside me, I bet you are enjoying this too~~~",
+	"Lucky you, getting your own personal jizzcuzzi",
+	"Oohhh you going down feels really good you cute cock snack~",
+	"Heh, you are gonna make me massive",
+	"PK Cock Snack~~"
+  ],
+  "chatIdleFull" : [
+    "Uh, hi. I am in a little bit busy right now, but we can chat if ya want *smiles*~",
+	"OwO iiiiii am suprised that you came back",
+	"Hello, I am here with my *friend* wanna join him soon? *snickers*~",
+	"You can't stop looking at these massive orbs huh? same~~~",
+	"Heheheheheheh, as you can see. I am full right now, cum back later when I am a ittle more, hmmmmmmmm, emptier",
+	"The horny keeps growing. Sloshing cutting deeper, this next orgasm seems very, very interesting. what do you think?",
+	"You mind doing me a favor of rubbing these *points to huge ball* you would help immensely ^w^"
+  ],
+  "chatIdleEmpty" : [
+    "Hemlo UwU What ya doing here?",
+	"Hey what brings you here so close to me? *notices you staring down* Oh I see, you seems interested in my balls huh?",
+	"Heh, wanna see what is inside these fluffly orbs of mine?~~~",
+	"Hey, not fair!!! You weren't supposed to make all flustered like this. You deserve a fitting punishment~~~",
+	"*Looks down and blushes* I am horny >w<. Mind helping a fox in need?",
+	"Oh my, I ddn't intend to have an audience today~ Wanna come closer?",
+	"You heard of goat milk, so get ready to see a sea of fox milk my tasty companion~~~"
+  ],
+  "rubLines" : [
+    ">w< nuuuuuuu no rub me",
+    "Mmmmmmmmmmmmmmmmmm~~~ keep rubbing",
+    "If you don't rub me enough *smirks* you're next~~~~",
+	"Yes, Please! Keep rubbing me please *moans*",
+	"*Yip*",
+	"You are one of the best ball rubbers~~~",
+	"Keep rubbing mmmmmmmm",
+	"This feels so goooood~~~~"
+  ]
+}

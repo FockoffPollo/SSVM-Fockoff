@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "ryuuav",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A curious protogen who wants to hold you somewhere warm~!",
+  "shortdescription"  :  "Ryuu",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "ryuuav.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "ryuuav.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "ryuuav.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "ryuuav.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/ryuuav/ryuuav.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "You feel so good in there~!",
+	"Let Ryuu take care of you, sweetie~",
+	"Hrnf~! You feel so goood in there~!",
+	"Stay as long as you'd like, I love the company~!",
+	"Welcome to Casa de Ryuu, a pleasure~!",
+	"Ah~! Hello there sweetie~"
+  ],
+  "gulpLines" : [
+    "Up my proot boot you go~!",
+	"*Schluk!* Hnngh~!",
+	"Into your bed you go~! Enjoy!",
+	"Almost too big, but I've had bigger... hehe~!",
+	"Ahhh~! Soo gooood~!"
+  ],
+  "chatIdleFull" : [
+    "Hm? Sorry hun, this toaster is at max capacity~! *Rubs belly.*",
+	"You want in as well? Sorry sweetie. Maybe next time, okay?",
+	"Caught me at a bad time hun. Maybe after this one?",
+	"Hmm... if only I had more room..."
+
+  ],
+  "chatIdleEmpty" : [
+    "Care for a warm place to rest?",
+    "You look hurt, hun. Let me help you.",
+	"New Prey? Want to stay a while? I don't digest.",
+	"Aren't you a cutie~? Wanna stick around?",
+	"I have a pleasant place to hold you if you would like~"
+  ],
+  "rubLines" : [
+    "Naturally cute bulge you gave me~",
+	"Enjoy your stay in my belly~!",
+	"Mmmph~! I love this part~!",
+	"If you need a break, don't worry hun~!",
+	"Ahhh~! I'm about to fall asleep due to the swaying~",
+	"*Purrs happily.*"
+  ]
+}

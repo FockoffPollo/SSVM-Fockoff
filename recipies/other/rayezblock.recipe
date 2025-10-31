@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bestestboy", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "rayezblock",
+    "count" : 25
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

@@ -1,0 +1,49 @@
+{
+	"objectName": "zolemyacvdigest",
+	"vore": {
+		"fatal": true,
+		"dirty": false,
+		"type": "cv"
+	},
+	"rarity": "uncommon",
+	"description": "",
+	"shortdescription": "zolemya - CV digest",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"stomachacid",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "zolemyaicon.png",
+	"orientations": [
+		{
+			"image": "zolemya.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "zolemya.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/zolemya/zolemya.lua" ],
+	"animation": "zolemya.animation",
+	"animationPosition": [0, 17.5]
+}

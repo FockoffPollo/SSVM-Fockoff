@@ -1,0 +1,92 @@
+{
+  "objectName" : "lekracvsafe",
+  "rarity" : "common",
+  "description" : "A Dracthyr with an upgraded friend storage system, ready to be filled.",
+  "shortdescription" : "Lekra CV - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "lekra.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "lekra.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Enjoying yourself in here? Because I sure am <3",
+	"Hope my weight isn't too much for you!",
+	"Do you mind if I pleasure myself for a bit?",
+	"Hrmf- You feel so good in there! <3"
+],
+  "gulpLines" : [
+	"Gosh, the best part is that I get to feel that twice...",
+	"Hhrm- Enjoy your stay~",
+	"I bet it's much hotter in there, at least to you!",
+	"Hrssssoooo goood- I love that feeling <3"
+],
+  "chatIdleFull" : [
+	"Can't a lizssard have some privacy?! Hiss!",
+	"Are you staring down?~ You can ask or wait for your turn~",
+	"Wanna feel these huge, scaly bawls?~",
+	"Could you assist me in giving a good time for my current guest?"
+],
+  "chatIdleEmpty" : [
+	"Rawr~",
+	"Hey cutie. Want to slide down this shaft for a bit?~",
+	"Want to have some good time?~",
+	"Open for messy business!"
+],
+  "rubLines" : [
+	"Careful, it's quite sensitive!",
+	"Hm-Oh gosh. Lovely rubbing <3",
+	"Wow can't you be mindful about a potential mess when you rub this good <3",
+	"Might give you better squishing for this help, if you're next~" 
+]
+}

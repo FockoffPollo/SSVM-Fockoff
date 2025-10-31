@@ -1,0 +1,231 @@
+{
+  "type" : "guardpred_rayez",
+  "baseType" : "guard",
+  
+  "npcname" : "Rayez",
+  
+  "identity" : {
+	"gender" : "male"
+  },
+
+  "damageTeamType" : "friendly",
+
+  "scriptConfig" : {
+	"questGenerator" : { "pools" : [], "enableParticipation" : false },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "idleTimeRange" : [1, 2],
+
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"It is unwise to steal from a dragon.",
+							"Stealing from the rich eh? I suggest stealing from someone else. Trust me you really don't want to piss ^red;Him^reset; off.",
+							"isn't there like a million cultists and bandits you could steal from instead?",
+							"You wouldn't steal from a friend would you?"
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"I do like the out doors but not in my indoors.",
+							"Would you kindly remove that hole?",
+							"You do understand that holes don't count as valid tenants. Right?"
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"There can be only one blue Yharon.",
+							"I would love Room-mates, but I don't think Aidolin would take that too kindly."
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"Don't make me curse you with my mediocre magic skills."
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"If I could I would easily butcher you whole.",
+						"I'm telling Aidolin about this.",
+						"I'll be writing a passive aggressive review on ten.net."
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"Who has summoned the almighty Rayez?",
+						"I have cum, I mean come!"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"What? You were expecting something decent?",
+						"Ok. Here's rent.",
+						"You wont believe how much money you can make from killing random things.",
+						"Treasure bag? You got the wrong guy."
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+						"And for my next trick, I will make this thing drop dead!",
+						"^red;YOU DARE INVOKE THE WRATH OF RAYEZ?!^reset;",
+						"I give this guy 8 seconds.",
+						"This is where the fun begins."
+			]
+		  }
+		},
+        "helpthem" : {
+		  "default" : {
+			"default" : [
+						"Not annother step...",
+						"This is most certainly a hardship most dire.",
+						"I bid for your demise.",
+						"The end has come... For you that is."
+			]
+		  }
+		},
+        "encourage" : {
+		  "default" : {
+			"default" : [
+					"This is only 10% of my power.",
+					"Do you feel the air getting warmer?"
+			]
+		  }
+        },
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"Ehh... I've seen worse.",
+					"Come on, I didn't even break a sweat.",
+					"Heh. That was fun."
+			]
+		  }
+        }
+	  },
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Names Rayez. Pleasure to meet you.",
+			"I'm pretty used to ugly looking monsters that want your blood.",
+			"Have you seen any my good friend Aidolin. He said he would be here by now.",
+			"There are some really funny looking people around here. Seriously that person over is literally a turkey!",
+			"Careful out there friend. There are many of nasty predators in this land.",
+			"Would you like a hug?",
+			"I hope your doing well.",
+			"So I practised necromancy that one time. ",
+			"Life Hack: Fishing in the most outlandish places is actually a good idea.",
+			"If your ever hurt just let me know."
+          ]
+        }
+      }
+    }
+  },
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "Rayezhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "Rayezchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "Rayezlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "primary" : [
+              "rayezsword"
+            ],
+            "sheathedprimary" : [
+              "firstdusknpc"
+            ]
+          }
+        ] ],
+	  [2, [
+          {
+            "head" : [
+              { "name" : "Rayezhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "Rayezchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "Rayezlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "primary" : [
+              "rayezsword"
+            ],
+            "sheathedprimary" : [
+              "firstdusknpc"
+            ]
+          }
+        ] ],
+	  [3, [
+          {
+            "head" : [
+              { "name" : "Rayezhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "Rayezchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "Rayezlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "primary" : [
+              "rayezsword"
+            ],
+            "sheathedprimary" : [
+              "firstdusknpc"
+            ]
+          }
+        ] ],
+	  [4, [
+          {
+            "head" : [
+              { "name" : "Rayezhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "Rayezchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "Rayezlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "primary" : [
+              "rayezsword"
+            ],
+            "sheathedprimary" : [
+              "firstdusknpc"
+            ]
+          }
+        ] ]
+    ]
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/rayez/rayez.lua" 
+  ]
+}

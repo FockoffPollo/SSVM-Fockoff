@@ -1,0 +1,25 @@
+{
+  "frameGrid"  :  {
+	"size"  :  [42, 31],
+	"dimensions"  :  [3, 13],
+	"names"  :  [
+	  ["idle1.1", "swallow.1", "swallow.2"],
+	  ["swallow.3", "swallow.4", "swallow.5"],
+	  ["swallow.6", "swallow.7", "swallow.8"],
+	  ["swallow.9", "swallow.10", "swallow.11"],
+	  ["swallow.12", "swallow.13", "swallow.14"],
+	  ["full.1", "full.2", "full.3"],
+	  ["full.4", "release.14", "release.13"],
+	  ["release.12", "release.11", "release.10"],
+	  ["release.9", "release.8", "release.7"],
+	  ["release.6", "release.5", "release.4"],
+	  ["release.3", "release.2", "release.1"],
+	  ["idle2.1", "idle2.2", "idle2.3"],
+	  ["idle3.1", "idle3.2", "idle3.3"]
+    ]	  
+  },
+	
+  "aliases"  :  {
+    "idle1.default"  :  "idle1.1"
+	}
+}

@@ -1,0 +1,101 @@
+{
+  "objectName" : "onirzosafe",
+  "rarity" : "common",
+  "description" : "A big ol' fluffy and friendly Onirzoa. Loves company and food.",
+  "shortdescription" : "Onirzo - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "onirzo.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "onirzo.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "onirzo.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "You doing alright in there my friend?",
+	"Rrrrrrrr~ Thanks for giving yourself up to me~ I appreciate it~",
+	"I hope you don’t mind but- I might actually consider keeping you all to myself~ My tasty treat~",
+	"Food is food~ You go in and I get to keep you~",
+	"You’re safe now~ All tucked away in a nice and warm stomach~ Mine that is~",
+	"I’ll go ahead and heal you up.",
+	"I hope you’re enjoying your stay~ I know I'm enjoying you~"
+  ],
+  "gulpLines" : [
+    "I hope you enjoy your stay in the Onirzoa.",
+	"I hope my fangs and teeth didn’t nick you on the way down!",
+	"Got you my tasty treat~ You belong to me now~",
+	"I’ll keep you nice and close to me~ Safe within my belly~",
+	"Down you go my tasty one~"
+  ],
+  "chatIdleFull" : [
+    "My belly is a little occupied right now. I’m welcome to take you in once its open later!",
+	"I currently have an occupant in my stomach. Please come back later.",
+	"Sorry about that. One of the others wanted a place to stay. But come by later and my belly should be open.",
+	"Hello there friend, *URP* Just had a lovely snack~",
+	"Heh~ Gurgles go brrrr~"
+  ],
+  "chatIdleEmpty" : [
+    "Are you hurt? I can provide some healing if you need it.",
+	"Hello there! Do you need help with anything, friend?",
+	"I know a great place for you to rest if your interested~",
+	"You’re more than welcome to stay with me~ I wont bite~ Promise~",
+	"Trust me. Sleeping in a belly is the best thing to ever happen to you.",
+	"Ever met an Onirzoa? Well. Now you met one~ A gluttonous one I might add~"
+  ],
+  "rubLines" : [
+    "Mmmmmrh~ Thank you for the belly rubs~",
+	"*loving zoa purring* Rrrrrrrrr~",
+	"*very happy zoa noises*",
+    "Rubs all over is nice~ Especially around the lower part of my gut~",
+    "You know what else is better than a belly rub? An internal one~ Get in~",
+	"That feels good~ But better as I got you filling it~ *licks lips*"
+  ]
+}

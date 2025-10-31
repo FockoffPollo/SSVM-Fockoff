@@ -1,0 +1,64 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "empty",
+				"states": {
+					"empty"         : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette"    : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle"          : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow"       : { "frames": 6, "cycle": 3.25, "mode": "end" },
+					"release"	    : { "frames": 10, "cycle": 1.75, "mode": "end" },
+					"full"          : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"digest"        : { "frames": 10, "cycle": 3.00, "mode": "end" },
+					
+					"empty_cv"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"silhouette_cv" : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"idle_cv"       : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"swallow_cv"    : { "frames": 9, "cycle": 3.25, "mode": "end" },
+					"release_cv"	: { "frames": 6, "cycle": 1.00, "mode": "end" },
+					"full_cv"       : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"digest_cv"     : { "frames":  6, "cycle": 1.00, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"empty"         : { "properties": { "image": "zolemya.png:empty.<frame>"           } },
+						"silhouette"    : { "properties": { "image": "zolemya.png:silhouette.<frame>"      } },
+						"idle"          : { "properties": { "image": "zolemya.png:idle.<frame>"            } },
+						"swallow"       : { "properties": { "image": "zolemya.png:swallow.<frame>"         } },
+						"release"	    : { "properties": { "image": "zolemya.png:release.<frame>"         } },
+						"full"          : { "properties": { "image": "zolemya.png:full.<frame>"            } },
+						"digest"        : { "properties": { "image": "zolemya.png:digest.<frame>"          } },
+						
+						"empty_cv"      : { "properties": { "image": "zolemya.png:empty_cv.<frame>"        } },
+						"silhouette_cv" : { "properties": { "image": "zolemya.png:silhouette_cv.<frame>"   } },
+						"idle_cv"       : { "properties": { "image": "zolemya.png:idle_cv.<frame>"         } },
+						"swallow_cv"    : { "properties": { "image": "zolemya.png:swallow_cv.<frame>"      } },
+						"release_cv"	: { "properties": { "image": "zolemya.png:release_cv.<frame>"      } },
+						"full_cv"       : { "properties": { "image": "zolemya.png:full_cv.<frame>"         } },
+						"digest_cv"     : { "properties": { "image": "zolemya.png:digest_cv.<frame>"       } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullintrocv"  : ["/sfx/vore/spinj/fullintrocv.ogg"  ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fullcv"       : ["/sfx/vore/spinj/fullcv.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"fulloutrocv"  : ["/sfx/vore/spinj/fulloutrocv.ogg"  ],
+		"digestov"     : ["/sfx/vore/spinj/digestov.ogg"],
+		"digestcv"     : ["/sfx/vore/spinj/digestcv.ogg"],
+		"burp"         : ["/sfx/vore/spinj/nothing.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

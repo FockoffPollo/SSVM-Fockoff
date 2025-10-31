@@ -1,0 +1,100 @@
+{
+  "objectName" : "bestestboycvdigest",
+  "rarity" : "common",
+  "description" : "Objectively the best character in this modpack.",
+  "shortdescription" : "Smolyez - Cock Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "smolyezcv.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "smolyezcv.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "smolyezcv.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "This is really embarrassing for me, Lets just hope no one is watching us.",
+	"I sure hope you don't mind being dragon seed.",
+	"Churning my friends I'snt exactly my thing. But if that's what it takes to make you happy.",
+	"Take it easy, Just let yourself melt away. You'll wake up back on your ship like nothing ever happened." ,
+	"No hard feelings if I use you to heal someone else?",
+	"You seem really eager to be dragon jizz, Its kind of unsettling."
+  ],
+  "gulpLines" : [
+    "Try not to make me cum, Or else I might just make you cum!",
+    "You want to be my next load? Sure! Why not?",
+	"Stay in there for as long as you want, Just not too long.",
+	"Are you sure? You won't be comming out solid this time around!",
+	"Have fun sloshing about in there friend!"
+  ],
+  "chatIdleFull" : [
+    "Please stay out of the splash zone, I really don't want to ruin those nice clothes of yours.",
+    "Pssst. stop squirming in there your making this awkward...",
+	"Uhhh... Privacy please?",
+	"What are you looking at me like that for? You want in next?"
+  ],
+  "chatIdleEmpty" : [
+    "Would you like a nice warm cum bath? Would you like to be the cum bath?!",
+    "Do you mind helping me with somthing? My balls could use a refill.",
+	"Ever wondered what it's like to a puddle of dragon cum? Well, Here's your chance to find out!",
+	"No offence but you would look quite nice hanging between my legs.",
+	"Would you like to know me a little bit closer?",
+    "Hey there, Anything I can help you with."
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Oh stop it you!",
+	"I could get used to this."
+  ]
+}

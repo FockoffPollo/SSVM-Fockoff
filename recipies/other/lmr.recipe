@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 69420 }
+  ],
+  "output" : {
+    "item" : "lmr",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

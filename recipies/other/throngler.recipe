@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "dirtmaterial", "count" : 9999 },
+    { "item" : "solariumstar", "count" : 15 }
+
+  ],
+  "output" : {
+    "item" : "throngler",
+    "count" : 1
+  },
+  "groups" : [ "treasuredtrophies" ]
+}

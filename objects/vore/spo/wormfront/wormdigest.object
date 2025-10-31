@@ -1,0 +1,102 @@
+{
+  "objectName" : "notdogfrontdigest",
+  "rarity" : "common",
+  "description" : "A hungry Interdimensional being looking for a meal.",
+  "shortdescription" : "Jaraed - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  
+  "objectType" : "loungeable",
+  "sitCoverImage" : "/objects/vore/spo/wormfront/wormfull.png",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "wormicon.png",
+  "orientations" : [
+    {
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "worm.png",
+	  "imagePosition" : [-16, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/vorechatscript.lua" ],
+  
+  "animation" : "wormanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "worm.png"
+  },
+  "animationPosition" : [-16, 0],
+  
+  "chatOptions" : [
+    "This isn't permanent right? I don't actually want you to kick the bucket.",
+	"Say... You wouldn't mind if I take you soul for safekeeping?",
+	"You know what they say... The early worm gets the bird! That joke would be funnier of you were an Avian.",
+	"Feel free to take a nap. I'll wake you up when your pudge!",
+	"YOU CANNOT ESCAPE ME!!!! Just don't press any movement keys please.",
+	"I've heard if you stay long enough you get a cool sword!",
+	"Do you know I have 4 stomachs. Not like you'll be conscious to experience all of them.",
+	"You'll make a fine addition to my ass! Do I even have an ass?",
+	"I'm still hungry. Do you have any friends who would like to join you?",
+	"That blue chicken cant save you now!"
+  ],
+  "gulpLines" : [
+    "Get comfy in there. Your going to be in there for a long time. A very long time.",
+	"Eager to be worm pudge I see.",
+	"Seriously! Your just going to feed yourself to me like that. Ok then...",
+	"Oh sweet! A free meal!"
+  ],
+  "chatIdleFull" : [
+    "Hmmm? You want in too? You can always check the back end.",
+	"What are you looking at me like that for!? You want to be next?",
+	"Uhhh... Occupied?"
+  ],
+  "chatIdleEmpty" : [
+    "Greetings. My name is Jaraed. What!? Where you expecting some edgy pretentious name like *The consumer of deities*?",
+	"How about we just skip the foreplay. Yeah?",
+	"Hey there! Wanna help pad my nonexitent ass?",
+	"Hello I require you finest dessert. And when I mean dessert, I mean you.",
+	"Ahh... You must be Rayez's friend yes?",
+	"Good thing I dont have any arms. My creator hates drawing those.",
+	"Can I borrow your soul? I need it for *My Collection*",
+	"Pssst press the interact button for somthing cool to happen."
+  ],
+  "rubLines" : [
+    "Hey! Person on the inside! Can you start rubbing too? Please?",
+    "Is this... Affection? Perfection...",
+    "Mmmmm Yesssss! More pets for the big worm!",
+    "*Happy worm sounds*"
+  ]
+}

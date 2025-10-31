@@ -1,0 +1,55 @@
+{
+	"objectName": "moffcv",
+	"vore": {
+		"fatal": false,
+		"type": "cv"
+	},
+	"rarity": "uncommon",
+	"description": "A nice warm place to spend the night~",
+	"shortdescription": "Hatoro - CV",
+	"race": "human",
+	"category": "furniture",
+	"price": 0,
+	"printable": false,
+	"apexDescription"   : "",
+	"avianDescription"  : "",
+	"floranDescription" : "",
+	"glitchDescription" : "",
+	"humanDescrtiption" : "",
+	"hylotlDescription" : "",
+	"novakidDescription": "",
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "mofficon.png",
+	"orientations": [
+		{
+			"image": "moffcv.png:silhouette",
+			"imagePosition": [-23, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [0, 20],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "moffcv.png:silhouette",
+			"imagePosition": [-23, 0],
+			"direction": "right",
+			"sitPosition": [0, 20],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/moff/moff.lua" ],
+	"animation": "moff.animation",
+	"animationPosition": [0, 20]
+}

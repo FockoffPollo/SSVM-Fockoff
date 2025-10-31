@@ -1,0 +1,57 @@
+{
+	"animatedParts": {
+		"stateTypes": {
+			"bodyState": {
+				"default": "ov_empty",
+				"states": {
+					"ov_empty"     : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"ov_idle"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"ov_swallow"   : { "frames": 11, "cycle": 4.00, "mode": "transition", "transition": "ov_full" },
+					"ov_full"      : { "frames":  8, "cycle": 2.00, "mode": "loop" },
+					"ov_digest"    : { "frames": 21, "cycle": 3.25, "mode": "end" },
+
+					"cv_empty"     : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"cv_idle"      : { "frames":  1, "cycle": 0.25, "mode": "end" },
+					"cv_swallow"   : { "frames": 10, "cycle": 3.50, "mode": "transition", "transition": "cv_full" },
+					"cv_full"      : { "frames":  4, "cycle": 1.00, "mode": "loop" },
+					"cv_digest"    : { "frames":  9, "cycle": 2.25, "mode": "end" }
+				}
+			}
+		},
+		"parts": {
+			"foreground": {
+				"properties": {
+					"zLevel": 1
+				},
+				"partStates": {
+					"bodyState": {
+						"ov_empty"     : { "properties": { "image": "harperov.png:idle.<frame>"      } },
+						"ov_idle"      : { "properties": { "image": "harperov.png:idle.<frame>"       } },
+						"ov_swallow"   : { "properties": { "image": "harperov.png:swallow.<frame>"    } },
+						"ov_full"      : { "properties": { "image": "harperov.png:full.<frame>"       } },
+						"ov_digest"    : { "properties": { "image": "harperov.png:digest.<frame>"     } },
+
+						"cv_empty"     : { "properties": { "image": "harpercv.png:idle.<frame>"      } },
+						"cv_idle"      : { "properties": { "image": "harpercv.png:idle.<frame>"       } },
+						"cv_swallow"   : { "properties": { "image": "harpercv.png:swallow.<frame>"    } },
+						"cv_full"      : { "properties": { "image": "harpercv.png:full.<frame>"       } },
+						"cv_digest"    : { "properties": { "image": "harpercv.png:digest.<frame>"     } }
+					}
+				}
+			}
+		}
+	},
+	"sounds": {
+		"swallow"      : ["/sfx/vore/spinj/swallow.ogg" ],
+		"fullintroov"  : ["/sfx/vore/spinj/fullintroov.ogg"  ],
+		"fullintrocv"  : ["/sfx/vore/spinj/fullintrocv.ogg"  ],
+		"fullov"       : ["/sfx/vore/spinj/fullov.ogg"  ],
+		"fullcv"       : ["/sfx/vore/spinj/fullcv.ogg"  ],
+		"fulloutroov"  : ["/sfx/vore/spinj/fulloutroov.ogg"  ],
+		"fulloutrocv"  : ["/sfx/vore/spinj/fulloutrocv.ogg"  ],
+		"digestov"     : ["/sfx/vore/spinj/digestov.ogg"],
+		"digestcv"     : ["/sfx/vore/spinj/digestcv.ogg"],
+		"burp"         : ["/sfx/vore/spinj/delayburp.ogg"    ],
+		"slip"         : ["/sfx/vore/spinj/slip.ogg"    ]
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "itemName" : "explodingrayez",
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "explodingrayez.png",
+  "image" : "explodingrayez.png",
+  "shortdescription" : "Potassium Deficient Rayez",
+  "description" : "Prone to violently exploding.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "explodingrayez",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

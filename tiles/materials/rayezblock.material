@@ -1,0 +1,24 @@
+{
+  "materialId" : 6910,
+  "materialName" : "rayezblock",
+  "particleColor" : [48, 48, 82, 255],
+  "itemDrop" : "rayezblock",
+  "description" : "Rayez Block Rayez Block Rayez Block",
+  "shortdescription" : "Rayez Block",
+  "glitchDescription" : "Rayez Block Rayez Block",
+  "floranDescription" : "Rayez Block Rayez Block",
+  "novakidDescription" : "Rayez Block Rayez Block",
+  "footstepSound" : "/sfx/humanoid/avianhurt_female3.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "rayezblock.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : false,
+    "zLevel" : 1570
+  }
+}

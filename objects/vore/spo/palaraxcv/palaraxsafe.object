@@ -1,0 +1,109 @@
+{
+  "objectName" : "palaraxcvsafe",
+  "rarity" : "common",
+  "description" : "A big, fat, soft dragon of the blue scaled variety. There seems to be a lot more to this dragon than what his girthy appearance would show for. Is Incredibly soft, inside and out though!",
+  "shortdescription" : "Palarax CV - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "palarax.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "palarax.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "Someone's eager to stay in a warm, private, dragon sauna today~",
+	"Sit back, relax and enjoy your stay~",
+	"You feel really nice sloshing around down there. Hope you're enjoying this as much as I am!",
+	"Hope you're enjoying your stay so far~",
+	"I may not be a wishing dragon but you seem to have gotten what you wanted. Hehehe.",
+	"*Hums a song to himself.*",
+	"One orb filled, more to go.",
+	"At this rate, I may as well open a hotel!"
+  ],
+  "gulpLines" : [
+    "Please keep all hands, arms, feet, legs, and other appendages inside the sauna at all times.",
+	"Enjoy your stay~",
+	"Don't worry, their cushioned too.",
+	"Mmmmmm~ That feels lovely~",
+	"That never gets old~",
+	"Huffs. Someone's eager for a break in the hottub~",
+	"Try not to break the game too much player. This game's not exactly running on the best software..."
+  ],
+  "chatIdleFull" : [
+    "Hmm? Wanna ponder these orbs with me?",
+	"Sorry, they asked for a bit of privacy. You can slip in next once they're done in there.",
+	"Enjoying the view?",
+	"They make a nice imprint don't they?",
+	"Mind your distance or you might end up under those.",
+	"You wanna touch it, don't you~?"
+  ],
+  "chatIdleEmpty" : [
+    "Hums a tune to himself.",
+	"Nice day to let the boys hang out a while~",
+	"FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL!!! Laughs maniacally.! Oh, wait. It's you. Hello there.",
+	"Enjoying your day so far? Need a break? I got a room to spare~",
+	"You use my dicks for playing Limbo and you're going in them.",
+	"I hear space travel is roughly 74% more enjoyable when you got some soft orbs to relax in.",
+	"Hm. I don't quite remember feeling this heavy yesterday... Mind taking a look for me and see if something's out of place in there?",
+	"Hey, I just realized you are just about perfect height to run into these bad boys!",
+	"Have you guys seen Null around? If you see him, tell him he forgot a piece of sponge and the dash juice hasn't worn off since last Saturday..."
+  ],
+  "rubLines" : [
+    "Oh damn that feels good...",
+    "What are you do- Oooooooohhh.... Keep doing what you're doing~",
+	"Someone wants in, don't you~?",
+    "Mmmmm~ Keep that up and they may just get churned away on accident! Just kidding~",
+    "You must be pretty used to this by now~",
+	"You're doing a fantastic job~",
+	"Hmmm. I'm more used to the rubs being internal but this feels nice~"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "ohfuck",
+  "effectConfig" : {},
+  "defaultDuration" : 20,
+
+    "scripts" : [
+    "ohfuck.lua"
+  ]
+}

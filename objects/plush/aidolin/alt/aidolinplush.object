@@ -1,0 +1,24 @@
+{
+  "objectName" : "aidolinplushalt",
+  "colonyTags" : ["rayez"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 50,
+
+  "description" : "Who's a good boy?",
+  "shortdescription" : "Aidolin Plush",
+  "race" : "rayez",
+
+
+  "inventoryIcon" : "aidolinplushicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "aidolinplush.png:<color>",
+      "imagePosition" : [-8, 0],
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

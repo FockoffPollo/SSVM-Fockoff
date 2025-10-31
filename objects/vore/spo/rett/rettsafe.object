@@ -1,0 +1,112 @@
+{
+  "objectName" : "rettsafe",
+  "rarity" : "common",
+  "description" : "50% bug, 50% dragon, 100% adorable (Endo)",
+  "shortdescription" : "Rett - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "rett.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "rett.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "rett.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*Urp*, oh dear, excuse me!",
+	"Feeling better, yet?",
+	"*Happy chitters*",
+	"Let me know when you want out, okay?",
+	"BEHOLD! My healing belly!",
+	"*Huff*",
+	"*Satisfied chitters*",
+	"Are you comfy? I sure hope so",
+	"Take a nap, if you wish~ By the time you wake up you'll be feeling as good as new!",
+	"Go ahead, relax! Let me do allll the work~",
+	"Stay as long as you need...",
+	"Hah, look at me now! I'm not prey for once!",
+	"It's not often I get to use my healing abilities like this~"
+  ],
+  "gulpLines" : [
+    "Oogh, so eager!",
+	"*GULP*, Ahhhhh~~",
+	"Ahh, you were absolutely delicious",
+	"Willing meals are my favorite...",
+	"One healing-sauna, coming right up!",
+	"Damn, you tasted good...",
+	"I'll keep you nice n' safe as long as you like"
+  ],
+  "chatIdleFull" : [
+    "Oh-- hi! I'm a little busy right now.",
+	"I usually prefer a little privacy... but I suppose you can watch.",
+	"Don't tell me you want to get eaten, too.",
+	"Yes, I ate your friend. And don't worry, they're fine.",
+	"Sadly, I can only heal one person at a time like this."
+  ],
+  "chatIdleEmpty" : [
+    "Well, hi!",
+	"Hey, nice place you got here.",
+	"*Happy chitters*",
+	"*Chitters*",
+	"Would you like a belly-hug?",
+	"Look, I ain't gonna complain if you just dive right in my mouth.",
+	"Well, what is it?",
+	"Say, have you seen Mitryll anywhere?",
+	"I'm not particularly hungry, but I can still eat you if you want.",
+	"Hey, do you need some healing?"
+  ],
+  "rubLines" : [
+    "You spoil me.",
+    "Please... no more rubs. I'm embarrassed.",
+	"That kinda tickles, heheh",
+    "Gosh, all this attention... This is rather embarrassing for me...",
+    ">/////<'"
+  ]
+}

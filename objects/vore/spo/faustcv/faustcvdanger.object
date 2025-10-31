@@ -1,0 +1,98 @@
+{
+  "objectName"  :  "faustcvdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "This large mostly-innocent demon has shrunk himself down for you to offer yourself up to. [Digestion]",
+  "shortdescription"  :  "Faust - Digest",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "savor",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "faustcv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "faustcv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "faustcv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "faustcv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/faustcv/faustcvdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "Oh my Balls feel so full... T-Thank you again for agreeing to do this... I-is there anywhere specific you w-want to be put into?",
+	"Uhh, usually I-I try to heal the people I eat, b-but you were so insistant, I-I can't bring myself to say no to you...",
+	"Don't worry a-about your s-soul, I'll uh... you want it to be added to my nuts too???",
+	"*Heavy moaning* Y-Yes, keep moving like that! I think you just... *moan*",
+	"T-Teasing? uh, O-ok, if you want it... I-I'll be sure to paint your bedroom's... No, uh... T-Try to get some of my p-purple nut butter... I-Im bad at this, I k-know...",
+	"J-Just a little more before you m-melt for good... Was that good? did you like it?",
+	"I-I'd Imagine that you have f-friends, yeah? O-Oh, I-I'm asking so that you'd c-change your mind about this... Sorry...",
+	"*sigh* Dad's going to take this as a wish for more live food..."
+  ],
+  "gulpLines" : [
+    "*moan* Oh I can feel your entire body slipping down!",
+	"L-Last chance to climb back o-out...",
+	"*heavy blush* A-After all that, I-I can't say no!",
+	"Rai's going to e-envy you so hard...",
+	"hnn [Player Name] my cock muscles are acting on their own now..!"
+  ],
+  "chatIdleFull" : [
+    "O-oh, N-Not you too... Uhh, *sigh* alright, but I need to finish this one first... I-Is everyone like this these days??",
+	"Uhh O-occupied, I-Im too small for you and the one already inside me...",
+	"I-I'm sure you could wait a little bit for them to have their fun...",
+	"B-But they're not even m-melted enough for you yet..."
+  ],
+  "chatIdleEmpty" : [
+    "Oh, H-Hey T-There.",
+	"This is my first time not either in Hell or on Earth, T-Thank you for letting me come with you.",
+	"W-when you said you wanted to g-go down my, uh, penis, that was a j-joke, right?",
+	"Do you think a SAIL terminal can play Terraria? I-It's an old game, sure, b-but it should be able to play on such an advanced system...",
+	"Uhh so... When you said you wanted to m-melt inside my balls, you were joking, right??",
+	"*sigh* Rai would have loved to take your place, N-not only do you have your own spaceship, b-but, you uh, you got me to agree to let you offer your body to me...",
+	"S-So, I-Is there any way I c-can convince you that you don't want to die?",
+	"My Balls are hungry, why are my balls hungry? This has to be Rai's doing, I don't get urges like this... well normally."
+  ],
+  "rubLines" : [
+    "Y-Yes, just like that..~",
+	"Oh man this f-feels great~", "T-Thank you for the, uh, fondling?",
+	"D-Do you really have to p-press your face into them so much? I-If you like my smell s-so badly, you can come into them, you know...",
+	"Inside, O-Outside, They both feel amazing... I just had an epiphiny..."
+  ]
+}

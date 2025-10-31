@@ -1,0 +1,81 @@
+{
+	"objectName": "valtumdisposal",
+	"vore": {
+		"fatal": true,
+		"dirty": true,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "Dirty Axolotl Raptor Friend.",
+	"shortdescription": "Valtum - Disposal",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"stomachacid",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "valtumicon.png",
+	"orientations": [
+		{
+			"image": "valtum.png:silhouette",
+			"imagePosition": [-51, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "valtum.png:silhouette",
+			"imagePosition": [-51, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/valtum/valtum.lua" ],
+	"animation": "valtum.animation",
+	"animationPosition": [0, 24],
+		
+	"chatOptions" : [
+		"You look like prey that would enjoy dying in my gut.",
+		"They finally stopped kicking...",
+		"URRRP!  That last one barely put up a fight.",
+		"Hey there. Care to venture into my gut?"
+	],
+	"gulpLines" : [
+		"No coming back from this gut slut.",
+		"Squirm. It helps the acids out.",
+		"This is a one way trip...",
+		"I'll be working you off all week."
+	],
+	"chatIdleEmpty" : [
+		"Don't make me chase you!",
+		"I'm hungry again...",
+		"Come here. My stomach would love to grind you down.",
+		"I've got an empty belly full of acids, all for you!"
+	],
+	"chatIdleFull" : [
+		"Someone is eager to die in my gut...",
+		"Let me finish churning up the last one.",
+		"Almost enough space for you...",
+		"Help me break them down and you can go next."
+	],
+	"rubLines" : [
+		"Don't mind the bulge. They couldn't escape.",
+		"Keep it up and I might not digest you.",
+		"Really helping that last meal move along...",
+		"Perfect timing. That last meal needs some encouragement."
+	]
+}
+

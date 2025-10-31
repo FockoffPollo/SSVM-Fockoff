@@ -1,0 +1,22 @@
+{
+  "projectileName" : "smolspawn",
+  "timeToLive" : 0.01,
+  "image" : "smolspawn.png",
+  "animationCycle" : 0.25,
+  "frameNumber" : 3,
+  "damageKindImage" : "smolspawn.png",
+  "lightColor" : [123, 205, 237],
+  "actionOnReap" : [
+    {
+      "action" : "spawnmonster",
+      "type" : "smolrayez",
+      "offset" : [0, 2],
+      "arguments" : {
+        "aggressive" : true
+      }
+    }
+  ],
+  "power" : 0,
+  "speed" : 50,
+  "damageKind" : "default"
+}

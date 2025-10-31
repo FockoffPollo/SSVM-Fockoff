@@ -1,0 +1,92 @@
+{
+  "objectName" : "caddockdigest",
+  "rarity" : "common",
+  "description" : "confident, optimistic, athletic, proud, approachable, and creative. However he has a bit of a short temper, and will always try to get even with those that wrong him.",
+  "shortdescription" : "Craddock - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "caddock.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "caddock.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "caddock.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Just relax, my belly is just a cozy hot tub. Let it soothe you…",
+	"You'll feel great once I reform you, and you'll get to appreciate the weight you added…",
+	"BUUUUURP!!",
+	"How are you doing in there? Still awake?",
+	"",
+	"",
+	"",
+	""
+],
+  "gulpLines" : [
+	"Come on, I know you're going to love this.",
+	"Goodness, you hit the spot. I was famished!",
+	"Ahhh, thank you friend. My belly will be so happy to work on you..."
+],
+  "chatIdleFull" : [
+	"URRRP! Excuse me, working down quite the meal...",
+	"My belly is working really hard right now, you should feel it...",
+	"I'll be enjoying this meal for a long while..."
+],
+  "chatIdleEmpty" : [
+	"Hey friend, you feeling preyish today?",
+	"I'm feeling very hungry right now, mind helping me out?",
+	"I can't focus, my stomach is grumbling too much..."
+],
+  "rubLines" : [
+	"Ohhhh yes... That feels soooooo good...",
+	"Ah! That's my weakness right there! Please keep it up!",
+	"*Purr-Growls*"
+]
+}

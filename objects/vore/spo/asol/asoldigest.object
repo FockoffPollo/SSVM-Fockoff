@@ -1,0 +1,100 @@
+{
+  "objectName" : "asoldigest",
+  "rarity" : "common",
+  "description" : "The only thing worse than his ego is his appetite.",
+  "shortdescription" : "Asol - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "asol.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "asol.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Keep squirming~ Be sure to make this interesting...",
+	"Now we're playing with star fire!",
+	"Let's end this on a high note!",
+	"Melt...",
+	"Be useful. Be stardust. I'll help.",
+	"Adding to my matter is the best thing you'll achieve~",
+	"Your survival is not impossible, only very... very... very unlikely.",
+	"I shall be the last thing you see. Lucky you."
+],
+  "gulpLines" : [
+	"Dragon's breath it is.",
+	"I never bite. Too uncouth.",
+	"Impending doom - exciting, isn't it?",
+	"You will know your place.",
+	"Live through this, and we'll chat."
+],
+  "chatIdleFull" : [
+	"Want to help me digest them?",
+	"My, how they stare.",
+	"If you want in that badly, I could just digest them instantly for you~",
+	"Time to give them a show."
+],
+  "chatIdleEmpty" : [
+	"My, you're looking rather tasty today~",
+	"Leaving a space dragon hungry is really dangerous...",
+	"Want to know how it feels to be a star dragon?",
+	"You, in my belly, now.",
+	"Want to play with star fire?"
+],
+  "rubLines" : [
+	"Don't stop, you're mine now...",
+	"These worshipers are getting better and better.",
+	"The moment he disolves, you're going in, you know that?",
+	"A little play before the main act~",
+	"You could rub my insides too~ Can't assure you'll be left solid though~"
+]
+}

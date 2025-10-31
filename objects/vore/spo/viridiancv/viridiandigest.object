@@ -1,0 +1,112 @@
+{
+  "objectName" : "viridiancvdigest",
+  "rarity" : "common",
+  "description" : "A strange, large, fluffy husky with an even bigger appetite. Notorious for making friends into slushy, bubbly drinks, or atleast giving them a warm place to stay. Seems to be... carbonated?",
+  "shortdescription" : "Viridian CV - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "viridian.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "viridian.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Ohhh you're going to look wonderful on my thighs...~",
+	"Won't be long ‘til you're soda husky batter~",
+	"That's it... soften down into a wonderful cream~",
+	"Hnf... I can just imagine how good you'll taste...",
+	"Sorry that it's so musky down there~",
+	"Mmnruf... You're such a good sack-snack~",
+	"Hope you don't mind hanging between my legs~",
+	"A-Ahh!~ Don't squirm so hard, I might let you out early..."
+],
+  "gulpLines" : [
+	"Just slide on down and melt real good for me, yah?~",
+	"You'll make for good cream~",
+	"I wonder what flavor you'll turn out to be...",
+	"Oooohnn...~ Hhah..~",
+	"Ahhnf!~ They always feel so good on the way in...",
+	"Mnngh... squeeze all the way in! Just like that...~",
+	"Harruuf, You give such heft to my orbs~",
+	"Welcome to the Husky Hotel, You'll be staying in the lower floors~"
+],
+  "chatIdleFull" : [
+	"This one's almost done brewing, you're welcome to go in after~",
+	"Sorry, I've already got a sack stuffer right now, come back when I'm done churning~",
+	"Haahh~ Mmrn... Churn faster...~ Oh! Hello there...~",
+	"If you rub, they'll slosh faster, then it'll be your turn~",
+	"I don't think I could fit you in there, maybe later?",
+	"I'm full right now... maybe after they're done?",
+	"Sorry, the hotel's lower floors are booked! I'll call you if I have any room.",
+	"Hrruf... so full... they're squirming so much..."
+],
+  "chatIdleEmpty" : [
+	"Oooh, you look like you'll make a good float, wanna find out?~",
+	"My sack needs a refill, care to help?",
+	"I bet you'd make for great husky batter~",
+	"I can't wait to feel you soften within my orbs~",
+	"I bet you'd look nice swaying between my hips~",
+	"I'd love to feel you slide down my shaft... Did I say that out loud?",
+	"I'll make you a deal, you rub from the inside, I rub from the outside.",
+	"I'll take good care of you... I just need you to slide in~"
+],
+  "rubLines" : [
+	"Oooh... can you feel them softening up?~",
+	"You're next... when you finish rubbing, anyways...",
+	"That'll be you soon enough~",
+	"Mrnnf... thank you... rubbing always make the cream taste better, in the end~",
+	"Keep rubbing...~",
+	"Ahh~ That feels heavenly...~",
+	"Mmnrn...",
+	"Hhaah...~"
+]
+}

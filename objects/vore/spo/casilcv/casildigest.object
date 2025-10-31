@@ -1,0 +1,119 @@
+{
+  "objectName" : "casilcvdigest",
+  "rarity" : "common",
+  "description" : "A goat hybrid with a mysterious cock. This goat is very VERY horny...",
+  "shortdescription" : "Casil CV - Digest",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "casil.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "No hard feelings being turned into goat cum~~~",
+	"You are getting what you deserve for being a bad cock snack *angry goat noises*",
+	"This has to be the biggest embarrassment for you ever being turn into cum by a puny goat hybrid~",
+	"*pokes balls* *slosh* *slosh* oh well sad to see you go it’s a shame that you won’t never cum back *winks*",
+	"Well this magic trick is a wonderful one indeed~~~~~",
+	"Hope you enjoy your stay in balls while you did , come back soon~~~",
+	"Cum is what you shall be now~~",
+	"A dirty player like you deserves this fate~~~",
+	"*goat bleating noises*",
+	"*pokes the huge balls* *slosh* *slosh *slosh* mmmmmmm never gonna get used to you being in there~",
+	"It was fun while it lasted but oh well you are nothin but wonderful goat cum"
+  ],
+  "gulpLines" : [
+    "In you go ^w^",
+	"Hey hey no struggling when I put you in these goat balls",
+	"Your about to be put into your place where you deserve you dirty player~",
+	"I hope you enjoy the trip into these comfy balls",
+	"Let this wonderful experience with me be a secret between us",
+	"Alright I had enough of you time for you to get down in there~",
+	"You are going to make me feel pretty good once you get down in those balls of my mine",
+	"I’m thinking about keeping in those balls forever although that would be no fun you cock snack",
+	"Good luck getting out once you are in because when you get in those balls your are going to think they are the comfiest thing ever",
+	"Oohhh you going down feels really good you cock snack~",
+	"Heh thought a tiny goat hybrid like could fit something like you in there well you are dead wrong~",
+	"Hope that magic trick was worth seeing~~"
+  ],
+  "chatIdleFull" : [
+    "Uhhh this awkward I was expecting you to come back so soon",
+	"Can’t you see I’m busy with something right now unless you want to watch~",
+	"OwO iiiiii am suprised that you came back",
+	"How was your adventure and don’t mind these balls of my mine I’m just taking care of something~",
+	"You like staring don’t you well I would be the same consider the size of these things~~~",
+	"-w- well currently I’m full with something or someone right now cum back at whenever these are not full",
+	"Hi how is my favorite cock snack I’m sorry you can’t be in here right now but I hope you cum back when I’m not full of something~",
+	"You mind doing me a favor of rubbing these *points to huge balls” you would help immensely ^w^"
+  ],
+  "chatIdleEmpty" : [
+    "Wanna see a really cool magic trick",
+	"You like what you see *winks*",
+	"Ooooohhhhh you really are something else you want to go in there don’t you~~~",
+	"Get your cute cock snack ass over here I see you get all flustered over there~~~~",
+	"I see you are fluster wellll I can fix that with an “experience of a lifetime” so get your cute ass over here~~~~~",
+	"Oh I see you are a little perv well I don’t mind you staring~",
+	"Cum see what this goat has to offer~"
+  ],
+  "rubLines" : [
+    ">>w<< wwwhy did do that, that felt really good",
+    "Mmmmmmmmmmmmmmmmmm~~~ keep rubbing",
+    "If you become bad I will put you in here next after you rub some more first",
+	"You are so next in line for hurting me down there to be turned into goat cum",
+	"*bleats heavily*",
+	"You are the best rubber ever for this stuff with my balls ^w^",
+	"Keep rubbing mmmmmmmm",
+	"I hope you do this forever this feels so goooood~~~~"
+  ]
+}

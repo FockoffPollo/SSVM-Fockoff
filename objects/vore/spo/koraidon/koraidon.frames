@@ -1,0 +1,113 @@
+{
+	"frameGrid" : {
+		"size" : [97, 58],
+		"dimensions" : [8, 7],
+		"names" : [
+			[ "e.1", "e.2", "e.3", "e.4", "e.5", "e.6", "e.7", "e.8" ],
+			[ "e.9", "e.10", "e.11", "e.12", "e.13", "e.14", "e.15", "e.16" ],
+			[ "e.17", "e.18", "e.19", "e.20", "e.21", "e.22", "e.23", "e.24" ],
+			[ "e.25", "e.26", "e.27", "e.28", "e.29", "e.30", "e.31", "e.32" ],
+			[ "e.33", "e.34", "e.35", "e.36", "e.37", "e.38", "e.39", "e.40" ],
+			[ "e.41", "e.42", "e.43", "e.44", "e.45", "e.46", "e.47", "e.48" ],
+			[ "e.49", "e.50", "e.51", "e.52", "e.53", "e.54", "e.55", "e.56" ]
+		]
+	},
+	"aliases" : {
+		"empty.1": "e.1",
+		"empty": "empty.1",
+
+		"idle.1": "e.1",
+		"idle": "idle.1",
+
+		"silhouette": "e.1",
+
+		"swallow.1": "e.2",
+		"swallow.2": "e.3",
+		"swallow.3": "e.4",
+		"swallow.4": "e.5",
+		"swallow.5": "e.6",
+		"swallow.6": "e.7",
+		"swallow.7": "e.8",
+		"swallow.8": "e.9",
+		"swallow.9": "e.10",
+		"swallow.10": "e.11",
+		"swallow.11": "e.12",
+		"swallow.12": "e.13",
+		"swallow.13": "e.14",
+
+		"release.1": "e.14",
+		"release.2": "e.13",
+		"release.3": "e.12",
+		"release.4": "e.11",
+		"release.5": "e.10",
+		"release.6": "e.9",
+		"release.7": "e.8",
+		"release.8": "e.7",
+		"release.9": "e.6",
+		"release.10": "e.5",
+		"release.11": "e.4",
+		"release.12": "e.3",
+		"release.13": "e.2",
+
+		"full.1": "e.15",
+		"full.2": "e.16",
+		"full.3": "e.17",
+		"full.4": "e.18",
+
+		"safeburp.1": "e.19",
+		"safeburp.2": "e.20",
+		"safeburp.3": "e.21",
+		"safeburp.4": "e.22",
+		"safeburp.5": "e.23",
+		"safeburp.6": "e.24",
+		"safeburp.7": "e.25",
+		"safeburp.8": "e.26",
+		"safeburp.9": "e.27",
+		"safeburp.10": "e.28",
+		"safeburp.11": "e.29",
+		"safeburp.12": "e.30",
+		"safeburp.13": "e.31",
+		
+		"idle_cv.1": "e.33",
+		"idle_cv": "idle_cv.1",
+
+		"silhouette_cv": "e.33",
+
+		"swallow_cv.1": "e.34",
+		"swallow_cv.2": "e.35",
+		"swallow_cv.3": "e.36",
+		"swallow_cv.4": "e.37",
+		"swallow_cv.5": "e.38",
+		"swallow_cv.6": "e.39",
+		"swallow_cv.7": "e.40",
+		"swallow_cv.8": "e.41",
+
+		"release_cv.1": "e.41",
+		"release_cv.2": "e.40",
+		"release_cv.3": "e.39",
+		"release_cv.4": "e.38",
+		"release_cv.5": "e.37",
+		"release_cv.6": "e.36",
+		"release_cv.7": "e.35",
+		"release_cv.8": "e.34",
+
+		"full_cv.1": "e.42",
+		"full_cv.2": "e.43",
+		"full_cv.3": "e.44",
+		"full_cv.4": "e.45",
+		
+		"nutt.1" : "e.46",
+		"nutt.2" : "e.47",
+		"nutt.3" : "e.48",
+		"nutt.4" : "e.49",
+		"nutt.5" : "e.50",
+		"nutt.6" : "e.51",
+		"nutt.7" : "e.52",
+		"nutt.8" : "e.53",
+		"nutt.9" : "e.54",
+		"nutt.10" : "e.55",
+		
+		"nuttidle.1" : "e.55",
+		"nuttidle" : "nuttidle.1"
+	}
+}

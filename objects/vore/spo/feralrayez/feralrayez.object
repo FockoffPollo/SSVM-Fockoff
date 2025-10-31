@@ -1,0 +1,97 @@
+{
+  "objectName"  :  "feralrayez",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A heroic dragon with a big appetite and an even bigger heart. And a feral body to boot!",
+  "shortdescription"  :  "Feral Rayez - Oral",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "feralrayez.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "feralrayez.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "feralrayez.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "feralrayez.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/feralrayez/feralrayez.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "All good in there?",
+	"If you need anything, Just let me know.",
+	"Just kick back relax and enjoy the ride.",
+	"How about I tell you a bedtime story? No? Oh ok...",
+	"Hold still, Just let my body mend your wounds. If you have any that is.",
+	"Check it out! The enzymes in my stomach can heal you. I'snt that neat?"
+  ],
+  "gulpLines" : [
+    "Enjoy your stay buddy.",
+	"Mind the teeth. they're quite sharp!",
+	"Take it easy, Think of it like a nice big hug around your whole body!",
+	"Safest place in the galaxy, No one will be able to harm you here!",
+	"Welcome to the Rayez healing clinic, Please keep you hands and feet inside the dragon."
+  ],
+  "chatIdleFull" : [
+    "Maybe annother time, Im a little busy right now as you can see.",
+	"You mind comming back later, I have someone else I need to attend to.",
+	"Sorry, Hotel Rayez is closed for today. Come back later.",
+	"Hey there, *URP* oh excuse me."
+
+  ],
+  "chatIdleEmpty" : [
+    "If your hurt, I can help mend your wounds if needed.",
+    "Hey there, Anything I can help you with.",
+	"I know a great place for you to rest if your interested.",
+	"All that spacefaring must be tiring, How about you stay with me for a bit?",
+	"Ever tried sleeping in a dragons gut? Its more pleasant than you think.",
+	"I will aid you on your journey. By sitting around and doing absolutely nothing!"
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Maybe later you can rub my insides if you want.",
+	"I could get used to this."
+  ]
+}

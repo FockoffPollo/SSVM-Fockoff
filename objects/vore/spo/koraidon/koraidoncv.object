@@ -1,0 +1,65 @@
+{
+	"objectName": "koraidoncv",
+	"vore": {
+		"fatal": false,
+		"dirty": false,
+		"type": "cv"
+	},
+	"rarity": "uncommon",
+	"description": "How about you Koraidin these nuts!",
+	"shortdescription": "Koraidon CV",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "koraidonicon.png",
+	"orientations": [
+		{
+			"image": "koraidon.png:silhouette_cv",
+			"imagePosition": [-48.5, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "koraidon.png:silhouette_cv",
+			"imagePosition": [-48.5, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/koraidon/koraidon.lua" ],
+	"animation": "koraidon.animation",
+	"animationPosition": [0, 29],
+	
+	"chatOptions" : [
+		""
+	],
+	"gulpLines" : [
+		""
+	],
+	"chatIdleFull" : [
+		""
+	],
+	"chatIdleEmpty" : [
+		""
+	],
+	"rubLines" : [
+		""
+	]
+}

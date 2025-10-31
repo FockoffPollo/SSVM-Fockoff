@@ -1,0 +1,14 @@
+{
+  "itemName" : "rayezblock",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "rayezblock.png",
+  "description" : "Rayez Block Rayez Block Rayez Block",
+  "shortdescription" : "Rayez Block",
+  "glitchdescription" : "Rayez Block Rayez Block Rayez Block",
+  "florandescription" : "Rayez Block Rayez Block Rayez Block",
+  "novakiddescription" : "Rayez Block Rayez Block Rayez Block",
+
+  "materialId" : 6968
+}

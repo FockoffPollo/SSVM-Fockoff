@@ -1,0 +1,190 @@
+{
+  "frameGrid"  :  {
+	"size"  :  [120, 53],
+	"dimensions"  :  [8, 13],
+	"names"  :  [
+      [ "f.1", "f.2", "f.3", "f.4", "f.5", "f.6", "f.7", "f.8" ]
+      ,[ "f.9", "f.10", "f.11", "f.12", "f.13", "f.14", "f.15", "f.16" ]
+      ,[ "f.17", "f.18", "f.19", "f.20", "f.21", "f.22", "f.23", "f.24" ]
+      ,[ "f.25", "f.26", "f.27", "f.28", "f.29", "f.30", "f.31", "f.32" ]
+      ,[ "f.33", "f.34", "f.35", "f.36", "f.37", "f.38", "f.39", "f.40" ]
+      ,[ "f.41", "f.42", "f.43", "f.44", "f.45", "f.46", "f.47", "f.48" ]
+      ,[ "f.49", "f.50", "f.51", "f.52", "f.53", "f.54", "f.55", "f.56" ]
+      ,[ "f.57", "f.58", "f.59", "f.60", "f.61", "f.62", "f.63", "f.64" ]
+      ,[ "f.65", "f.66", "f.67", "f.68", "f.69", "f.70", "f.71", "f.72" ]
+      ,[ "f.73", "f.74", "f.75", "f.76", "f.77", "f.78", "f.79", "f.80" ]
+      ,[ "f.81", "f.82", "f.83", "f.84", "f.85", "f.86", "f.87", "f.88" ]
+      ,[ "f.89", "f.90", "f.91", "f.92", "f.93", "f.94", "f.95", "f.96" ]
+      ,[ "f.97", "f.98", "f.99", "f.100", "f.101", "f.102", "f.103", "f.104" ]
+    ]	  
+  },
+	
+  "aliases"  :  {
+	"empty.1":"f.102"
+
+	,"empty.2":"f.103"
+	
+	,"idle":"f.1"
+	
+	,"empty.3":"f.104"
+	
+	,"blink.1":"f.2"
+	,"blink.2":"f.3"
+	,"blink.3":"f.4"
+	,"blink.4":"f.3"
+	,"blink.5":"f.2"
+	
+	,"swallow.1":"f.5"
+	,"swallow.2":"f.6"
+	,"swallow.3":"f.7"
+	,"swallow.4":"f.8"
+	,"swallow.5":"f.9"
+	,"swallow.6":"f.10"
+	,"swallow.7":"f.11"
+	,"swallow.8":"f.12"
+	,"swallow.9":"f.13"
+	,"swallow.10":"f.14"
+	,"swallow.11":"f.15"
+	,"swallow.12":"f.16"
+	,"swallow.13":"f.17"
+	
+	,"release.1":"f.17"
+	,"release.2":"f.16"
+	,"release.3":"f.15"
+	,"release.4":"f.14"
+	,"release.5":"f.13"
+	,"release.6":"f.12"
+	,"release.7":"f.11"
+	,"release.8":"f.10"
+	,"release.9":"f.9"
+	,"release.10":"f.8"
+	,"release.11":"f.7"
+	,"release.12":"f.6"
+	,"release.13":"f.5"
+	
+	,"fullbig.1":"f.18"
+	,"fullbig.2":"f.19"
+	,"fullbig.3":"f.20"
+	,"fullbig.4":"f.21"
+
+	
+	,"bigtosmall.1":"f.22"
+	,"bigtosmall.2":"f.23"
+	,"bigtosmall.3":"f.24"
+	,"bigtosmall.4":"f.25"
+	,"bigtosmall.5":"f.26"
+	,"bigtosmall.6":"f.27"
+	,"bigtosmall.7":"f.28"
+	,"bigtosmall.8":"f.29"
+	,"bigtosmall.9":"f.30"
+	,"bigtosmall.10":"f.31"
+	,"bigtosmall.11":"f.32"
+	,"bigtosmall.12":"f.33"
+	,"bigtosmall.13":"f.34"
+	
+	
+	,"fullsmall.1":"f.35"
+	,"fullsmall.2":"f.36"
+	,"fullsmall.3":"f.37"
+	,"fullsmall.4":"f.38"
+	
+	
+	,"smalltomicro.1":"f.39"
+	,"smalltomicro.2":"f.40"
+	,"smalltomicro.3":"f.41"
+	,"smalltomicro.4":"f.42"
+	,"smalltomicro.5":"f.43"
+	,"smalltomicro.6":"f.44"
+	,"smalltomicro.7":"f.45"
+	
+	
+	,"fullmicro.1":"f.46"
+	,"fullmicro.2":"f.47"
+	,"fullmicro.3":"f.48"
+	,"fullmicro.4":"f.49"
+	
+	,"microtonone.1":"f.50"
+	,"microtonone.2":"f.51"
+	,"microtonone.3":"f.52"
+	,"microtonone.4":"f.53"
+	,"microtonone.5":"f.54"
+	,"microtonone.6":"f.55"
+	,"microtonone.7":"f.56"
+	,"microtonone.8":"f.57"
+	,"microtonone.9":"f.58"
+	,"microtonone.10":"f.59"
+	,"microtonone.11":"f.60"
+	,"microtonone.12":"f.61"
+	,"microtonone.13":"f.62"
+	,"microtonone.14":"f.63"
+	,"microtonone.15":"f.64"
+	,"microtonone.16":"f.65"
+	
+	
+	,"bigsquirml.1":"f.75"
+	,"bigsquirml.2":"f.76"
+	,"bigsquirml.3":"f.77"
+	,"bigsquirml.4":"f.76"
+	,"bigsquirml.5":"f.75"
+
+	
+	,"bigsquirmr.1":"f.66"
+	,"bigsquirmr.2":"f.67"
+	,"bigsquirmr.3":"f.68"
+	,"bigsquirmr.4":"f.67"
+	,"bigsquirmr.5":"f.66"
+	
+	
+	,"smallsquirmr.1":"f.78"
+	,"smallsquirmr.2":"f.79"
+	,"smallsquirmr.3":"f.80"
+	,"smallsquirmr.4":"f.79"
+	,"smallsquirmr.5":"f.78"
+	
+	
+	,"smallsquirml.1":"f.87"
+	,"smallsquirml.2":"f.88"
+	,"smallsquirml.3":"f.89"
+	,"smallsquirml.4":"f.88"
+	,"smallsquirml.5":"f.87"
+	
+	
+	,"microsquirml.1":"f.99"
+	,"microsquirml.2":"f.100"
+	,"microsquirml.3":"f.101"
+	,"microsquirml.4":"f.100"
+	,"microsquirml.5":"f.99"
+	
+	
+	,"microsquirmr.1":"f.90"
+	,"microsquirmr.2":"f.91"
+	,"microsquirmr.3":"f.92"
+	,"microsquirmr.4":"f.91"
+	,"microsquirmr.5":"f.90"
+  
+    ,"default":"f.1"
+    ,"idle1.1"  :  "f.1"
+    ,"idle.1"  :  "f.1"
+	
+	,"nonetomicro":"f.67"
+	,"nonetomicro.1":"f.67"
+	,"nonetomicro.2":"f.66"
+	,"nonetomicro.3":"f.65"
+	,"nonetomicro.4":"f.64"
+	,"nonetomicro.5":"f.63"
+	,"nonetomicro.6":"f.62"
+	
+	,"microtosmall":"f.51"
+	,"microtosmall.1":"f.51"
+	,"microtosmall.2":"f.50"
+	,"microtosmall.3":"f.49"
+	,"microtosmall.4":"f.48"
+	
+	,"smalltobig":"f.37"
+	,"smalltobig.1":"f.37"
+	,"smalltobig.2":"f.36"
+	,"smalltobig.3":"f.35"
+	,"smalltobig.4":"f.34"
+	
+	}
+}

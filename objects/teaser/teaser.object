@@ -1,0 +1,28 @@
+{
+  "objectName" : "teaser",
+  "colonyTags" : ["rayez"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 55,
+  "description" : "Wanted: Bounty hunter
+Issuer: The Honorable, Zanglie Fibb
+Target: Known terrorist, Aidolin. And the antidote to his toxins
+DEAD OR ALIVE
+",
+  "shortdescription" : "Wanted Poster",
+  "race" : "rayez",
+
+
+  "inventoryIcon" : "teasericon.png",
+  "orientations" : [
+    {
+      "image" : "teaser.png:<color>",
+      "imagePosition" : [-8, -8],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ]
+}

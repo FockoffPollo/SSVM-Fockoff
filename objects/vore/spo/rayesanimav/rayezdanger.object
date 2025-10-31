@@ -1,0 +1,95 @@
+{
+  "objectName"  :  "rayezanimavdigest",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "A heroic dragon with a big heart and an even bigger appetite. He want to add you to his *horde*",
+  "shortdescription"  :  "Hungry Rayez - Anal",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "savor",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "rayez.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [-40, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "rayez.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "rayez.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "rayez.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/rayesanimav/rayezdanger.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+    "No need to worry. You'll come back right? Right!?",
+	"Try not to fall asleep in there, You might wake up as dragon ass fat!",
+	"You seem really eager to be part of me, Its kind of unsettling.",
+	"Im sure you will be just as comfortable on my hips." ,
+	"Digesting my friends I'snt exactly my thing. But if thats what it takes to make you happy.",
+	"Soon you will be closer to me than ever!"
+  ],
+  "gulpLines" : [
+    "Stay in there for as long as you want, Just not too long.",
+    "Enjoy your stay buddy. Just try not to make me too fat alright?",
+	"Are you sure? Its going to be a one way trip this time.",
+	"No hard feelings if I digest you?",
+	"One way or annother, I will take care of you."
+  ],
+  "chatIdleFull" : [
+    "Pssst. stop squirming in there your making this awkward...",
+	"Uhhh... Privacy please?",
+	"What are you looking at me like that for? You want to be next?"
+  ],
+  "chatIdleEmpty" : [
+    "Careful, Theres a very hungry dragon lurking around here. Your totally not looking at him right right now.",
+    "Hey there, Anything I can help you with.",
+	"Would you like to know me a little bit closer?",
+	"I'm a little hungry right now. Do you have any snacks for me?",
+	"Ever wondered what it's like to be pudge on a dragons rear? Well, Here's your chance to find out!",
+	"I will aid you on your journey. By sitting around and doing absolutely nothing!"
+  ],
+  "rubLines" : [
+    "What!? Are you serious?! I Didnt say stop!",
+	"Rrrrr... Did I just pur!?",
+	"Dont touch me there...",
+	"A little to the left please.",
+	"Maybe later you can rub my insides if you want.",
+	"I could get used to this."
+  ]
+}

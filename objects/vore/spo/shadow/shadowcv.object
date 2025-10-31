@@ -1,0 +1,49 @@
+{
+	"objectName": "shadowcv",
+	"vore": {
+		"fatal": false,
+		"type": "cv"
+	},
+	"rarity": "uncommon",
+	"description": "No cock like horse cock!",
+	"shortdescription": "Shadow - CV animated",
+	"race": "human",
+	"category": "furniture",
+	"price": 0,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "shadowicon.png",
+	"orientations": [
+		{
+			"image": "shadowcv.png:silhouette",
+			"imagePosition": [-54, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "shadowcv.png:silhouette",
+			"imagePosition": [-54, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/shadow/shadow.lua" ],
+	"animation": "shadow.animation",
+	"animationPosition": [0, 30]
+}
+

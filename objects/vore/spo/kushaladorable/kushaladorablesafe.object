@@ -1,0 +1,114 @@
+{
+  "objectName" : "kushaladorablesafe",
+  "rarity" : "common",
+  "description" : "",
+  "shortdescription" : "Dorante - Safe",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "kushaladorable.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Tell Aidolin and his oversized chicken of a friend I said hi.",
+	"Just so you know, I'm not a camp. Unless of course your Director Aidolin.",
+	"You can take as long as you need...~",
+	"Mnrn... settle down in there... I'm resting...",
+	"You should bring your that cyborg friend of yours next time! I made his body augments after all!",
+	"Consider yourself... hunted~",
+	"Hnnm... mayhaps you'll lead me to more Hunters.",
+	"Squirm just a bit more, will you?~ I love it when my food is rowdy...",
+	"Mmrn... you feel delightful in there... keep going...~"
+],
+  "gulpLines" : [
+	"Enjoy your rest, Traveler, I know I will~",
+	"You slide in so easily... it's as if you want this~",
+	"If you keep rubbing like that, I might keep you~",
+	"You're such a wonderful guest... it's like you were made for this~",
+	"You hunters always taste so great on the way down...~",
+	"One gulp, and you're mine, enjoy your stay~",
+	"The hefty sway of a full gut always gets me going...~",
+	"Try not to stay for too long, now..."
+],
+  "chatIdleFull" : [
+	"Sorry, Traveler, this camp's already packed for a hunt, come back soon.",
+	"You've gotta wait your turn, one of your pals has already claimed this Monster.",
+	"Oops, apologies Traveler, looks like one of the others has already tucked in~",
+	"I've already got one resting in here, you could always start rubbing, though.",
+	"Another Traveler come to claim my scales?~ Why don't you start rubbing instead?~",
+	"My gut's a bit stuffed right now, why don't you come back later, Traveler?",
+	"If you're looking for a gut to stay in, this one's taken.",
+	"My gut's already taking care of someone at the moment, you'll have to wait."
+],
+  "chatIdleEmpty" : [
+	"Hey, Traveler, you look like you need a place to rest, I've got just the thing~",
+	"Not everyone is suited for the cold, come warm up~",
+	"I'm sure I've got time to handle you within, if you know what I mean...",
+	"You'd make for a great belly pet, I think, why don't we find out?~",
+	"I've got a empty space that needs filling, right here~",
+	"You, Yes you, right there. in my belly, right now~",
+	"Traveler...~ I've got a craving that needs to be taken care of~",
+	"Oh how I'd love to see you bulging on my gut~"
+],
+  "rubLines" : [
+	"You Hunters just keep showing up, is getting eaten something you enjoy?~",
+	"I'm beginning to wonder who's the Hunter, and the Hunted, in this world~",
+	"You're doing a great job... really enhancing the camp experience~",
+	"With the work you're putting in on that gut, you might just be a professional~",
+	"Easy on those rubs now... you'll get your turn soon~",
+	"That feels wonderful, Traveler~",
+	"If you keep up the good work, I might just spare you a scale or two~",
+	"Who taught you how to rub this well?~",
+	"You must have a lot of practice, doing this kind of thing~"
+]
+}

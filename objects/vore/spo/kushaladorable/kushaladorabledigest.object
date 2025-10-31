@@ -1,0 +1,114 @@
+{
+  "objectName" : "kushaladorabledigest",
+  "rarity" : "common",
+  "description" : "A large, red, scaled, and cocky Dragon that closely resembles the specimen Kushala Daora, sporting varying bodily augments. His hunger is surely a force to be reckoned with.",
+  "shortdescription" : "Dorante - Digestion",
+  "category" : "furniture",
+  "price" : 7,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "stomachacid",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "kushaladorable.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "kushaladorable.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+	"Tell Aidolin and his oversized chicken of a friend I said hi.",
+	"You'll make for delightful fuel... Maybe even better that Rayez's little friend.",
+	"You hunters always churn so easily...",
+	"With each gurgle, you become less hunter and more monster~",
+	"Try not to go to my hips too much~ Or do... might catch more prey that way~",
+	"Consider yourself... hunted~",
+	"Hnnm... mayhaps you'll lead me to more Hunters.",
+	"Squirm just a bit more, will you?~ I love it when my food is rowdy...",
+	"Mmrn... you feel delightful in there... keep going...~"
+],
+  "gulpLines" : [
+	"Hunters go down so easy... enjoy the churning~",
+	"Hrnf~ You taste better than most prey I've hunted~",
+	"Mmn... mnrnn~ Seems I've toppled the food chain~",
+	"You'd be better off as part of a greater pred's hips~",
+	"You hunters always taste so great on the way down...~",
+	"One gulp, and you're mine, enjoy your stay~",
+	"The hefty sway of a full gut always gets me going...~",
+	"Try not to stay for too long, now..."
+],
+  "chatIdleFull" : [
+	"Oh, another, why don't you wait a while then I'll pack you in too~",
+	"You Hunters just never stop coming do you? No matter, this one's almost done gurgling...~",
+	"Mmrn... why don't you churn down faster, food? There's another snack in my view~",
+	"It's a shame I'm occupied, or I'd cram you down my gullet too~",
+	"Another Hunter come to claim my scales?~ Why don't you start rubbing instead?~",
+	"My gut's a bit stuffed right now, why don't you come back later, Hunter?",
+	"If you're looking for a gut to stay in, this one's taken.",
+	"My gut's already taking care of someone at the moment, you'll have to wait."
+],
+  "chatIdleEmpty" : [
+	"Mmm... you're looking like a good prey~",
+	"Ooh~ Aren't you a delicious morsel~",
+	"You must be one of those *Hunters* our director has been talking about. He doesn't take your kind very lightly.",
+	"I'm hungry. Why don't you make it easy for me and climb into my maw?~",
+	"Oh the things my stomach would do to a meal like you~",
+	"I've got a empty space that needs filling, right here~",
+	"You, Yes you, right there. in my belly, right now~",
+	"Hunter...~ I've got a craving that needs to be taken care of~",
+	"Oh how I'd love to see you bulging on my gut~"
+],
+  "rubLines" : [
+	"Hrrhrr, such pitiful Hunters, can only rub their comrades into pudge~",
+	"Grarrgh~ Continue like that, Hunter, and I might just let you go~",
+	"Keep rubbing, servant, You've got a lot of work to do before you're done~",
+	"Almost done in there, which means it's almost your time to gurgle~",
+	"That feels wonderful, Hunter~",
+	"If you keep up the good work, I might just spare you a scale or two~",
+	"Who taught you how to rub this well?~",
+	"You must have a lot of practice, doing this kind of thing~"
+]
+}

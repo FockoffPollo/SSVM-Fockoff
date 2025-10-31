@@ -1,0 +1,100 @@
+{
+  "objectName" : "casilsafe",
+  "rarity" : "common",
+  "description" : "A hybrid that is friendly... but also a little hungry. They are part goat and you know what they say about goats. They eat everything.",
+  "shortdescription" : "Casil - Endo",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "casil.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "casil.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "How is it in there",
+	"A belly filler like you is sometimes too much to resist to eat ^w^ ",
+	"I hope you enjoy time in these guts of mine",
+	"I think I might keep you there forever, actually noooo, that wouldn't be fun at all.",
+	"Heh thought a hybrid like me couldn't eat well you are sorely mistaken *w*",
+	"My magic seems to work well on healing you in there."
+  ],
+  "gulpLines" : [
+    "I hope you have a good trip down.",
+	"*gulp*",
+	"The trip going down will be a comfortable one",
+	"Me eating you is not a bad thing it may be good thing for the both of us :)",
+	"My healing magic in my gut is the best place to be for injuries to be healed ^w^"
+  ],
+  "chatIdleFull" : [
+    "I may eat you next~",
+	"Can you see that this belly is occupied right now",
+	"I may be a hybrid but I'm part goat so if I see something I want to eat I'll eat it, so move along or else your next.",
+	"Hey there, *URP* oh excuse me."
+  ],
+  "chatIdleEmpty" : [
+    "If your hurt, I know a way to heal you. ^w^",
+	"Wanna see a magic trick?",
+	"I know a great place for you to heal if you're interested.",
+	"All the adventures you go through have you rested because if not I think you should in my stomach it is very comfy.",
+	"Want to try out being in my belly? Its comfier than you think.",
+	"I will stand here to the end of time doing absolutely nothing unless you want to be eaten of course =w="
+  ],
+  "rubLines" : [
+    "What are you doing? OWO",
+    "*murrs contently at the belly rubs*",
+    "Hey-- watch where you rub my belly",
+    "You give the best belly rubs ^W^",
+	"You know later you can be inside the belly doing that~",
+	"*murrs very happily in a humming way*"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+	"frameGrid" : {
+		"size" : [40, 35],
+		"dimensions" : [3, 14],
+		"names" : [
+			[ "e.1", "e.2", "e.3" ],
+			[ "e.4", "e.5", "e.6" ],
+			[ "e.7", "e.8", "e.9" ],
+			[ "e.10", "e.11", "e.12" ],
+			[ "e.13", "e.14", "e.15" ],
+			[ "e.16", "e.17", "e.18" ],
+			[ "e.19", "e.20", "e.21" ],
+			[ "e.22", "e.23", "e.24" ],
+			[ "e.25", "e.26", "e.27" ],
+			[ "e.28", "e.29", "e.30" ],
+			[ "e.31", "e.32", "e.33" ],
+			[ "e.34", "e.35", "e.36" ],
+			[ "e.37", "e.38", "e.39" ],
+			[ "e.40", "e.41", "e.42" ]
+		]
+	},
+	"aliases" : {
+		"empty.1": "e.1",
+		"empty": "empty.1",
+
+		"idle.1": "e.1",
+		"idle": "idle.1",
+
+		"silhouette": "e.1",
+
+		"swallow.1": "e.2",
+		"swallow.2": "e.3",
+		"swallow.3": "e.4",
+		"swallow.4": "e.5",
+		"swallow.5": "e.6",
+		"swallow.6": "e.7",
+
+		"release.1": "e.12",
+		"release.2": "e.13",
+		"release.3": "e.14",
+		"release.4": "e.15",
+		"release.5": "e.16",
+		"release.6": "e.17",
+		"release.7": "e.18",
+		"release.8": "e.19",
+		"release.9": "e.20",
+		"release.10": "e.21",
+
+		"full.1": "e.8",
+		"full.2": "e.9",
+		"full.3": "e.10",
+		"full.4": "e.11",
+
+		"digest.1": "e.12",
+		"digest.2": "e.13",
+		"digest.3": "e.14",
+		"digest.4": "e.15",
+		"digest.5": "e.16",
+		"digest.6": "e.17",
+		"digest.7": "e.18",
+		"digest.8": "e.19",
+		"digest.9": "e.20",
+		"digest.10": "e.21",
+		
+		"idle_cv.1": "e.22",
+		"idle_cv": "idle_cv.1",
+
+		"silhouette_cv": "e.22",
+
+		"swallow_cv.1": "e.23",
+		"swallow_cv.2": "e.24",
+		"swallow_cv.3": "e.25",
+		"swallow_cv.4": "e.26",
+		"swallow_cv.5": "e.27",
+		"swallow_cv.6": "e.28",
+		"swallow_cv.7": "e.29",
+		"swallow_cv.8": "e.30",
+		"swallow_cv.9": "e.31",
+
+		"release_cv.1": "e.36",
+		"release_cv.2": "e.37",
+		"release_cv.3": "e.38",
+		"release_cv.4": "e.39",
+		"release_cv.5": "e.40",
+		"release_cv.6": "e.41",
+
+		"full_cv.1": "e.32",
+		"full_cv.2": "e.33",
+		"full_cv.3": "e.34",
+		"full_cv.4": "e.35",
+		
+		"digest_cv.1" : "e.36",
+		"digest_cv.2" : "e.37",
+		"digest_cv.3" : "e.38",
+		"digest_cv.4" : "e.39",
+		"digest_cv.5" : "e.40",
+		"digest_cv.6" : "e.41"
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"objectName": "valtumsafe",
+	"vore": {
+		"fatal": false,
+		"dirty": false,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "Nice Axolotl Raptor Friend.",
+	"shortdescription": "Valtum - Safe",
+	"race": "avian",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "valtumicon.png",
+	"orientations": [
+		{
+			"image": "valtum.png:silhouette",
+			"imagePosition": [-51, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "valtum.png:silhouette",
+			"imagePosition": [-51, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/valtum/valtum.lua" ],
+	"animation": "valtum.animation",
+	"animationPosition": [0, 24],
+	
+	"chatOptions" : [
+		"No need to keep your distance.",
+		"Come get a closer look at my spots.",
+		"I won't digest you, I promise.",
+		"I could go for some belly rubs..."
+	],
+	"gulpLines" : [
+		"Don't worry, I'll keep you safe.",
+		"Have a nice trip!",
+		"Don't squirm. Unless you want to digest.",
+		"Finally. A proper meal."
+	],
+	"chatIdleFull" : [
+		"I need to stop letting them out...",
+		"Hey prey thing! Mind filling my belly?",
+		"Mind sharing?",
+		"Come here, I need a snack."
+	],
+	"chatIdleEmpty" : [
+		"I can still feel them squirming...",
+		"Let my stomach make some space for you first.",
+		"Mind rubbing my belly? Would speed this up.",
+		"Don't worry, you can go next."
+	],
+	"rubLines" : [
+		"I've gone so long without a proper belly rub.",
+		"Keep it up and I'll let you do it from the inside.",
+		"Are you trying to prepare my belly for yourself?",
+		"Yeeesss...that feels amazing!"
+	]
+}

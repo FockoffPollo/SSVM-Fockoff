@@ -1,0 +1,60 @@
+{
+	"objectName": "miraidonov",
+	"rarity": "uncommon",
+	"description": "Who needs biofuel when you have the unmatch power of the sandwich. Bonus points if it's made by your mother.",
+	"shortdescription": "Miraidon",
+	"race": "pokemon",
+	"category": "furniture",
+	"price": 20,
+	"printable": false,
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "miraidonicon.png",
+	"orientations": [
+		{
+			"image": "miraidon.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "miraidon.png:silhouette",
+			"imagePosition": [-48.5, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/miraidon/miraidon.lua" ],
+	"animation": "miraidon.animation",
+	"animationPosition": [0, 29],
+		
+	"chatOptions" : [
+		""
+	],
+	"gulpLines" : [
+		""
+	],
+	"chatIdleFull" : [
+		""
+	],
+	"chatIdleEmpty" : [
+		""
+	],
+	"rubLines" : [
+		""
+	]
+}

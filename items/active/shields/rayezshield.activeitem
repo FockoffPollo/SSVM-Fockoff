@@ -1,0 +1,58 @@
+{
+  "itemName" : "rayezshield",
+  "price" : 100,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "category" : "shield",
+  "description" : "I think he took the zewi motto a little too litterally.",
+  "shortdescription" : "Rayez Shield",
+  "tooltipKind" : "Shield",
+  "twoHanded" : false,
+  "itemTags" : ["shield"],
+  
+  "inventoryIcon" : "rayezshield/Smolyez.png",
+  
+  "animation" : "shield.animation",
+  "animationParts" : {
+	"shield" : "rayezshield/rayezshield.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "raiseShield" : [ "/sfx/humanoid/avianhurt_female3.ogg" ],
+	  "perfectBlock" : [ "/sfx/blockmaballs.wav" ],
+	  "block" : [ "/sfx/squeak.wav" ],
+	  "break" : [ "/sfx/notfunny.ogg" ]
+    }
+  },
+  
+  "scripts" : ["/items/active/shields/shield.lua"],
+  
+  "minActiveTime" : 0.1,
+  
+  "forceWalk" : true,
+  "baseShieldHealth" : 69420,
+  "cooldownTime" : 0.1,
+  
+  "perfectBlockDirectives" : "?border=2;AACCFFFF;00000000",
+  "perfectBlockTime" : 0.69,
+
+  "knockback" : 999,
+	
+  "stances" : {
+    "idle" : {
+      "armRotation" : -90,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    },
+    "raised" : {
+      "armRotation" : 0,
+      "shieldRotation" : 0,
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  },
+  
+  "builder" : "/items/buildscripts/buildunrandshield.lua"
+}
+

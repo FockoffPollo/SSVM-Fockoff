@@ -1,0 +1,36 @@
+{
+  "objectName" : "ankiespawner",
+  "colonyTags" : ["cvore"],
+  "rarity" : "Common",
+  "category" : "breakable",
+  "printable" : false,
+
+  "description" : "Oops I forget to reform him after what happened to him last time :P Try using your matter manipulator or something...",
+  "shortdescription" : "*Ankie*",
+  "race" : "former fox",
+
+  "fullbright" : true,
+  "lightColor" : [0, 50, 40],
+
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "ankiespawner.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+  "smashable" : true,
+  "smashSounds" : [ "/sfx/objects/meat_break1.ogg", "/sfx/objects/meat_break3.ogg" ],
+  "smashDropOptions" : [
+    [ [ "ankiecvdigest", 1, { } ], [ "ankiecvsafe", 1, { } ], [ "ankiedigest", 1, { } ], [ "ankiesafe", 1, { } ] ]
+  ],
+
+  "biomePlaced" : true
+}

@@ -1,0 +1,10 @@
+{
+
+  "frameGrid" : {
+    "size" : [55, 42],
+    "dimensions" : [2, 1],
+    "names" : [
+      [ "waiting", "full" ]
+    ]
+  }
+}

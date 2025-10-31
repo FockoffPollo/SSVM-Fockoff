@@ -1,0 +1,229 @@
+{
+  "type" : "guardprey_aidolin",
+  "baseType" : "guard",
+  
+   "npcname" : "Aidolin",
+  
+  "identity" : {
+	"gender" : "male"
+  },
+  
+  "damageTeamType" : "friendly",
+  
+  "scriptConfig" : {
+	"questGenerator" : { "pools" : [], "enableParticipation" : false },
+    "attackerLimit" : 8,
+    "attackerLimitCooldown" : 3,
+
+    "idleTimeRange" : [1, 2],
+	
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"*Sigh* Really...",
+							"God damn it! Put that back will you!",
+							"Are you serious?!"
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"Hello. I would like to report a fucking hole in my wall. Implemented by you!",
+							"The fuck?!",
+							"I'll put a hole in you chest just like this hole in my room!"
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"Unless its Rayez. I'm not interested in roomates.",
+							"Having company is nice and all but...",
+							"There is only room for one Slayer in this colony."
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"Listen here space Jesus...",
+						"This is not how it works you little shit!",
+						"Just hurry up and fix the issue already!"
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"You know what fuck this!",
+						"Aight. Imma head out!",
+						"Yeah... Im done here!"
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"I HAVE COME!",
+						"Did you need me for somthing?",
+						"You good?"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"Beats living with my dad, Thats for sure! Who was my dad again?",
+						"Here, Get yourself somthing nice with that.",
+						"Ahh yes. Its that time again.",
+						"Thanks for having me buddy!"
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+					"Come as close as you want!",
+					"Finally some action!",
+					"You want trouble?"
+			]
+		  }
+		},
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"Ehh. I've been through worse.",
+					"Everyone good?",
+					"Nothing I cant deal with."
+			]
+		  }
+        }
+	  },
+      "converse" : {
+        "default" : {
+          "default": [
+				"Always remember that you are not immune to buckshot.",
+				"Have you seen any of my friends? They said they were going to be here. If you see A four eyed dragon, A green frilled raptor or a horny sentient toaster. Let me know.",
+				"Hey there! Name's Aidolin.",
+				"At first glance this may look like armour but its actually just my body.",
+				"I think I drank too much last night.",
+				"God... I want to be vored by the funny blue Yharon so fucking bad.",
+				"You know any good dragon summoning rituals you can do with household supplies I'm on a budget."
+            ],
+            "human": [
+                "Damn, Earth kicked the bucket? At least its not under control by ^red;*NAME REDACTED*",
+                "Don't you just hate elderich abominations destorying your world?",
+                "Cool pickaxe thing.",
+                "One time the USCM bombed my buddy Rayez, Hes fine by the way.",
+                "I'd rather die standing than live in my knees.",
+                "Fuck the government.",
+                "I'm tired of war. No im not some kind of peace loving hippy, Just bored of it!"
+            ],
+            "avian": [
+                "Hey bird person.",
+                "You can tell the gender of birds by the colour of their feathers, Your male right?",
+                "Are you bones hollow? Can I break them by doing *this*?",
+                "So Kluex is some kind of god right?",
+                "Never really got why people worship gods. They're all just full of themselves.",
+                "*BORB*",
+                "You remind me of an old friend of mine."
+            ],
+            "floran": [
+                "Durr plant.",
+                "Whats with the lisp? Are you trying to larp as a snake or somthing?",
+                "Stabbing is a pretty good strategy, I like the way you think!",
+                "Im no stranger to carniverous plants, Dads home was full of them!",
+                "This bad boy can stab so many things.",
+                "Guns are just long range stabbing machines if you think about it.",
+                "Sentient salad..."
+            ],
+            "apex": [
+                "I think you took the phrase *Return to monkey* too litterally.",
+                "Big ape sounds like a timid babysitter compared to ^red;*NAME REDACTED*",
+                "Can I call you ^red;*DEAD MEME DETECTED NAME REDACTED*",
+                "Mmmm, Monkey...",
+                "Big ape looking at my search history? Jokes on him! He'll be seeing my 16 gig file of suggestive images of Rayez!",
+                "Those Miniknog uniforms are pretty cool, Does it come in gold?",
+                "Irreverence I's a powerful tool against tyrants."
+            ],
+            "hylotl": [
+                "Weeb..."
+            ],
+            "glitch": [
+                "Are you powered by blood? No? awww...",
+                "^red;Humanity is dead, Blood is fuel, Hell is full.^reset;",
+                "May you woes be few and your days plenty.",
+                "Machine... Look at this chicken!",
+                "I am not going to ultrakill you, You significant fuck!",
+                "Creature of steel, You have my welcome...",
+                "Can you run doom?"
+            ],
+            "novakid": [
+                "I'm to lazy to write diologue. Sorry."
+            ],
+            "avali": [
+                "Hehe! Funny turkey.",
+                "Your technology is pretty fancy, You sould see some of the stuff made by ^red;*NAME REDACTED*",
+                "If you talk shit I'll turn up the thermostat.",
+                "What do you mean *Your having a heatsrtoke*? Its only like 15 degrees in this room!",
+                "Gaming?",
+                "I feel like you'll evapourate if I just sneeze in your general direction."
+            ],
+            "yharian": [
+                "Yes, I am infact the real Aidolin.",
+                "Let me guess... You want my autograph?",
+                "Great to see your kind flourishing again.",
+                "Hehe. Big Chicken!",
+                "A Yharian protector? Don't see that everyday, Proud of you buddy!",
+                "Hows the cosmos treating you friend?",
+                "Have you seen Rayez by any chance?"
+            ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+  
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/aidolin/guardprey_aidolin.lua" 
+  ],
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+			  { "name" : "aidolinheadalt", "data" : { "colorIndex" : [ 0 ] } },
+			  { "name" : "aidolinhead", "data" : { "colorIndex" : [ 0 ] } }
+            ],
+			"chest" : [
+              { "name" : "aidolinchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "aidolinlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"back" : [
+			  { "name" : "aidolincape", "parameters" : { "colorIndex" : [ 0 ] } }
+			],
+            "primary" : [
+              "firstdusknpc"
+            ],
+            "sheathedprimary" : [
+              "aidolinshotgun"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "objectName" : "jaxonhsafe",
+  "rarity" : "common",
+  "description" : "A Nine tailed fox from another world.",
+  "shortdescription" : "Jaxon - Endo",
+  "race" : "rayez",
+  "category" : "furniture",
+  "price" : 0,
+  "printable" : false,
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+	  "image" : "jaxonh.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [2, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ]
+	},
+	{
+	  "image" : "jaxonh.png:waiting",
+	  "imagePosition" : [-20, 0],
+	  "direction" : "right",	  
+	  "sitPosition" : [2, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ]
+	}
+  ],
+  
+  "scripts" : [ "/objects/vore/spo/spo.lua" ],
+  
+  "animation" : "spoanimation.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/humanoid/drink.ogg" ],
+	  "belly1" : [ "/sfx/objects/belly1.ogg" ],
+	  "belly2" : [ "/sfx/objects/belly2.ogg" ],
+	  "belly3" : [ "/sfx/objects/belly3.ogg" ]
+	
+	}
+  },
+  "animationParts" : {
+      "pred" : "jaxonh.png"
+  },
+  "animationPosition" : [-20, 0],
+  
+  "bellySize" : "full",
+  
+  "chatOptions" : [
+    "*booooaaarp* sorry excuse me ^ W ^;!",
+	"How you doin in there? Having fun?",
+	"*Happy fox purrs*",
+	"Let me know when you want out, okay? Or you could stay however long you want.",
+    "I don't really care, as long as you're happy.",
+	"Have you heard of the high elves?",
+	"*Huff*",
+	"*Satisfied purrs*",
+	"Are you comfy? I sure hope so, if it's not let me know.",
+	"Go on and rest if you're sleepy.",
+	"Relax, and enjoy the sloshy ride~",
+	"Have you heard about homestu- ok yeah I'll shutup... ^ W ^;",
+	"I'm rarely pred but I do like it sometimes.",
+	"Have you met my friends Plusho and Luis? They're great friends!~",
+    "*Sloshes you around*",
+    "Maybe I should just keep you~~~"
+  ],
+  "gulpLines" : [
+    "Oogh, you taste so good!",
+	"*GULP*, Down you go~~",
+	"Ahh, you were so filling!",
+	"Willing meals are my favorite...",
+	"Enjoy your relaxing sloshy sauna!",
+	"You tasted amazing!",
+	"I'll Keep you safe, don't worry."
+  ],
+  "chatIdleFull" : [
+    "Sorry I'm a bit full at the moment, though I would eat you if I could!.",
+	"Wanna rub my gut?.",
+	"Guessing you want in too? Sorry no can do.",
+	"Yeah I ate your friend, what about it?.",
+	"Sadly I can only hold one person at a time, sorry."
+  ],
+  "chatIdleEmpty" : [
+    "Well, hi!",
+	"Hey, Wonderful place you got here. Mind if I stay?",
+	"*Happy fox noises*",
+	"*Purrs*",
+	"Would you like a belly-hug?",
+	"Look, I ain't gonna complain if you just dive right in my mouth.",
+	"Whatcha want?",
+	"Say, have you seen Plusho and Luis anywhere?",
+	"I'm Usually always hungry but I'm not this time, Although I can still eat you if you want.",
+	"Hey, do you need some time to relax?"
+  ],
+  "rubLines" : [
+    "You spoil me.",
+    "Please... keep rubbing.",
+	"That kinda feels nice, heh",
+    "Gosh, all this weight feels so nice...",
+    ">///W///<'"
+  ]
+}

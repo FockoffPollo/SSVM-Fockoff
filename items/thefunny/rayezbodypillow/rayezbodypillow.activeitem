@@ -1,0 +1,35 @@
+{
+  "itemName" : "rayezbodypillow",
+  "price" : 6969,
+  "level" : 69,
+  "maxStack" : 1,
+  "rarity" : "Essential",
+  "description" : "Congrats You found an easter egg... I hope your proud of yourself.",
+  "shortdescription" : "Rayez bodypillow",
+  "tooltipKind" : "sword",
+  "category" : "You should go to horny jail...",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","horny"],
+
+  "inventoryIcon" : "rayezbodypillow.png",
+
+  "animation" : "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "rayezbodypillow.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "hammersmash",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 12.5
+  },
+
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}
