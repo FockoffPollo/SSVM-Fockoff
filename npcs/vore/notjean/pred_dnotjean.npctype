@@ -1,0 +1,149 @@
+{
+  "type" : "pred_dnotjean",
+  "baseType" : "villager",
+  
+  "scriptConfig" : { 
+	"questGenerator" : {
+      "pools" : ["normal"],
+      "enableParticipation" : true
+    },
+    "dialog" : {
+      "tenant" : {
+        "grumbles" : {
+          "tagCriteria" : {
+			"default" : {
+			  "default" : [
+							"Well that won't do for me.",
+							"Awww, but I liked that thing.",
+							"I can't live in those conditions."
+			  ]
+			}
+		  },
+          "enclosedArea" : {
+			"default" : {
+			  "default" : [
+							"Oh noooo, not the house!",
+							"I don't think that hole was there before.",
+							"I ain't eating prey in the cold you know."
+			  ]
+			}
+		  },
+          "otherDeed" : {
+			"default" : {
+			  "default" : [
+							"Guess you found better.",
+							"Another pred in my territory?",
+							"I can only fit me and my belly in that bed."
+			  ]
+			}
+		  },
+          "severe" : {
+			"default" : {
+			  "default" : [
+						"Don't make me use force.",
+						"I dont want to hurt you.",
+						"Next time I'll show you my teeth."
+			  ]
+			}
+		  },
+          "final" : {
+			"default" : {
+			  "default" : [
+						"You've done it now!",
+						"I was hungry anyway.",
+						"No turning back now."
+			  ]
+			}
+          }
+		},
+        "arrivedHome" : {
+          "beacon" : {
+			"default" : {
+			  "default" : [
+						"Sweet place you've got here.",
+						"May I crash in for a moment?",
+						"A pred paradise!"
+			  ]
+			}
+		  },
+          "rent" : {
+			"default" : {
+			  "default" : [
+						"Here I am!",
+						"Surprised you stayed undigested long enough to earn this.",
+						"Here's a little gift my sweet heart.",
+						"That's for being so kind."
+			  ]
+			}
+          }
+		}
+      },
+      "flee" : {
+        "helpme" : {
+		  "default" : {
+			"default" : [
+					"I'm in trouble over here!",
+					"Come to me my hero!",
+					"They are after me sweetie!"
+			]
+		  }
+		},
+        "safe" : {
+		  "default" : {
+			"default" : [
+					"Finally it's safe to eat.",
+					"Where are they? I didn't get the chance to eat one.",
+					"It was about to get funny."
+			]
+		  }
+        }
+	  },
+	  "greeting" : {
+        "default" : {
+          "default" : [
+            "Hello!",
+			"Hiya!",
+			"Hi Hi!"
+          ]
+        }
+      },
+      "converse" : {
+        "default" : {
+          "default" : [
+            "So sweet of you to come around.",
+			"Come closer and I'll show you a nice place.",
+			"See you later in my room. *Wink*"
+          ]
+        }
+      }
+    }
+  },
+  "disableWornArmor" : false,
+  "scriptDelta" : 5,
+  
+  "scripts" : [ "/npcs/bmain.lua",
+				"/npcs/vore/notjean/dnotjean.lua" 
+  ],
+
+  "matchColorIndices" : true,
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "notjeanhead", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "chest" : [
+              { "name" : "notjeanchest", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+            "legs" : [
+              { "name" : "notjeanlegs", "parameters" : { "colorIndex" : [ 0 ] } }
+            ],
+			"back" : [
+			  { "name" : "notjeanback", "parameters" : { "colorIndex" : [ 0 ] } }
+			]
+          }
+        ] ]
+    ]
+  }
+}
