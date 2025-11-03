@@ -1,0 +1,96 @@
+{
+  "objectName"  :  "sindricv",
+  "printable"  :  false,
+  "rarity"  :  "Uncommon",
+  "catagory"  :  "furniture",
+  "price"  :  20,
+  "description" : "Yes deer...",
+  "shortdescription"  :  "Sindri CV - Endo",
+  
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+  "sitOrientation" : "lay",
+  "sitAngle" : 0,
+  "sitStatusEffects" : [
+    "voreheal",
+	"nude",
+	"intents"
+  ],
+  
+  "inventoryIcon"  :  "icon.png",
+  "orientations" : [
+    {
+	  "image" : "sindricv.png:idle.<frame>",
+	  "imagePosition" : [-16, -16],
+	  "direction" : "left",
+	  "flipImages" : true,
+	  "sitPosition" : [0, 22],	  
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [2, 0], [8, 5] ],
+	  "animationPosition" : [-16, -16]
+	},
+    {
+	  "image" : "sindricv.png:idle.<frame>",
+	  "imagePosition" : [-8, -16],
+	  "direction" : "right",
+	  "sitPosition" : [0, 22],
+	  "spaceScan" : 0.1,
+	  "anchors" : [ "bottom" ],
+      "detectArea" : [ [-8, 0], [-2, 5] ],
+	  "animationPosition" : [-8, -16]
+	}
+  ],
+  
+  "animation"  :  "sindricv.animation",
+  "animationCustom" : {
+    "sounds" : {
+	  "swallow" : [ "/sfx/objects/gulp.ogg" ],
+	  "lay" : [ "/sfx/objects/eggLay.ogg" ]
+	}
+  },
+  "animationParts"  :  {
+    "body"  :  "sindricv.png"
+  },
+ 
+  "scripts" : [ "/objects/vore/spo/sindri/sindricv.lua" ],
+  "scriptDelta" : 3,
+  
+  "chatOptions" : [
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "gulpLines" : [
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "chatIdleFull" : [
+	"",
+	"",
+	"",
+	""
+],
+  "chatIdleEmpty" : [
+	"",
+	"",
+	"",
+	"",
+	""
+],
+  "rubLines" : [
+	"",
+	"",
+	"",
+	"",
+	""
+]
+}
