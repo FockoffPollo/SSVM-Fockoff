@@ -1,0 +1,55 @@
+{
+	"objectName": "lobotomyov",
+	"vore": {
+		"fatal": false,
+		"type": "ov"
+	},
+	"rarity": "uncommon",
+	"description": "Maybe you should be nice to him. Perhaps he's not destined to be a big bad wolf.",
+	"shortdescription": "Big and Might be Bad Wolf",
+	"race": "human",
+	"category": "furniture",
+	"price": 0,
+	"printable": false,
+	"apexDescription"   : "",
+	"avianDescription"  : "",
+	"floranDescription" : "",
+	"glitchDescription" : "",
+	"humanDescrtiption" : "",
+	"hylotlDescription" : "",
+	"novakidDescription": "",
+	"objectType": "loungeable",
+	"sitFlipDirection": false,
+	"sitOrientation": "lay",
+	"sitAngle": 0,
+	"sitStatusEffects": [
+		"voreheal",
+		"nude",
+		"intents"
+	],
+	"inventoryIcon": "lobotomyicon.png",
+	"orientations": [
+		{
+			"image": "lobotomyov.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "left",
+			"flipImages": true,
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [-8, 0], [-2, 5] ]
+		},
+		{
+			"image": "lobotomyov.png:silhouette",
+			"imagePosition": [-20, 0],
+			"direction": "right",
+			"sitPosition": [2, 22],
+			"spaceScan": 0.1,
+			"anchors": [ "bottom" ],
+			"detectArea": [ [2, 0], [8, 5] ]
+		}
+	],
+	"scripts": [ "/objects/vore/spo/bmbbw/lobotomy.lua" ],
+	"animation": "lobotomy.animation",
+	"animationPosition": [0, 30]
+}
