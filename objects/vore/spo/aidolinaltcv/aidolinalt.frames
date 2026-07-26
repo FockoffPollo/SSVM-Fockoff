@@ -1,6 +1,6 @@
 {
   "frameGrid"  :  {
-	"size"  :  [49, 41],
+	"size"  :  [83, 60],
 	"dimensions"  :  [5, 9],
 	"names"  :  [
 	  ["idle.1", "swallow.1", "swallow.2", "swallow.3", "swallow.4"],

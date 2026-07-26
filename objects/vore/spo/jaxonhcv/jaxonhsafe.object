@@ -61,56 +61,31 @@
   "bellySize" : "full",
   
   "chatOptions" : [
-    "",
-	"",
-	"",
-	"",
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-    "",
-    ""
+"Enjoying yourself in there? I know I am~",
+"Is it cozy enough for you?~",
+"Stay as long as you want~",
+"Nice way to stay warm in the coldness of space isn't it~",
+"Maybe I should make this a permanent stay, what do you think?~",
+"Please enjoy yourself, it's not like I'm going anywhere~"
   ],
   "gulpLines" : [
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	""
+"In you go~",
+"Hope you enjoy your stay in my personal Sauna~"
   ],
   "chatIdleFull" : [
-    "",
-	"",
-	"",
-	"",
-	""
+"Sorry, one persomn at a time~",
+"I would let you in if I could, but I can only hold one person at a time",
+"Hnnngg... sorry, a bit full down there at the moment"
   ],
   "chatIdleEmpty" : [
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	""
+"Like what you see?~",
+"Wanna take a dip in my personal sauna?~",
+"Want a closer look?~",
+"I know you want in~"
   ],
   "rubLines" : [
-    "",
-    "",
-	"",
-    "",
-    ""
+"Friends really are stored in the balls~",
+"Hnnng~ keep squirming",
+"Mmm~ more rubs please~"
   ]
 }

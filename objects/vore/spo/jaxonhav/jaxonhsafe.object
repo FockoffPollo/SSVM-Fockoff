@@ -61,56 +61,37 @@
   "bellySize" : "full",
   
   "chatOptions" : [
-    "",
-	"",
-	"",
-	"",
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-    "",
-    ""
+"How is it in there? Having fun?",
+"*boooarp* Mmm~",
+"Admit it, you like it in there~",
+"Enjoy your stay in the fox den~",
+"Let me know when you want out~",
+"Is it nice and Cozy in there?~"
   ],
   "gulpLines" : [
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	""
+"Into the fox den you go!",
+"Shouldn't have stared too long~",
+"If you wanted a closer look you could've just said so~"
   ],
   "chatIdleFull" : [
-    "",
-	"",
-	"",
-	"",
-	""
+"Like what you see~",
+"Sorry, kinda busy at the moment~",
+"*booaarp* Scuse me~",
+"mmm!~ So full~"
   ],
   "chatIdleEmpty" : [
-    "",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	"",
-	""
+"Want to enter my den?~",
+"Come on, you know you want a closer look~",
+"*stomach growls* Sorry, haven't eaten anything yet",
+"Hello there~",
+"Have you seen a pink cat anywhere?",
+"Have you seen an onirzo anywhere?",
+"Got any food? I'm starving TwT"
   ],
   "rubLines" : [
-    "",
-    "",
-	"",
-    "",
-    ""
+"Mmm!~ keep squirming!",
+"Keep rubbing~",
+"*rubs and pats stomach*",
+"*boaarp* Mmm~"
   ]
 }

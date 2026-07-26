@@ -10,12 +10,12 @@
 			"mode"  :  "loop"
 		  },
 		  "release"  :  {
-		    "frames"  :  12,
-			"cycle"  :  2.0,
+		    "frames"  :  2,
+			"cycle"  :  0.5,
 			"mode"  :  "end"
 		  },
 		  "swallow"  :  {
-		    "frames"  :  11,
+		    "frames"  :  12,
 			"cycle"  :  1.5,
 			"mode"  :  "transition",
 			"transition"  :  "full"
@@ -26,7 +26,7 @@
 		    "mode"  :  "loop"
 		  },
 		  "digest" :  {
-		    "frames"  :  13,
+		    "frames"  :  6,
 		    "cycle"  :  2.0,
 			"mode"  :  "end"
 		  }
