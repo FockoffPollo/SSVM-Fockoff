@@ -17,7 +17,7 @@
 	"intents"
   ],
   
-  "inventoryIcon"  :  "icon.png",
+  "inventoryIcon"  :  "icondigest.png",
   "orientations" : [
     {
 	  "image" : "firefly.png:idle.<frame>",
@@ -50,7 +50,7 @@
 	}
   },
   "animationParts"  :  {
-    "body"  :  "firefly.png"
+    "body"  :  "fireflydigest.png"
   },
  
   "scripts" : [ "/objects/vore/spo/firefly/fireflydigest.lua" ],
